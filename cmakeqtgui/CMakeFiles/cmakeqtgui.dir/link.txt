@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/cmakeqtgui.dir/cmakeqtgui.cpp.o CMakeFiles/cmakeqtgui.dir/main.cpp.o  -o cmakeqtgui -rdynamic -lQtCore -lQtGui 

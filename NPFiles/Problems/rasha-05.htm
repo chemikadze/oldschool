@@ -1,0 +1,201 @@
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+    <html>
+    <head>
+      <title>name</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=" />
+      <meta name="description" content="Условия задач" />
+      <link rel="stylesheet" type="text/css" href="statements_print.css" />
+    </head>
+    <body>
+    <a name="top"></a>
+    <p class="statements_title">Условия задач</p>
+    <p class="statements_summary"></p>
+    <div class="statements_info"><table>
+    <tr>
+    <td>Сайт:</td>
+    <td><a href="http://informatics.mccme.ru/moodle">Дистанционная подготовка</a></td>
+    </tr><tr>
+    <td>Курс:</td>
+    <td>Всероссийская олимпиада школьников</td>
+    </tr><tr>
+    <td>statements:</td>
+    <td>Условия задач</td>
+    </tr><tr>
+    <td>Printed by:</td>
+    <td>Николай Соколов</td>
+    </tr><tr>
+    <td>Date:</td>
+    <td>Среда  16 Апрель 2008, 12:07</td>
+    </tr>
+    </table></div>
+
+    <div class="statements_toc_alpha"><a name="toc"></a><p class="statements_chapter_title">List of problems</p><ul><li><a title="&lt;B&gt;Problem A.&lt;/B&gt; Ожерелье" href="#ch37"><B>Problem A.</B> Ожерелье</a></li><li><a title="&lt;B&gt;Problem B.&lt;/B&gt; Менеджер памяти" href="#ch38"><B>Problem B.</B> Менеджер памяти</a></li><li><a title="&lt;B&gt;Problem C.&lt;/B&gt; Казино" href="#ch39"><B>Problem C.</B> Казино</a></li></ul></div><div class="statements_chapter"><a name="ch37"></a><p class="statements_chapter_title"><B>Problem A.</B> Ожерелье</p>
+<table width="595" cellspacing="0" cellpadding="7" border="0"> <col width="413"></col> <col width="154"></col> <tbody>
+  <tr valign="top">
+    <td width="413">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">Максимальное время работы на одном тесте:</font></font></p>
+    </td>
+    <td width="154">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">1 секунда</font></font></p>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="413">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">Максимальный объем используемой памяти:</font></font></p>
+    </td>
+    <td width="154">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">64 мегабайта</font></font></p>
+    </td>
+  </tr> </tbody>
+</table>
+<p align="justify" style="text-indent: 1.28cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В витрине ювелирного магазина стоит манекен, на шею которого надето ожерелье. Оно состоит из <span lang="en-US"><i>N</i></span> колечек, нанизанных на замкнутую нить. Все колечки имеют разные размеры. В зависимости от размера колечки пронумерованы числами от 1 до <span lang="en-US"><i>N</i></span>, начиная с самого маленького и до самого большого. Колечки можно передвигать вдоль нити и протаскивать одно через другое, но только в том случае, если номера этих колечек отличаются более чем на единицу. </font> </p>
+<p align="justify" style="text-indent: 1.28cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Продавец хочет упорядочить колечки так, чтобы они располагались по возрастанию номеров вдоль нити по часовой стрелке. Снимать ожерелье с манекена нельзя.</font></p>
+<p align="justify" style="text-indent: 1.28cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Требуется написать программу, которая по заданному начальному расположению колечек находит последовательность протаскиваний колечек одно через другое, приводящую исходное расположение колечек в желаемое.</font></p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Формат входных данных</b></i></font></font></p>
+<p align="justify" style="text-indent: 1.28cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В первой строке входного файла записано число <span lang="en-US"><i>N</i></span> (2 ≤ <span lang="en-US"><i>N</i></span> ≤ 50). </font> </p>
+<p align="justify" style="text-indent: 1.28cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Во второй строке через пробел следуют <span lang="en-US"><i>N</i></span> различных чисел от 1 до <span lang="en-US"><i>N</i></span><i> —</i> номера колечек, расположенных вдоль нити по часовой стрелке. </font> </p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Формат выходных данных</b></i></font></font></p>
+<p align="justify" style="text-indent: 1.25cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Выходной файл должен содержать описание процесса упорядочения.</font></p>
+<p align="justify" style="text-indent: 1.25cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В каждой строке, кроме последней, должны быть записаны через пробел два числа, указывающие номера колечек, протаскиваемых друг через друга. В последней строке должен стоять ноль.</font></p>
+<p align="justify" style="text-indent: 1.25cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Количество строк выходного файла не должно превышать 50000.</font></p>
+<p align="justify" style="text-indent: 1.25cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Если требуемого упорядочения колечек достичь не удается, в выходной файл нужно вывести одно число –1.</font></p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Пример</b></i></font></font></p>
+<table width="668" cellspacing="0" cellpadding="7" bordercolor="#000000" border="1"> <col width="319"></col> <col width="319"></col> <tbody>
+  <tr valign="top">
+    <td width="319">
+      <p lang="en-US" align="center"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><b>necklace.in</b></font></font></p>
+    </td>
+    <td width="319">
+      <p lang="en-US" align="center"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><b>necklace.out</b></font></font></p>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="319" height="47">
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">4</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">3 2 4 1</font></font></p>
+      <p lang="en-US" align="left"><br /> </p>
+    </td>
+    <td width="319">
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">1 3</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">2 4</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">1 4</font></font></p>
+      <p lang="en-US" align="left"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">0</font></font></p>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch38"></a><p class="statements_chapter_title"><B>Problem B.</B> Менеджер памяти</p>
+<table width="595" cellspacing="0" cellpadding="7" border="0"> <col width="413"></col> <col width="154"></col> <tbody>
+  <tr valign="top">
+    <td width="413">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">Максимальное время работы на одном тесте:</font></font></p>
+    </td>
+    <td width="154">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><span lang="en-US">2</span> секунды</font></font></p>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="413">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">Максимальный объем используемой памяти:</font></font></p>
+    </td>
+    <td width="154">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">64 мегабайта</font></font></p>
+    </td>
+  </tr> </tbody>
+</table>
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Пете поручили написать менеджер памяти для новой стандартной библиотеки языка H++. В распоряжении у менеджера находится массив из <span lang="en-US"><i>N</i></span> последовательных ячеек памяти, пронумерованных от 1 до <span lang="en-US"><i>N</i></span>. Задача менеджера — обрабатывать запросы приложений на выделение и освобождение памяти.</font></p>
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Запрос на выделение памяти имеет один параметр <span lang="en-US"><i>K</i></span>. Такой запрос означает, что приложение просит выделить ему <span lang="en-US"><i>K</i></span> последовательных ячеек памяти. Если в распоряжении менеджера есть хотя бы один свободный блок из <span lang="en-US"><i>K</i></span> последовательных ячеек, то он обязан в ответ на запрос выделить такой блок. При этом непосредственно перед самой первой ячейкой памяти выделяемого блока не должно располагаться свободной ячейки памяти. После этого выделенные ячейки становятся занятыми и не могут быть использованы для выделения памяти, пока не будут освобождены. Если блока из <span lang="en-US"><i>K</i></span> последовательных свободных ячеек нет, то запрос отклоняется.</font></p>
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Запрос на освобождение памяти имеет один параметр <span lang="en-US"><i>T</i></span>. Такой запрос означает, что менеджер должен освободить память, выделенную ранее при обработке запроса с порядковым номером <span lang="en-US"><i>T</i></span><i>.</i> Запросы нумеруются, начиная с единицы. Гарантируется, что запрос с номером <span lang="en-US"><i>T</i></span> — запрос на выделение, причем к нему еще не применялось освобождение памяти. Освобожденные ячейки могут снова быть использованы для выделения памяти. Если запрос с номером <span lang="en-US"><i>T</i></span> был отклонен, то текущий запрос на освобождение памяти игнорируется.</font></p>
+<p align="justify" style="text-indent: 1.27cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Требуется написать менеджер памяти, удовлетворяющий приведенным критериям.</font></p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Формат входных данных</b></i></font></font></p>
+<p align="justify" style="text-indent: 1.25cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Первая строка входного файла содержит числа <span lang="en-US"><i>N</i></span> и <span lang="en-US"><i>M</i></span> — количество ячеек памяти и количество запросов соответственно (1 ≤ <span lang="en-US"><i>N</i></span> ≤ 2<sup>31</sup> – 1; 1 ≤ <span lang="en-US"><i>M</i></span> ≤ 10<sup>5</sup>). Каждая из следующих <span lang="en-US"><i>M</i></span> строк содержит по одному числу: (<span lang="en-US"><i>i</i></span>+1)-я строка входного файла (1 ≤ <span lang="en-US"><i>i</i></span> ≤ <span lang="en-US"><i>M</i></span>) содержит либо положительное число <span lang="en-US"><i>K</i></span>, если <span lang="en-US"><i>i</i></span>-й запрос — запрос на выделение с параметром <span lang="en-US"><i>K</i></span><i> </i>(1 ≤ <span lang="en-US"><i>K</i></span> ≤ <span lang="en-US"><i>N</i></span>), либо отрицательное число –<span lang="en-US"><i>T</i></span>, если <span lang="en-US"><i>i</i></span>-й запрос — запрос на освобождение с параметром <span lang="en-US"><i>T</i></span> (1 ≤ <span lang="en-US"><i>T</i></span> &lt; <span lang="en-US"><i>i</i></span>). </font> </p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Формат выходных данных</b></i></font></font></p>
+<p align="justify" style="text-indent: 1.25cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Для каждого запроса на выделение памяти выведите в выходной файл результат обработки этого запроса: для успешных запросов выведите номер первой ячейки памяти в выделенном блоке, для отклоненных запросов выведите число –1. Результаты нужно выводить в порядке следования запросов во входном файле.</font></p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Пример</b></i></font></font></p>
+<table width="668" cellspacing="0" cellpadding="7" bordercolor="#000000" border="1"> <col width="319"></col> <col width="319"></col> <tbody>
+  <tr valign="top">
+    <td width="319">
+      <p lang="en-US" align="center"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><b>memory.in</b></font></font></p>
+    </td>
+    <td width="319">
+      <p lang="en-US" align="center"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><b>memory.out</b></font></font></p>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="319">
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">6 8</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">2</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">3</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">-1</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">3</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">3</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">-<span lang="ru-RU">5</span></font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">2</font></font></p>
+      <p lang="en-US" align="left"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">2</font></font></p>
+    </td>
+    <td width="319">
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">1</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">3</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">-1</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">-1</font></font></p>
+      <p lang="en-US" align="left" style="margin-bottom: 0cm;"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">1</font></font></p>
+      <p lang="en-US" align="left"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">-1</font></font></p>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch39"></a><p class="statements_chapter_title"><B>Problem C.</B> Казино</p>
+<table width="595" cellspacing="0" cellpadding="7" border="0"> <col width="413"></col> <col width="154"></col> <tbody>
+  <tr valign="top">
+    <td width="413">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">Максимальное время работы на одном тесте:</font></font></p>
+    </td>
+    <td width="154">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><span lang="en-US">2</span> секунды</font></font></p>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="413">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">Максимальный объем используемой памяти:</font></font></p>
+    </td>
+    <td width="154">
+      <p align="justify"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">64 мегабайта</font></font></p>
+    </td>
+  </tr> </tbody>
+</table>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Вновь открытое казино предложило оригинальную игру. </font> </p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В начале игры крупье выставляет в ряд несколько фишек разных цветов. Кроме того, он объявляет, какие последовательности фишек игрок может забирать себе в процессе игры. Далее игрок забирает себе одну из заранее объявленных последовательностей фишек, расположенных подряд. После этого крупье сдвигает оставшиеся фишки, убирая разрыв. Затем игрок снова забирает себе одну из объявленных последовательностей и так далее. Игра продолжается до тех пор, пока игрок может забирать фишки.</font></p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Рассмотрим пример. Пусть на столе выставлен ряд фишек </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rrrgggbbb</b></span></font><font size="2" style="font-size: 11pt;">,</font><font size="2" style="font-size: 11pt;"><b> </b></font><font size="2" style="font-size: 11pt;">и крупье объявил последовательности </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rg</b></span></font><font size="2" style="font-size: 11pt;"> и </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>gb</b></span></font><font size="2" style="font-size: 11pt;">. Игрок, например, может забрать фишки </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rg</b></span></font><font size="2" style="font-size: 11pt;">, лежащие на третьем и четвёртом местах слева. После этого крупье сдвинет фишки, и на столе получится ряд </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rrggbbb</b></span></font><font size="2" style="font-size: 11pt;">. Ещё дважды забрав фишки </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rg</b></span></font><font size="2" style="font-size: 11pt;">, игрок добьётся того, что на столе останутся фишки </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>bbb</b></span></font><font size="2" style="font-size: 11pt;"><b> </b></font><font size="2" style="font-size: 11pt;">и игра закончится, так как игроку больше нечего забрать со стола. Игрок мог бы действовать и по-другому — на втором и третьем ходах забрать не последовательности </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rg</b></span></font><font size="2" style="font-size: 11pt;">, а последовательности </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>gb</b></span></font><font size="2" style="font-size: 11pt;">. Тогда на столе остались бы фишки </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rrb</b></span></font><font size="2" style="font-size: 11pt;">. Аналогично, игрок мог бы добиться того, чтобы в конце остались ряды </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rrr</b></span></font><font size="2" style="font-size: 11pt;"> или </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><b>rbb</b></span></font><font size="2" style="font-size: 11pt;">.</font></p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">После окончания игры полученные фишки игрок меняет на деньги. Цена фишки зависит от её цвета. </font> </p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">Требуется написать программу, определяющую максимальную сумму, которую сможет получить игрок.</font></p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Формат входных данных</b></i></font></font></p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В первой строке входного файла записано число </font><font size="2" style="font-size: 11pt;"><i>K</i></font><font size="2" style="font-size: 11pt;"> (1 ≤ </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>K</i></span></font><font size="2" style="font-size: 11pt;"> ≤ 26) — количество цветов фишек. Каждая из следующих </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>K</i></span></font><font size="2" style="font-size: 11pt;"> строк начинается со строчной латинской буквы, обозначающей цвет. Далее в той же строке через пробел следует целое число </font><font size="2" style="font-size: 11pt;"><i>X</i></font><sub><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>i</i></span></font></sub><font size="2" style="font-size: 11pt;"> (1 ≤ </font><font size="2" style="font-size: 11pt;"><i>X</i></font><sub><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>i</i></span></font></sub><font size="2" style="font-size: 11pt;"> ≤ 150, </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>i</i></span></font><font size="2" style="font-size: 11pt;"> = 1..</font><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>K</i></span></font><font size="2" style="font-size: 11pt;">) — цена фишки соответствующего цвета. </font> </p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В (</font><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>K</i></span></font><font size="2" style="font-size: 11pt;">+2)-ой строке описан ряд фишек, лежащих на столе в начале игры. Ряд задается </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>L</i></span></font><font size="2" style="font-size: 11pt;"> строчными латинскими буквами (1 ≤ </font><font size="2" style="font-size: 11pt;"><span lang="en-US"><i>L</i></span></font><font size="2" style="font-size: 11pt;"> ≤ 150), которые обозначают цвета фишек ряда. </font> </p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В следующей строке содержится число </font><font size="2" style="font-size: 11pt;"><i>N</i></font><font size="2" style="font-size: 11pt;"> (1 ≤ </font><font size="2" style="font-size: 11pt;"><i>N</i></font><font size="2" style="font-size: 11pt;"> ≤ 150) — количество последовательностей, которые были объявлены крупье. В следующих </font><font size="2" style="font-size: 11pt;"><i>N</i></font><font size="2" style="font-size: 11pt;"> строках записаны эти последовательности. Гарантируется, что сумма длин этих </font><font size="2" style="font-size: 11pt;"><i>N</i></font><font size="2" style="font-size: 11pt;"> строк не превосходит 150 символов, и все они непустые.</font></p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Формат выходных данных</b></i></font></font></p>
+<p align="justify" style="text-indent: 0.95cm; margin-bottom: 0cm;"><font size="2" style="font-size: 11pt;">В выходной файл выведите единственное целое число — максимальную сумму денег, которую может получить игрок.</font></p>
+<p align="justify" style="margin-top: 0.21cm; margin-bottom: 0.11cm;"><font face="Arial, sans-serif"><font size="3"><i><b>Пример</b></i></font></font></p>
+<table width="668" cellspacing="0" cellpadding="7" bordercolor="#000000" border="1"> <col width="319"></col> <col width="319"></col> <tbody>
+  <tr valign="top">
+    <td width="319">
+      <p lang="en-US" align="center"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><b>casino.in</b></font></font></p>
+    </td>
+    <td width="319">
+      <p lang="en-US" align="center"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;"><b>casino.out</b></font></font></p>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td width="319" height="47">
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">6</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">a 1</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">b 4</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">d 2</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">x 3</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">f 1</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">e 3</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">fxeeabadd</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">2</font></p>
+      <p lang="en-US" style="margin-bottom: 0cm;"><font face="Courier New, monospace">aba</font></p>
+      <p lang="en-US" align="left"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">ed</font></font></p>
+    </td>
+    <td width="319">
+      <p lang="en-US" align="left"><font face="Courier New, monospace"><font size="2" style="font-size: 11pt;">16</font></font></p>
+    </td>
+  </tr> </tbody>
+</table> </div></body> </html>

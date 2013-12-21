@@ -1,0 +1,108 @@
+#mainblocktitle {
+	FONT-SIZE: 19pt; MARGIN-LEFT: 7px; FONT-FAMILY: Verdana, Tahoma, Arial, sans-serif
+}
+H1 {
+	FONT-SIZE: 22pt; MARGIN: -1px; FONT-FAMILY: Verdana,  sans-serif
+}
+H2 {
+	MARGIN-TOP: 6px; FONT-WEIGHT: normal; FONT-SIZE: 12pt; MARGIN-BOTTOM: 6px; FONT-FAMILY: Arial
+}
+H3 {
+	MARGIN-TOP: 6px; FONT-WEIGHT: bold; FONT-SIZE: 11pt; MARGIN-BOTTOM: 6px; FONT-FAMILY: Arial
+}
+P {
+	FONT-SIZE: 9pt; MARGIN: 5px; FONT-FAMILY: Arial
+}
+UL {
+	FONT-SIZE: 9pt; MARGIN: 1px 1px 1px 20px; FONT-FAMILY: Arial
+}
+B {
+	FONT-WEIGHT: bold
+}
+.footer {
+	TEXT-ALIGN: right
+}
+#err {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; COLOR: red
+}
+#ok {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; COLOR: navy
+}
+#format {
+	FONT: 9pt monospace
+}
+.lnkbox {
+	BACKGROUND-COLOR: navy
+}
+.countersbox {
+	BACKGROUND-COLOR: #aca8a0; TEXT-ALIGN: left
+}
+.lnk {
+	FONT: 10pt Times New Roman; COLOR: #00008b; TEXT-DECORATION: underline
+}
+.lnk:hover {
+	COLOR: #2828d8
+}
+.lnk2 {
+	COLOR: #00008b; TEXT-DECORATION: underline
+}
+.lnkdiv {
+	FONT: 10pt Times New Roman; COLOR: black; TEXT-DECORATION: none
+}
+.scrolluplnk {
+	FONT: 10pt Times New Roman; COLOR: white
+}
+.goback {
+	BORDER-RIGHT: navy 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: navy 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 3px; BORDER-LEFT: navy 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: navy 1px solid; BACKGROUND-COLOR: #f0f0f0; TEXT-ALIGN: center
+}
+BODY {
+	BACKGROUND: url(/i/fon.gif) #4a4a4a
+}
+.setka {
+	BACKGROUND-COLOR: #003562
+}
+.copyright {
+	FONT: 8pt Arial
+}
+INPUT {
+	FONT: 9pt monospace
+}
+.field {
+	FONT: 9pt monospace; WIDTH: 360px
+}
+.newslnk {
+	COLOR: black; TEXT-DECORATION: none
+}
+.newslnk:hover {
+	COLOR: #2828d8; TEXT-DECORATION: underline
+}
+.newdate {
+	FONT: bold 8pt/11pt Verdana; TEXT-DECORATION: underline
+}
+.col1 {
+	BACKGROUND-COLOR: #fffbf3
+}
+.col2 {
+	BACKGROUND-COLOR: white
+}
+.block {
+	MARGIN-BOTTOM: 1px; PADDING-BOTTOM: 1px
+}
+.btitlebox {
+	BACKGROUND-COLOR: #4e6aa1
+}
+.btitletext {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND-COLOR: #809cd3
+}
+.bcontent {
+	FONT-SIZE: 10pt
+}
+.mbtitlebox {
+	BACKGROUND-COLOR: #759837
+}
+.mbtitletext {
+	FONT: bold 12pt Times New Roman; BACKGROUND-COLOR: #a6c968
+}
+.mbcontent {
+	PADDING-LEFT: 10px; FONT-SIZE: 9pt; PADDING-BOTTOM: 0px; FONT-FAMILY: Arial
+}

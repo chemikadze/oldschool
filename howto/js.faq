@@ -1,0 +1,30 @@
+document.createElement( tagname )
+		.getElementById( id )
+		.getelementsByTagName( tagname )
+        .documentElement.scrollTop
+        .body.scrollTop
+
+elem.id
+	.innerHTML
+	.style.backgroundColor
+	.parentNode
+
+	.firstChild()
+	.lastChild()
+	.removeChild()
+
+	.appendChild()
+	.insertBefore(newElem, target)
+	
+	.childNodes
+
+
+jQuery
+
+$('tagname').ready()
+			.text
+			.find('tag')
+
+$.post( url, transferdata, callback(data), type)
+	type: xml, html, script, json, text
+$.getJSON( url, transferdata, callback(data) )

@@ -1,0 +1,139 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="keywords" content="Паскаль, паскаль, язык Паскаль, программирование, программирование на языке паскаль, Pascal, pascal, освоить pascal, программирование на языке pascal">
+<title>Освой Паскаль с нуля</title>
+<link rel="stylesheet" type="text/css" href="../main.css">
+</head>
+
+<body>
+<table border="0" width="100%" height="100%" cellspacing="0">
+  <tr height="110">
+   <td width="81" height="110">
+	<img title="Блез Паскаль" src="../images/pascal.gif"></td>
+   <td width="100%" height="110" class="title">
+     <font face="Arial">
+     <h1>Освой Паскаль с нуля!</h1>
+     <h4>Научиться программировать - это просто.</h4>
+     </font>  
+   </td>
+  </tr>
+  <tr width="100%" height="25">
+    <td align=center colspan="2" height="26" class="menu">
+      <a href=../index.htm class="menu"><font color="#CC0000">Г</font>лавная</a>&nbsp;&nbsp;
+      <a href=../heads.htm class="menu"><font color="#CC0000">О</font>главление</a>
+    </td>
+  </tr>  
+  <tr width="100%">
+    <td width="100%" colspan="2" align=left valign=top class="content">
+    <h3 align=center>Грамматика языка Паскаль</h3>
+	&nbsp; Как известно, каждый язык мира имеет свою структуру, грамматику и 
+	набор символов. Паскаль, пусть и является языком программирования, не 
+	исключение. Начнем с главного: с азбуки программы. 
+	В программе можно использовать латинские символы:<br>
+	<p align="center">
+	<code>
+	ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
+	abcdefghijklmnopqrstuvwxyz</code></p>
+	<p>
+	Из букв латинского алфавита
+	составляются ИДЕНТИФИКАТОРЫ - слова с определенным смыслом. Надо отметить, 
+	что регистр символов не имеет значения. Идентификатор <span lang="en-us">
+	begin </span>можно записать как <span lang="en-us">BEGIN, BegiN, bEGIN</span>.</p>Так же 
+	в тексте программы используются знаки:
+	<p align=center>
+	<code>_~!@#$()*=-+/&lt;&gt;,.;:'</code></p>
+	<p>В каждой программе 
+	можно использовать один и тот же набор &quot;слов&quot;, который не зависит от 
+	реализации и среды, в которой программа написана. Эти слова называют <b>
+	зарезервированными</b>. Их нельзя использовать иначе, кроме как предписывает 
+	стандарт языка. Вот они:</p>
+	<ul>
+		<li><span lang="en-us">program</span></li>
+		<li><span lang="en-us">begin</span></li>
+		<li><span lang="en-us">end</span></li>
+		<li><span lang="en-us">if</span></li>
+		<li><span lang="en-us">then</span></li>
+		<li><span lang="en-us">else</span></li>
+		<li><span lang="en-us">case</span></li>
+		<li><span lang="en-us">of</span></li>
+		<li><span lang="en-us">for</span></li>
+		<li><span lang="en-us">to</span></li>
+		<li><span lang="en-us">downto</span></li>
+		<li><span lang="en-us">do</span></li>
+		<li><span lang="en-us">while</span></li>
+		<li><span lang="en-us">repeat</span></li>
+		<li><span lang="en-us">until</span></li>
+		<li><span lang="en-us">string</span></li>
+		<li>и другие, которые будут освещены позже.</li>
+	</ul>
+	<p><h3 align=center>Структура программы</h3></p>
+	<p>&nbsp;&nbsp; Каждая программа на языке паскаль состоит из одинаковых 
+	частей, располагающихся в строгом порядке. Вот &quot;скелет&quot; программы:</p>
+	<ul>
+		<li><span lang="ru">имя программы</span></li>
+		<li><span lang="ru">список модулей</span></li>
+		<li><span lang="ru">список новых типов</span></li>
+	<li><span lang="ru">список переменных</span></li>
+		<li><span lang="ru">операторы (сама программа)</span></li>
+	</ul>
+	<table width="80%" border=0>
+      <caption>Листинг 2.</caption>
+      <tr valign=top>
+       <td width="29%">
+        <code>
+    program ProgramName;<br>
+	uses&nbsp; <br>
+	  &nbsp;
+	  Crt;<br>
+	var<br>
+	  &nbsp;
+	  a:Integer;<br> 
+	begin<br> 
+	  &nbsp; 
+	  a:=10;<br>
+	  &nbsp;
+	  Write('a=',a);<br>
+	end.</code></td>
+       <td width="69%" valign=top>
+        <code>
+    	{имя программы, может отсутствовать}<br>
+    	{список используемых модулей, может отсутствовать}<br>
+        {модуль для работы ввода-вывода на экран}<br>
+        {список переменных, может отсутствовать}<br>
+        {переменная с именем &quot;a" целого типа}<br>
+        {начало программы, ОБЯЗАТЕЛЬНАЯ часть}<br>
+        {оператор присваивания}<br>
+        {оператор вывода на экран}<br>
+        {конец программы, ОБЯЗАТЕЛЕН}<br>
+	</code></td></tr></table>
+	<p>&nbsp;<span lang="ru">&nbsp; Мы видим </span>программа на Паскале, как и 
+	текст на любом другом языке состоит из предложений, но в Паскале они 
+	разделяются символом <span lang="en-us">';'</span>. <span lang="ru">Обратите 
+	внимание на точку после конечного </span>END -<span lang="ru"> она 
+	обязательна. Несмотря на достаточно строгий синтаксис, допускаются некоторые 
+	&quot;вольности&quot; при написании программы - возможно несколько одинаковых частей 
+	(например </span>USES-TYPE-VAR-TYPE-USES-VAR<span lang="ru">), можно писать 
+	текст программы в одну строку, но всё же есть список правил, которые нельзя 
+	нарушать. </span></p>
+	<ul>
+		<li><span lang="ru">Каждый оператор должен быть определен в коде перед 
+		использованием (например, если сначала объявлена переменная типа </span>
+		MyType<span lang="ru">, а потом сам тип, то это вызовет ошибку 
+		компиляции)</span></li>
+	<li><span lang="ru">В качестве имен переменных, типов и др. идентификаторов 
+	нельзя использовать зарезервированные слова</span></li>
+		<li><span lang="ru">Нельзя определять несколько идентификаторов с одним 
+		именем (например</span> <span lang="ru">переменная </span>My <span lang="ru">с</span> <span lang="ru">
+		типом </span>My<span lang="ru">)</span></li>
+	</ul>
+	</td>
+  </tr>
+  <tr width="100%" height="40">
+    <td width="100%" align=center colspan="2" class="menu">reclam</td>
+  </tr>
+</table>
+</body>
+
+</html>

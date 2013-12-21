@@ -1,0 +1,1111 @@
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+    <html>
+    <head>
+      <title>name</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=" />
+      <meta name="description" content="Условия задач" />
+      <link rel="stylesheet" type="text/css" href="statements_print.css" />
+    </head>
+    <body>
+    <a name="top"></a>
+    <p class="statements_title">Условия задач</p>
+    <p class="statements_summary"></p>
+    <div class="statements_info"><table>
+    <tr>
+    <td>Сайт:</td>
+    <td><a href="http://informatics.mccme.ru/moodle">Дистанционная подготовка</a></td>
+    </tr><tr>
+    <td>Курс:</td>
+    <td>Осень'07</td>
+    </tr><tr>
+    <td>statements:</td>
+    <td>Условия задач</td>
+    </tr><tr>
+    <td>Printed by:</td>
+    <td>Николай Соколов</td>
+    </tr><tr>
+    <td>Date:</td>
+    <td>Суббота 5 Апрель 2008, 12:03</td>
+    </tr>
+    </table></div>
+
+    <div class="statements_toc_alpha"><a name="toc"></a><p class="statements_chapter_title">List of problems</p><ul><li><a title="&lt;B&gt;Problem A.&lt;/B&gt; Бусинки" href="#ch436"><B>Problem A.</B> Бусинки</a></li><li><a title="&lt;B&gt;Problem B.&lt;/B&gt; Лестница" href="#ch437"><B>Problem B.</B> Лестница</a></li><li><a title="&lt;B&gt;Problem C.&lt;/B&gt; Раскраска кубиков" href="#ch438"><B>Problem C.</B> Раскраска кубиков</a></li><li><a title="&lt;B&gt;Problem D.&lt;/B&gt; Лестницу в треугольник" href="#ch439"><B>Problem D.</B> Лестницу в треугольник</a></li><li><a title="&lt;B&gt;Problem E.&lt;/B&gt; Джентльменский покер" href="#ch440"><B>Problem E.</B> Джентльменский покер</a></li><li><a title="&lt;B&gt;Problem F.&lt;/B&gt; Тир" href="#ch441"><B>Problem F.</B> Тир</a></li><li><a title="&lt;B&gt;Problem G.&lt;/B&gt; Монетки" href="#ch442"><B>Problem G.</B> Монетки</a></li><li><a title="&lt;B&gt;Problem H.&lt;/B&gt; Последовательность" href="#ch443"><B>Problem H.</B> Последовательность</a></li><li><a title="&lt;B&gt;Problem I.&lt;/B&gt; Кубооктаэдр" href="#ch444"><B>Problem I.</B> Кубооктаэдр</a></li><li><a title="&lt;B&gt;Problem J.&lt;/B&gt; Робот" href="#ch445"><B>Problem J.</B> Робот</a></li></ul></div><div class="statements_chapter"><a name="ch436"></a><p class="statements_chapter_title"><B>Problem A.</B> Бусинки</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style>
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td colspan="2" id="title"> A. Бусинки
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> beads.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> beads.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 1 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Маленький мальчик делает бусы. У него есть много пронумерованных бусинок. Каждая бусинка имеет уникальный номер - целое число в диапазоне от 1 до N. Он выкладывает все бусинки на полу и соединяет бусинки между собой произвольным образом так, что замкнутых фигур не образуется. Каждая из бусинок при этом оказывается соединенной с какой-либо другой бусинкой. Требуется определить, какое максимальное количество последовательно соединенных бусинок присутствует в полученной фигуре.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В первой строке 1 &lt;= N &lt;= 2500 - количество бусинок . В последующих строках по два целых числа - номера, соединенных бусинок.
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Вывести одно число - искомое количество бусинок.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="subtitle"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 7 <br /> 4 5 <br /> 6 7 <br /> 7 4 <br /> 7 2 <br /> 1 3 <br /> 4 1 <br />
+          </td>
+          <td valign="top"> 5
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table></div><div class="statements_chapter"><a name="ch437"></a><p class="statements_chapter_title"><B>Problem B.</B> Лестница</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td id="title" colspan="2"> B. Лестница
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> stairs.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> stairs.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 1 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Археологи раскопали Древний Храм, ко входу в который ведет лестница, шириной в 1 (один) метр, из М ступенек различной длины и высоты. Лестница построена из каменных блоков 1x1x1 метр. Археологи хотят для удобства туристов, чтобы лестница состояла из меньшего количества ступенек N. Для этого они могут также устанавливать каменные блоки 1x1x1. Какое минимальное количество блоков необходимо, чтобы сделать лестницу в N ступенек, если известны начальная длина и высота каждой ступеньки. Высоты и длины ступенек новой лестницы могут различаться.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В первой строке через пробел заданы два целых числа M и N (1 &lt;= N &lt; M &lt;= 100). Далее идут M строк, содержащих пару целых чисел L и H - длина и высота i-ой ступеньки соответственно (1 &lt;= L, H &lt;= 101). Ступеньки нумеруются снизу вверх.
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В выходной файл выведите единственное число - ответ на задачу.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="subtitle" colspan="2"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 5 3 <br /> 4 2 <br /> 1 2 <br /> 5 2 <br /> 1 2 <br /> 2 1 <br />
+          </td>
+          <td valign="top"> 3
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table></div><div class="statements_chapter"><a name="ch438"></a><p class="statements_chapter_title"><B>Problem C.</B> Раскраска кубиков</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td id="title" colspan="2"> C. Раскраска кубиков
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> color.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> color.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 2 секунды
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> На день рождения Пете подарили коробку кубиков. На каждом кубике написано некоторое целое число. Петя выложил все n своих кубиков в ряд, так что числа на кубиках оказались расположены в некотором порядке a[1], a[2],...,a[n]. Теперь он хочет раскрасить кубики в разные цвета таким образом, чтобы для каждого цвета последовательность чисел на кубиках этого цвета была строго возрастающей. То есть, если кубики с номерами i[1], i[2],..., i[k] покрашены в один цвет, то a[i[1]] &lt; a[i[2]] &lt; ... &lt; a[i[k]]. Петя хочет использовать как можно меньше цветов. Помогите ему!
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Первая строка входного файла содержит число n - количество кубиков у Пети (1 &lt;= n &lt;= 250000). Затем следует n чисел, разделенных пробелами и/или переводами строки - a[1], a[2], ..., a[n].
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> На первой строке выходного файла выведите число L - наименьшее количество цветов, которое потребуется Пете. На следующей строке выведите n чисел из диапазона от 1 до L - цвета, в которые Петя должен покрасить кубики.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="subtitle" colspan="2"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 5 <br /> 1 2 4 3 5 <br />
+          </td>
+          <td valign="top"> 2 <br /> 1 1 1 2 2 <br />
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch439"></a><p class="statements_chapter_title"><B>Problem D.</B> Лестницу в треугольник</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td colspan="2" id="title"> D. Лестницу в треугольник
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> triangle.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> triangle.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 1 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> На плоскости дана геометрическая фигура &quot;лестница&quot;. Она имеет N ступенек, которые заданы положительными координатами. Каждая ступень имеет свою высоту и ширину. Требуется найти прямую, которая отсекает от некоторых ступеней &quot;лестницы&quot; треугольники так, что из полученных фигур можно сложить прямоугольный треугольник такой же площади, что и исходная фигура. Разрешается, чтобы отсекаемые от ступеней треугольники соприкасались только вершинами (но не сторонами).
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В первой строке дано число 0 &lt;= N &lt;= 1000. Далее записаны N строк. Каждая строка содержит два целых чисел через пробел 0 &lt; xi, yi &lt; 10^6 - координаты вершины i-й ступени (ступени перечисляются в порядке сверху вниз, слева направо).
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Файл содержит одну строку: два числа через пробел - высота и ширина получившегося прямоугольного треугольника. Если существует несколько решений, то вывести любое. Результат выводится с точностью до четырех десятичных знаков после запятой. В случае, когда решение отсутствует, вывести два ноля через пробел
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="subtitle"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 2 <br /> 2 3 <br /> 3 2 <br /> <img width="183" vspace="0" hspace="0" height="140" border="0" src="http://informatics.mccme.ru/moodle/file.php/28/pic3.gif" alt="рисунок" title="рисунок" />
+          </td>
+          <td valign="top"> 4.0000 4.0000
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 2 <br /> 1 3 <br /> 3 1 <br />
+          </td>
+          <td valign="top"> 0 0
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table></div><div class="statements_chapter"><a name="ch440"></a><p class="statements_chapter_title"><B>Problem E.</B> Джентльменский покер</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td colspan="2" id="title"> E. Джентльменский покер
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> poker.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> poker.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 1 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Наверняка все слышали про карточную игру &quot;Покер&quot;. В джентльменском покере все, как и в обычном - игроки сидят за круглым столом, ставят ставки, повышают их, и кто-то в конце каждого раунда забирает выигрыш - банк. Только в джентльменском покере выигрыш раунда достается не одному игроку, а делится на K человек (K - степень щедрости). А точнее, банк делится поровну между победителем раунда и следующими K-1 игроками, сидящими за выигравшим (за последним сидит первый игрок). В случае, если сумма выигранного банка не делится поровну между K игроками, то излишек забирает победитель. Так, например, если играют 4 человека и степень щедрости равна 3, то при выигрыше первого игрока банк поделится между 1-ым, 2-ым и 3-им игроками, а при победе четвертого - между 4-ым, 1-ым и 2-ым. Ваша задача по протоколу игры сосчитать, сколько денег у каждого из игроков оказалось в конце игры. Т.к. покер джентльменский, то разрешается играть в долг.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В первой строке содержатся три положительных целых числа: N, K и S, где N - число игроков (игроки пронумерованы от 1 до N по направлению хода игры), K - степень щедрости и S - начальная сумма денег у каждого игрока, 2 &lt;= N &lt;= 30000, 1 &lt;= K &lt;= N, S &lt;= 10500. Гарантируется, что долг игрока будет не менее, чем -2^15-1 и выигрыш не более, чем 2^15. Далее идут строки, описывающие протокол игры. Протокол игры состоит не более, чем из 2^10 событий. Возможные строки протокола игры: <br /> BET A B - игрок под номером А добавляет в банк сумму B. В начале каждого раунда банк пуст. <br /> WIN A - означает конец раунда и игрок под номером А забирает банк и делит его со следующими K-1 игроками. <br /> END - означает конец игры. Данная строка является последней во входном файле. <br />
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Вывести конечные суммы, которые оказались у игроков к концу игры. Первое число - сумма денег первого игрока, затем через пробел - сумма второго, и т.д. до последнего. Всего N чисел.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="subtitle"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 5 3 100 <br /> BET 1 100 <br /> BET 2 300 <br /> BET 5 100 <br /> WIN 1 <br /> END <br />
+          </td>
+          <td valign="top"> 168 -34 266 100 0
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch441"></a><p class="statements_chapter_title"><B>Problem F.</B> Тир</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td colspan="2" id="title"> F. Тир
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> shooting.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> shooting.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 3 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Шесть стрелков решили повысить свою меткость и зашли в тир пострелять. В тире было установлено шесть мишеней, и каждый стрелок выстрелил во все мишени. После чего они собрались в баре, и каждый рассказал, сколько раз он попал в мишень. Бармен, запомнил, что сказал каждый из них, и на следующий день посчитал, сколько дырок в каждой мишени. Требуется помочь бармену определить: не ошибся ли кто-то из &quot;снайперов&quot;, и сколько существует вариантов стрельбы (то есть, кто в какие мишень попадал), при которых получаются такие результаты. Считается, что две пули в одну дырку не попадают.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Во входном файле в первой строке для каждого стрелка записано число попаданий, которое он назвал при обсуждении результатов. В третей строке записано число дырок для каждой мишени
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В первой строке - количество вариантов такой стрельбы. Если вариант всего один, то для каждого стрелка вывести строчку, в которой будет для каждой мишени проставлено 0 - не попал, 1 - попал.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="subtitle"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 2 0 0 0 0 0 <br /> 0 1 0 1 0 0 <br />
+          </td>
+          <td valign="top"> 1 <br /> 0 1 0 1 0 0 <br /> 0 0 0 0 0 0 <br /> 0 0 0 0 0 0 <br /> 0 0 0 0 0 0 <br /> 0 0 0 0 0 0 <br /> 0 0 0 0 0 0 <br />
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 1 1 1 1 1 1 <br /> 1 1 1 1 1 1 <br />
+          </td>
+          <td valign="top"> 720
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch442"></a><p class="statements_chapter_title"><B>Problem G.</B> Монетки</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td colspan="2" id="title"> G. Монетки
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> coins.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> coins.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 1 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Два участника олимпиады играют в следующую игру. Участники по очереди бросают монетки (одну или больше) в хитрый ящик. Если в ящике находится в точности X1, или X2, ..., или Xn монеток, то они, кроме одной, отдаются участнику, сделавшему последний ход. Оставшаяся монетка &quot;исчезает&quot; из игры. Игра заканчивается, если у одного из участников игры не осталось монеток. При этом монетки из ящика (все до одной) отдаются другому участнику(он является победителем игры). Определить наибольшее количество монеток, которое может выиграть первый участник при наилучшей игре второго. Если первый участник не может выиграть, то результатом является число 0.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В первой строке входного файла два числа 0 &lt; S,T &lt;= 50 (число монеток у первого и второго игроков). Во второй строке N (0 &lt;= N &lt;= 50) - число хитрых состояний ящика. В третьей строке целые числа X1, X2,..., Xn, 0 &lt; X1 &lt;= X2 &lt;= ... &lt;= Xn &lt;= 100.
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Вывести число монеток у первого участника или 0.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="subtitle"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 3 8 <br /> 1 <br /> 1 <br />
+          </td>
+          <td valign="top"> 3
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 4 3 <br /> 1 <br /> 3 <br />
+          </td>
+          <td valign="top"> 3
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 6 4 <br /> 2 <br /> 6 8 <br />
+          </td>
+          <td valign="top"> 9
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch443"></a><p class="statements_chapter_title"><B>Problem H.</B> Последовательность</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td colspan="2" id="title"> H. Последовательность
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> sequence.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> sequence.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 1 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Последовательность чисел монотонно убывающая если для любого i элемента (кроме последнего )выполняется Ai &gt; Ai+1. Последовательность чисел монотонно возрастающая если для любого i элемента (кроме последнего )выполняется Ai &lt; Ai+1. Последовательность монотонная если она или монотонно убывающая или монотонно возрастающая. Дана последовательность Ai из n чисел. Каждый элемент последовательности можно увеличивать или уменьшать. Требуется изменить последовательность так что бы в ней содержалось K монотонных непересекающихся последовательностей. (один элемент тоже последовательность). Т.к. преобразований бесконечно много то нужно найти такое преобразование чтобы сумма разностей по модулю конечного значения Ai и начального значения Ai была минимальна.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В первой строчке n,k n- количество элементов в последовательности, k сколько должно быть монотонных последовательностей. Во второй строчке n чисел через пробел - сама последовательность(каждое число по модулю меньше 20,000,000)
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Одно число, ответ на задачу.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="subtitle"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 4 2 <br /> 1 1 1 1 <br />
+          </td>
+          <td valign="top"> 2
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 11 3 <br /> 1 10 4 2 5 1 3 2 4 6 1 <br />
+          </td>
+          <td valign="top"> 11
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch444"></a><p class="statements_chapter_title"><B>Problem I.</B> Кубооктаэдр</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td colspan="2" id="title"> I. Кубооктаэдр
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> cuboct.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> cuboct.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 1 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Возьмем кубик и приклеим к его граням еще по такому же кубику. В результате получим фигуру, представленную на втором рисунке. К свободным граням полученной фигуры, приклеим еще кубики. На рисунке представлены &quot;кубооктаэдры&quot; степеней 0, 1, 2. <br /> <img width="422" vspace="0" hspace="0" height="178" border="0" src="http://informatics.mccme.ru/moodle/file.php/28/pic.gif" alt="рисунок" title="рисунок" /> <br /> Кубооктаэдром степени N назовем фигуру, полученную в результате N-го доклеивания кубиков. Составить программу, подсчитывающую, количество кубиков для кубооктаэдра N-й степени.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"><span style="font-weight: bold;"> Формат входного файла:</span>
+          </td>
+          <td style="vertical-align: top;"><br />
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Содержит единственное число - степень кубооктаэдра 0 &lt;= N &lt;= 100000
+          </td>
+          <td style="vertical-align: top;"><br />
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"><span style="font-weight: bold;"> Формат выходного файла:</span>
+          </td>
+          <td style="vertical-align: top;"><br />
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Вывести одно число - количество кубиков для кубооктаэдра степени N.
+          </td>
+          <td style="vertical-align: top;"><br />
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" id="subtitle"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 1
+          </td>
+          <td valign="top"> 7
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 2
+          </td>
+          <td valign="top"> 25
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table> </div><div class="statements_chapter"><a name="ch445"></a><p class="statements_chapter_title"><B>Problem J.</B> Робот</p><style type="text/css">
+#title {
+	font-size : 22px;
+	font-weight : bold; 
+}
+#value {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : arial;
+}
+#text {
+	font-size : 14px;
+	font-weight : normal;
+	font-family : verbana;
+}
+#subtitle {
+	font-size : 18px;
+	font-weight : bold; 
+}
+</style> 
+<table width="100%" cellspacing="5" cellpadding="5" border="0"> <tbody>
+  <tr>
+    <td>
+      <table cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td id="title" colspan="2"> J. Робот
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя входного файла:
+          </td>
+          <td id="value"> robot.in
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Имя выходного файла:
+          </td>
+          <td id="value"> robot.out
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по времени:
+          </td>
+          <td id="value"> 5 секунда
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> Ограничение по памяти:
+          </td>
+          <td id="value"> 64 мегабайта
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="text"> Некоторый заводской цех представляет собой прямоугольник размером M на N метров (1 &lt;= M, N &lt;= 30). Инженер-конструктор Петя создал робота, который может перемещаться по территории цеха и выполнять некоторую общественно-полезную работу. Робот может перемещаться только по плитам, размером 1 на 1 метр, которыми выложен пол цеха, и только параллельно осям координат. У робота есть 4 регистра состояния, A, B, C и D. Каждый регистр может принимать одно из двух значений - TRUE или FALSE. На некоторых плитах цеха стоят радио-триггеры, которые переключают состояние каких-то регистров робота. Также на некоторых других плитах могут находиться радиомаяки, которые в зависимости от истинности формулы, соответствующей данному маяку, заставляют робота повернуть на 90 градусов налево или направо. В случае истинности совершается поворот направо. Спецслужбы заинтересовались разработкой Пети, и решили проверить пригодность робота для работ в условиях радиации, под водой, в кратерах вулканов, на других планетах и много где еще. Для испытаний из цеха было вынесено все оборудование, поставлено некоторое количество радиомаяков и триггеров. Начиная с некоторой пустой плиты X0, Y0 под начальным углом A0 (0, 90, 180 или 270 градусов, отсчитывая от направления вверх по часовой стрелке) был запущен робот. Изначально состояния всех регистров робота - FALSE. Аккумуляторных батарей робота хватит на K (0 &lt; K &lt;= 10^9) перемещений на соседнюю плиту. После этого он остановится. Кроме того, возможен такой вариант, что Петя неправильно расставил триггеры и маяки, поэтому на некотором шаге робот врежется в стену цеха. Необходимо определить, уцелеет ли робот после испытаний и на какой клетке он остановится в случае положительного ответа на первый вопрос. Оси координат направлены из левого верхнего угла - точки (1, 1) - соответственно вправо и вниз. M - размер цеха по горизонтали, а N - по вертикали. Количество триггеров - P - не превосходит 10000, а радиомаяков - Q - 25.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table border="0"> <tbody>
+        <tr>
+          <td id="subtitle"> Формат входного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> На первой строке входного файла записаны 8 чисел - M, N, P, Q, K, X0, Y0, A0. Далее на Р строках записаны триггеры в формате &quot;X Y R&quot;, где R - название регистра. Далее на Q строках записаны радиомаяки в формате &quot;X Y F&quot;, где F - булева функция от переменных A..D длиной не более 250 символов, заданная корректной формулой, причем: <br />
+            <p> <b>1)</b> A, B, C, D, TRUE, FALSE - корректные формулы <br /> <b>2)</b> Если F - корректная формула, то &quot;(F)&quot; и &quot;NOT F&quot; - корректные формулы <br /> <b>3)</b> Если F и G - корректные формулы, то &quot;F AND G&quot;, &quot;F OR G&quot; и &quot;F XOR G&quot; - корректные формулы <br /> <b>4)</b> Операция NOT имеет наивысший приоритет, остальные операции имеют одинаковые приоритеты и выполняются слева направо, т.е. A AND NOT B OR C XOR D эквивалентно (((A AND (NOT B)) OR C) XOR D) <br /> <b>5)</b> Регистр букв не имеет значения <br /> <b>6)</b> Корректная формула не содержит лишних пробелов <br /> </p>
+          </td>
+        </tr>
+        <tr>
+          <td id="subtitle"> Формат выходного файла:
+          </td>
+        </tr>
+        <tr>
+          <td id="text"> В случае успешного исхода вывести координаты плиты, где остановится робот. В случае краха эксперимента вывести в выходной файл единственное число &quot;-1&quot;.
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td id="subtitle" colspan="2"> Примеры:
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" cellspacing="0" cellpadding="0" border="1"> <tbody>
+        <tr>
+          <td width="50%"><b>Входной файл</b>
+          </td>
+          <td width="50%"><b>Выходной файл</b>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top"> 8 8 1 9 420000001 3 4 180 <br /> 3 3 A <br /> 3 5 FALSE <br /> 6 5 FALSE <br /> 6 2 FALSE <br /> 3 2 A <br /> 3 1 FALSE <br /> 1 1 FALSE <br /> 1 8 FALSE <br /> 2 8 FALSE <br /> 2 2 TRUE <br />
+          </td>
+          <td valign="top"> 3 5
+          </td>
+        </tr>
+        <tr>
+          <td align="left" colspan="2"> <img width="230" vspace="0" hspace="0" height="208" border="0" title="рисунок" alt="рисунок" src="http://informatics.mccme.ru/moodle/file.php/28/pic2.gif" /> <br /> <b><i>Комментарий</i> </b> В соответствии с рисунком, робот будет двигаться по &quot;восьмерке&quot; суммарной длиной 42 метра. Следовательно, прохождение 42n+1 метра эквивалентно прохождению 1 метра, т.е. робот остановится на плите с координатами (3, 5).
+          </td>
+        </tr> </tbody>
+      </table>
+    </td>
+  </tr> </tbody>
+</table> </div></body> </html>

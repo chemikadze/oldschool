@@ -1,0 +1,19 @@
+Solution		Current	  Plan
+ik			  100	  100
+ik_expon		   36	   25
+ik_expon_fact		   60	   50
+ik_expon_fact_bignum	   68	   70
+ik_int64		   60*	   70
+ik_too_short		   84	   85
+ik_base10		  100	  100
+ik_wa			   12	   10
+md			  100	  100
+md_assert		  100	  100
+vi			   92!	  100
+vg			  100	  100
+vg_tl			   60	   70
+vg_tl_int64		   48	   50
+
+* Seems that there is no test for int64 but not expon_fact_bignum.
+  The latter takes the lead on tests 11 and 19.
+! TL on tests 23 and 24.

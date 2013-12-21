@@ -1,0 +1,6 @@
+i=`date +%Y`;
+while [ $i -le $2 ] 
+  do
+    cal $1 $i;
+    i=`expr $i + 1`;
+done

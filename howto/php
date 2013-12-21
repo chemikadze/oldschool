@@ -1,0 +1,186 @@
+addslashes(), stripslashes(). quotemeta(), htmlspecialchars()
+ltrm(), trim()
+
+$arr = range($from, $to)
+
+is_array()
+count() sizeof()
+in_array($elem, $arr)
+
+print_r()
+var_dump()
+
+IsSet( $arr[ $i ] )
+
+foreach( $arr as $val)
+foreach( $arr as $key => $var )
+
+итераторы:
+current(), next(), reset()
+end(), prev()
+key()
+
+srand()
+rand($min, $max)
+getrandmax()
+
+mysql_connect( $host, $user, $password )
+mysql_select_db( $database )
+mysql_query( $query )
+mysql_affected_rows( ) // INSERT UPDATE DELETE
+mysql_num_rows( )  // SELECT
+
+mysql_smthng($result, $fgsfds)
+mysql_fetch_row()  // as array[int]
+mysql_fetch_object() // as object
+mysql_fetch_array($result, $assoc) // ass assitional MYSQL_ASSOC or MYSQL_NUM
+mysql_result($result, $row, $col) // as result
+mysql_data_seek($result, $row)
+
+mysql_error()
+mysql_escape_string()
+
+// arrays, new returned
+array_keys()
+array_values()
+array_count_values()
+array_flip()		keys <=> values
+array_reverse()
+array_merge($one, $two)
+shuffle() // destructive!
+array_slice($from, $pos, $len)		// copy
+array_splice($from, $pos, $len, $ins)	// replace from, destructive
+array_push($arr, $val)
+array_pop($arr, $val)
+
+[u][a|k][r]sort()
+	// a -- values
+	// k -- keys
+	// not a,k -- new indexes
+
+
+// strings
+strtok( $str, $dividerchars ) // one by one
+explode( $divider, $str )
+
+
+// rexplr
+ereg($reg, $str)	// check
+eregi()			// case insensitive
+ereg[i]_replace($reg, $str, $repl)
+split[i]($reg, $str [, $max])
+
+^ -- strbegin
+$ -- strend
+. -- any
+	* -- any number of any or nothing
+	+ -- any, len != 0
+[symbols]
+[from-to]
+[^exclude]
+\\ -- slash, ну ты понел
+
+
+// perl - regexpr
+preg_match()
+preg_mach_all($reg, $from, $to)  // PREG_SET_ORDER -- one by one, PREG_PATTERN_ORDER patterns and results
+preg_split()
+preg_replace()
+preg_grep($reg, $arr)	// grep in $arr
+
+/pattern/
+[symbols]
+[r-ange]
+[^exclude]
+\d -- decimal
+\s -- splace
+*  -- zero-inf
+?  -- zero-one
++  -- one-inf
+^  -- srtbeg
+$  -- strend
+
+fopen($addr, $mode)
+fread($fd, $num_bytes)
+fwrite($fd, $data)
+fclose($fd)
+file($filename) -- array of lines
+readfile($filename) -- output file
+filesize($filename)
+fpassthru($filename) -- send file to browser
+feof($fd)
+file_exists($filename)
+
+fsockopen($host, $port)
+getservbyname($serv, $protocol)
+getservbyport($port, $protocol)
+pfsockopen($host, $port)
+stream_set_blocking($sock, $mode)
+
+time()
+microtime()
+getdate(time())
+	Seconds
+	Minutes
+	Hours
+	Mday
+	Wday
+	Mon
+	Year
+	Yday
+	Weekday // string
+	Month   // string
+strftime()
+
+date($format)
+
+header('Content-type: application/pdf');
+header('Content-Disposition: attachment; filename="downloaded.pdf"');
+readfile($filename);
+
+php://stdin
+php://stdout
+php://stderr
+
+get_html_translation_table( HTML_SPECIAL_CHARS | HTML_ENTITIES )
+
+md5()
+md5_file( $filename )
+
+strspn( $str, $set )
+count_chars( $str, $int )
+	0 --  code=count
+	1 --  -/- in
+	2 --  -/- out
+	3 --  string all chars in
+	4 --  string all chars not in
+
+# DNS
+gethostbyaddr($ip)
+gethostbyname($host)
+gethostbynamel($host)
+
+session_start()
+$_SESSION[]
+$_COOKIES
+setcookie( $name, $value, $expire, $path, $domain, $secure )
+
+gettype()
+is_int(), is_integer(), is_long()
+is_double(), is_float(), is_real()
+is_bool()
+is_null()
+is_string()
+is_array()
+is_object()
+is_resource(
+
+basename()  "/path/to/file" --> "file"
+$_FILE['name']['']
+	name
+	type   (mime)
+	tmp_name
+	error
+	size
+
+SQL: LOAD_FILE()

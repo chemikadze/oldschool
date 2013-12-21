@@ -1,0 +1,303 @@
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+    <html>
+    <head>
+      <title>name</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=" />
+      <meta name="description" content="Условия задач" />
+      <link rel="stylesheet" type="text/css" href="statements_print.css" />
+    </head>
+    <body>
+    <a name="top"></a>
+    <p class="statements_title">Условия задач</p>
+    <p class="statements_summary"></p>
+    <div class="statements_info"><table>
+    <tr>
+    <td>Сайт:</td>
+    <td><a href="http://informatics.mccme.ru/moodle">Дистанционная подготовка</a></td>
+    </tr><tr>
+    <td>Курс:</td>
+    <td>Динамическое программирование</td>
+    </tr><tr>
+    <td>statements:</td>
+    <td>Условия задач</td>
+    </tr><tr>
+    <td>Printed by:</td>
+    <td>Николай Соколов</td>
+    </tr><tr>
+    <td>Date:</td>
+    <td>Воскресенье  13 Апрель 2008, 20:59</td>
+    </tr>
+    </table></div>
+
+    <div class="statements_toc_alpha"><a name="toc"></a><p class="statements_chapter_title">List of problems</p><ul><li><a title="&lt;B&gt;Problem A.&lt;/B&gt; Симпатичные узоры" href="#ch686"><B>Problem A.</B> Симпатичные узоры</a></li><li><a title="&lt;B&gt;Problem B.&lt;/B&gt; Симпатичные узоры возвращаются" href="#ch687"><B>Problem B.</B> Симпатичные узоры возвращаются</a></li><li><a title="&lt;B&gt;Problem C.&lt;/B&gt; Путевые строки" href="#ch688"><B>Problem C.</B> Путевые строки</a></li><li><a title="&lt;B&gt;Problem D.&lt;/B&gt; Прямоугольники" href="#ch689"><B>Problem D.</B> Прямоугольники</a></li><li><a title="&lt;B&gt;Problem E.&lt;/B&gt; Арбузная грядка" href="#ch690"><B>Problem E.</B> Арбузная грядка</a></li></ul></div><div class="statements_chapter"><a name="ch686"></a><p class="statements_chapter_title"><B>Problem A.</B> Симпатичные узоры</p><p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя входного файла:<span style="mso-tab-count: 1">                 </span></font><span style="font-family: courier">a.in</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя выходного файла:<span style="mso-tab-count: 1">              </span></font><span style="font-family: courier">a.out</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по времени:<span style="mso-tab-count: 1">         </span>1 секунда</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по памяти:<span style="mso-tab-count: 1">           </span>64 мегабайта</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman"></font> </p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman">Компания BrokenTiles планирует заняться выкладыванием во дворах у состоятельных клиентов узоров из черных и белых плиток, каждая из которых имеет размер 1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span><font face="Times New Roman"> 1 метр. Известно, что дворы всех состоятельных людей имеют наиболее модную на сегодня форму прямоугольника <i style="mso-bidi-font-style: normal">N</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">M</i> метров. Однако при составлении финансового плана у директора этой организации появилось целых две серьезных проблемы: во-первых, каждый новый клиент, очевидно, захочет, чтобы узор, выложенный у него во дворе, отличался от узоров всех остальных клиентов этой фирмы, а во-вторых, этот узор должен быть симпатичным.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman">Как показало исследование, узор является симпатичным, если в нем нигде не встречается квадрата 2 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span><font face="Times New Roman"> 2 метра, полностью покрытого плитками одного цвета. Для составления финансового плана директору Васе необходимо узнать, сколько клиентов он сможет обслужить, прежде чем симпатичные узоры данного размера закончатся. Помогите ему!</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b>  </p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат входного файла </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b><font face="Times New Roman">В первой строке входного файла находятся два положительных целых числа <i style="mso-bidi-font-style: normal">N</i> и <i style="mso-bidi-font-style: normal">M</i> (1 ≤ <i style="mso-bidi-font-style: normal">N </i></font><b style="mso-bidi-font-weight: normal"><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">× </span></span></b><font face="Times New Roman"><i style="mso-bidi-font-style: normal">M</i> ≤ 3</font><font face="Times New Roman">0).</font> </p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b>  </p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат выходного файла</span></i></b> </p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b><font face="Times New Roman">В выходной файл выведите единственное число количество различных симпатичных узоров, которые можно выложить во дворе размера <i style="mso-bidi-font-style: normal">N</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">M.</i> Узоры, получающиеся друг из друга сдвигом, поворотом или отражением, считаются различными.</font> </p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"> </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Примеры </span></i></b></p>
+<p></p>
+<table class="MsoTableGrid" style="border-right: medium none; border-top: medium none; margin: auto auto auto 1cm; border-left: medium none; border-bottom: medium none; border-collapse: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext" cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr style="mso-yfti-irow: 0"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 161.35pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt" width="215"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-align: center" align="center"><span style="font-family: courier">a.in</span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" width="217"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-align: center" align="center"><span style="font-family: courier">a.out</span></p> 
+    </td> 
+  </tr> 
+  <tr style="mso-yfti-irow: 1"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 161.35pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="215"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">2 2 </span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="217"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">14</span></p> 
+    </td> 
+  </tr> 
+  <tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 161.35pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="215"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">3 3 </span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="217"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">322</span></p> 
+    </td> 
+  </tr></tbody> 
+</table>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></div><div class="statements_chapter"><a name="ch687"></a><p class="statements_chapter_title"><B>Problem B.</B> Симпатичные узоры возвращаются</p><p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя входного файла:<span style="mso-tab-count: 1">                 </span></font><span style="font-family: courier">b.in</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя выходного файла:<span style="mso-tab-count: 1">              </span></font><span style="font-family: courier">b.out</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по времени:<span style="mso-tab-count: 1">         </span>1 секунда</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по памяти:<span style="mso-tab-count: 1">           </span>64 мегабайта</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify"><font face="Times New Roman"></font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify"><font face="Times New Roman"> </font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify"><font face="Times New Roman">Со времен написания условия предыдущей задачи многое изменилось. Симпатичные узоры (о том, что это такое – см. условие задачи А) стали очень популярны по всему миру, поэтому люди готовы содержать очень большой участок земли, лишь бы иметь на ней узор, не встречающийся больше нигде. </font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman">Теперь компания BrokenTiles является ведущим производителем симпатичных узоров в мире! Для составления плана исполнительному директору Васе по-прежнему необходимо знать, сколько клиентов могут рассчитывать на узор данных размеров.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman">Так как масштабы буквально мировые, <i style="mso-bidi-font-style: normal">N</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 10<sup>100</sup>. Однако Вася не любит большие числа, поэтому просит выдать ответ по модулю <i style="mso-bidi-font-style: normal">P</i>.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"> </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат входного файла</span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b><font face="Times New Roman"><span style="mso-spacerun: yes"> </span>В первой строке входного файла записаны три положительных целых числа, разделенные пробелом – <i style="mso-bidi-font-style: normal">N</i>, <i style="mso-bidi-font-style: normal">M</i> и <i style="mso-bidi-font-style: normal">P</i> (1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">N</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 10<sup>100</sup>, 1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">M</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 5, 1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">P</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 10 000).</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"> </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат выходного файла</span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b><font face="Times New Roman">Выведите в выходной файл количество различных симпатичных узоров <i style="mso-bidi-font-style: normal">N</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">M</i> модулю <em>P</em> .</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"></span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial"> </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Примеры </span></i></b></p>
+<p></p>
+<table class="MsoTableGrid" style="border-right: medium none; border-top: medium none; margin: auto auto auto 1cm; border-left: medium none; border-bottom: medium none; border-collapse: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext" cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr style="mso-yfti-irow: 0"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 161.35pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt" valign="top" width="215"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">b.in</span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 155.9pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" valign="top" width="208"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">b.out</span></p> 
+    </td> 
+  </tr> 
+  <tr style="mso-yfti-irow: 1"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 161.35pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="215"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">2 2 5</span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 155.9pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">4</span></p> 
+    </td> 
+  </tr> 
+  <tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 161.35pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="215"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">3 3 23</span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 155.9pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span style="font-family: courier">0</span></p> 
+    </td> 
+  </tr></tbody> 
+</table>
+<p></p>
+<p></p></div><div class="statements_chapter"><a name="ch688"></a><p class="statements_chapter_title"><B>Problem C.</B> Путевые строки</p><p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя входного файла:<span style="mso-tab-count: 1">                 </span></font><span style="font-family: courier">c.in</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя выходного файла:<span style="mso-tab-count: 1">              </span></font><span style="font-family: courier">c.out</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по времени:<span style="mso-tab-count: 1">        </span>1 секунда</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по памяти:<span style="mso-tab-count: 1">          </span>64 мегабайта</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman">  </font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman">Рассмотрим ориентированный граф <i style="mso-bidi-font-style: normal">G</i>, имеющий <i style="mso-bidi-font-style: normal">n</i> вершин, пронумерованных натуральными числами от 1 до<i style="mso-bidi-font-style: normal"> n</i>. В графе <i style="mso-bidi-font-style: normal">G</i> возможно наличие нескольких дуг между одной и той же парой вершин, а также дуг, ведущих из вершины в нее саму. Каждая дуга графа помечена некоторой буквой латинского алфавита. Каждому пути в графе <i style="mso-bidi-font-style: normal">G</i> можно поставить в соответствии строку, состоящую из букв, написанных на последовательно проходимых в соответствии с этим путем дугах. Эта строка называется <i style="mso-bidi-font-style: normal">путевой меткой</i> пути. Назовем строку <i style="mso-bidi-font-style: normal">S</i> путевой строкой графа <i style="mso-bidi-font-style: normal">G</i>, если в нем существует путь, путевая метка которого равна <i style="mso-bidi-font-style: normal">S</i>.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 120.5pt"><font face="Times New Roman">Ваша задача посчитать остаток от деления на 1 000 000 количества путевых строк графа <i style="mso-bidi-font-style: normal">G</i>, состоящих ровно из <i style="mso-bidi-font-style: normal">L</i> символов.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">  </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат входного файла </span></i></b> 
+  <p></p> 
+  <p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify"><font face="Times New Roman">В первой строке входного файла записаны целые числа <i style="mso-bidi-font-style: normal">n</i>, <i style="mso-bidi-font-style: normal">m,</i> <i style="mso-bidi-font-style: normal">L</i> (1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">n</i>  </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 10, 1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">m</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 10 000, 1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">L</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 100), равные количеству вершин и ребер графа <i style="mso-bidi-font-style: normal">G</i>, а также длине путевых строк, которые нужно искать. Следующие <i style="mso-bidi-font-style: normal">m</i> строк задают дуги графа <i style="mso-bidi-font-style: normal">G</i>. Каждая из этих строк содержит два натуральных числа <i style="mso-bidi-font-style: normal">a</i>, <i style="mso-bidi-font-style: normal">b</i> (1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">a,</i> <i style="mso-bidi-font-style: normal">b </i></font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> n) и маленькую латинскую букву <i style="mso-bidi-font-style: normal">c</i>, что означает наличие дуги из вершины a в вершину <i style="mso-bidi-font-style: normal">b</i>, помеченной символом <i style="mso-bidi-font-style: normal">c</i>. Элементы каждой строки отделены друг от друга пробелами.</font></p> 
+  <p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">  </span></i></b></p> 
+  <p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат выходного файла </span></i></b> 
+    <p></p> 
+    <p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify"><font face="Times New Roman">Единственная строка выходного файла должна содержать одно число, равное остатку от деления количества путевых строк длины <i style="mso-bidi-font-style: normal">L</i> в графе <i style="mso-bidi-font-style: normal">G</i> на 1 000 000.</font></p> 
+    <p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">   </span></i></b></p> 
+    <p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 120.5pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Пример </span></i></b> 
+      <p></p> 
+      <table class="MsoTableGrid" style="border-right: medium none; border-top: medium none; margin: auto auto auto 33.75pt; border-left: medium none; border-bottom: medium none; border-collapse: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext" cellspacing="0" cellpadding="0" border="1"><tbody> 
+        <tr style="mso-yfti-irow: 0"> 
+          <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 163.05pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt" valign="top" width="217"> 
+            <p class="MsoNormal" style="margin: 0cm 0cm 0pt; tab-stops: 184.3pt"><span style="font-family: courier">c.in</span></p> 
+          </td> 
+          <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 155.9pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" valign="top" width="208"> 
+            <p class="MsoNormal" style="margin: 0cm 0cm 0pt; tab-stops: 184.3pt"><span style="font-family: courier">c.out</span></p> 
+          </td> 
+        </tr> 
+        <tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes"> 
+          <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 163.05pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="217"> 
+            <p class="MsoNormal" style="margin: 0cm 0cm 0pt; tab-stops: 184.3pt"><span style="font-family: courier">2 2 2</span><br /><span style="font-family: courier">1 2 a</span><br /><span style="font-family: courier">2 1 b</span></p> 
+          </td> 
+          <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 155.9pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+            <p class="MsoNormal" style="margin: 0cm 0cm 0pt; tab-stops: 184.3pt"><span style="font-family: courier">2 </span> 
+              <p></p></p> 
+            <p></p> 
+          </td> 
+        </tr></tbody> 
+      </table></p> 
+    <p></p></p> 
+  <p></p></p>
+<p></p></div><div class="statements_chapter"><a name="ch689"></a><p class="statements_chapter_title"><B>Problem D.</B> Прямоугольники</p><p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя входного файла:<span style="mso-tab-count: 1">                 </span></font><span style="font-family: courier">d.in</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Имя выходного файла:<span style="mso-tab-count: 1">              </span></font><span style="font-family: courier">d.out</span></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по времени:<span style="mso-tab-count: 1">        </span>1 секунда</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><font face="Times New Roman">Ограничение по памяти:<span style="mso-tab-count: 1">          </span>64 мегабайта</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 184.3pt"><font face="Times New Roman">  </font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 184.3pt"><font face="Times New Roman">Дан прямоугольник <i style="mso-bidi-font-style: normal">N</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">M</i>, состоящий из квадратиков 1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span><font face="Times New Roman"> 1. Некоторые квадратики вырезали. Надо найти наименьшее количество прямоугольников, на которое можно разрезать оставшуюся фигуру.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">  </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат входного файла </span></i></b></p>
+<p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 184.3pt"><font face="Times New Roman"><span style="mso-spacerun: yes"> </span>В первой строке входного файла заданы числа <i style="mso-bidi-font-style: normal">N</i> и <i style="mso-bidi-font-style: normal">M</i>, (1 </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> <i style="mso-bidi-font-style: normal">N</i>, <i style="mso-bidi-font-style: normal">M</i> </font><span style="font-family: symbol; mso-ascii-font-family: "><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span><font face="Times New Roman"> 10). Далее следует <i style="mso-bidi-font-style: normal">N</i> строк. В (<i style="mso-bidi-font-style: normal">i</i> + 1)-ой содержится <i style="mso-bidi-font-style: normal">M</i> чисел; <i style="mso-bidi-font-style: normal">j</i>-е число равно 1, если клетку на <i style="mso-bidi-font-style: normal">i</i>-й строке и в<i style="mso-bidi-font-style: normal"> j</i>-м столбце вырезали из доски, 0 – если оставили.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">  </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt 1cm; tab-stops: 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат выходного файла </span></i></b></p>
+<p></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 184.3pt" align="justify"><font face="Times New Roman">Выведите единственное число – минимальное количество прямоугольников, на которое можно разрезать полученную фигуру.</font></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 184.3pt" align="justify"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">  </span></i></b></p>
+<p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-indent: 1cm; text-align: justify; tab-stops: 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Пример</span></i></b><span style="font-family: courier"><span style="mso-tab-count: 1">                     </span></span></p>
+<p></p>
+<table class="MsoTableGrid" style="border-right: medium none; border-top: medium none; margin: auto auto auto 33.75pt; border-left: medium none; border-bottom: medium none; border-collapse: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext" cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr style="mso-yfti-irow: 0"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 163.05pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt" valign="top" width="217"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-align: center" align="center"><a name="3"></a><span style="font-family: courier">d.in</span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 155.9pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" valign="top" width="208"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt; text-align: center" align="center"><span style="font-family: courier">d.out</span></p> 
+    </td> 
+  </tr> 
+  <tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes"> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 163.05pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="217"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">2 2</span><br /><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">0 0</span><br /><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">1 0</span><span lang="EN-US" style="mso-ansi-language: en-us"> </span></p> 
+    </td> 
+    <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: #d4d0c8; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #d4d0c8; width: 155.9pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+      <p class="MsoNormal" style="margin: 0cm 0cm 0pt"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">2</span><span lang="EN-US" style="mso-ansi-language: en-us"> </span></p> 
+      <p></p> 
+      <p></p> 
+      <p></p> 
+    </td> 
+  </tr></tbody> 
+</table>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p></div><div class="statements_chapter"><a name="ch690"></a><p class="statements_chapter_title"><B>Problem E.</B> Арбузная грядка</p><div class="Section1"><font face="times new roman,times,serif"> 
+  <p class="MsoNormal" style="margin-left: 1cm; tab-stops: 184.3pt">Имя входного файла:<span style="mso-tab-count: 1">                </span><span class="SpellE"><span style="font-family: courier">e.in</span></span><br />Имя выходного файла:<span style="mso-tab-count: 1">             </span><span class="SpellE"><span style="font-family: courier">e.out</span></span><br />Ограничение по времени:<span style="mso-tab-count: 1">        </span>3 секунды<br />Ограничение по памяти:<span style="mso-tab-count: 1">          </span>64 мегабайта</p></font> 
+  <p class="MsoNormal" style="text-indent: 1cm; text-align: justify"><font face="times new roman,times,serif">На этот раз Вася увлекся выращиванием арбузов. Его огород имеет форму прямоугольника <i style="mso-bidi-font-style: normal">N</i> <span style="font-family: symbol; mso-ascii-font-family: 'times new roman'; mso-char-type: symbol; mso-symbol-font-family: symbol; mso-hansi-font-family: 'times new roman'"><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span> <i style="mso-bidi-font-style: normal">M</i> метров, разделенного на одинаковые ячейки размером 1 <span style="font-family: symbol; mso-ascii-font-family: 'times new roman'; mso-char-type: symbol; mso-symbol-font-family: symbol; mso-hansi-font-family: 'times new roman'"><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">´</span></span> 1 метр, в каждой из которых растет по арбузу. Как-то раз он решил<span style="mso-spacerun: yes">  </span>осмотреть некоторые из них, начав в левом верхнем углу, пройдясь по огороду и вернувшись обратно. Ячейки, оказавшиеся внутри цикла, считаются осмотренными, остальные – не осмотренными. По некоторым банальным соображениям Вася не ходит по грядкам, а только лишь по специальным дорожкам, расположенным на границах ячеек с арбузами. Вдобавок, он хочет, чтобы его путь получился без самопересечений. К счастью, дорожки достаточно широкие для того, чтобы гулять по ним много раз, не считая это за самопересечение (см. рисунки к примерам).</font></p> 
+  <p class="MsoNormal" style="text-indent: 1cm; text-align: justify"><font face="times new roman,times,serif">Ваша задача – узнать, за какое минимальное время Васе удастся обойти ровно <span class="SpellE"><i style="mso-bidi-font-style: normal">i</i></span> арбузов. Можно считать, что он двигается равномерно со скоростью 1 метр в секунду.</font></p> 
+  <p class="MsoNormal" style="text-indent: 1cm; text-align: justify"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат входного файла </span></i></b></p> 
+  <p></p> 
+  <p class="MsoNormal" style="text-indent: 1cm; text-align: justify" align="justify"><font face="times new roman,times,serif">В первой строке входного файла записаны два числа <i style="mso-bidi-font-style: normal">N</i>, <i style="mso-bidi-font-style: normal">M</i> (1 <span style="font-family: symbol; mso-ascii-font-family: 'times new roman'; mso-char-type: symbol; mso-symbol-font-family: symbol; mso-hansi-font-family: 'times new roman'"><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span> <i style="mso-bidi-font-style: normal">N</i>, <i style="mso-bidi-font-style: normal">M</i>  <span style="font-family: symbol; mso-ascii-font-family: 'times new roman'; mso-char-type: symbol; mso-symbol-font-family: symbol; mso-hansi-font-family: 'times new roman'"><span style="mso-char-type: symbol; mso-symbol-font-family: symbol">£</span></span> 50). В следующих <i style="mso-bidi-font-style: normal">N</i> строках идет описание огорода. В (<span class="SpellE"><i style="mso-bidi-font-style: normal">i</i></span> + 1)-<span class="SpellE">й</span> строке содержатся <i style="mso-bidi-font-style: normal">M</i> символов. Символ &quot;I&quot; на <span class="SpellE"><i style="mso-bidi-font-style: normal">j</i>-й</span> позиции означает, что Вася хочет осмотреть арбуз, расположенный в<i style="mso-bidi-font-style: normal"> <span class="SpellE">i<span style="font-style: normal">-й</span></span></i> строке и <i style="mso-bidi-font-style: normal">j</i>-м столбце огорода; символ &quot;<span class="GramE"><b style="mso-bidi-font-weight: normal">.</b>&quot;</span> означает, что ему не важно, что происходит в соответствующей ячейке; символ &quot;X&quot; означает, что он <b style="mso-bidi-font-weight: normal">не хочет</b> осматривать это растение. Других символов в строке нет.</font></p> 
+  <p class="MsoNormal" style="text-indent: 1cm; text-align: justify" align="justify"><font face="times new roman,times,serif">Гарантируется, что во входном файле суммарное количество символов &quot;I&quot; и &quot;X&quot; не превосходит 10, и присутствует хотя бы один символ &quot;I&quot;.</font></p> 
+  <p class="MsoNormal" style="text-indent: 1cm; text-align: justify"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Формат выходного файла </span></i></b></p> 
+  <p></p> 
+  <p class="MsoNormal" style="text-indent: 1cm; text-align: justify; tab-stops: 184.3pt 12.0cm" align="justify"><font face="times new roman,times,serif">Выходной файл должен содержать ровно <i style="mso-bidi-font-style: normal">K</i> чисел, разделенных пробелами, где <i style="mso-bidi-font-style: normal">K</i> – количество арбузов, которые Вася хочет осмотреть (количество символов &quot;I&quot; во входном файле). Число номер<i style="mso-bidi-font-style: normal"> <span class="SpellE">i</span></i> должно быть равно минимальному времени, за которое он успеет осмотреть <b style="mso-bidi-font-weight: normal">ровно</b> <span class="SpellE"><i style="mso-bidi-font-style: normal">i</i></span> арбузов, соответствующих символам &quot;I&quot;.</font></p> 
+  <p class="MsoNormal" style="text-indent: 1cm; tab-stops: 184.3pt" align="justify"><font face="times new roman,times,serif">Не забудьте учесть, что арбузы, помеченные &quot;<span class="GramE"><b style="mso-bidi-font-weight: normal">.</b>&quot;</span>, могут быть осмотрены или нет, но арбузы &quot;X&quot; Вася осматривать не хочет ни в коем случае.</font></p> 
+  <p class="MsoNormal" style="margin-left: 1cm; tab-stops: 184.3pt"><b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span style="font-family: arial">Примеры </span></i></b></p> 
+  <p></p> 
+  <table class="MsoTableGrid" style="border-right: medium none; border-top: medium none; margin-left: 33.75pt; border-left: medium none; border-bottom: medium none; border-collapse: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: .5pt solid windowtext; mso-border-insidev: .5pt solid windowtext; mso-table-layout-alt: fixed" cellspacing="0" cellpadding="0" border="1"><tbody> 
+    <tr style="height: 20.9pt; mso-yfti-irow: 0"> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 155.95pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; height: 20.9pt; mso-border-alt: solid windowtext .5pt" width="208"> 
+        <p class="MsoNormal" style="text-align: center; tab-stops: 184.3pt" align="center"><span class="SpellE"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">e.in</span></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us"> </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: windowtext 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: medium none; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; height: 20.9pt; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt" width="247"> 
+        <p class="MsoNormal" style="text-align: center; tab-stops: 184.3pt" align="center"><span class="SpellE"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">e.out</span></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us"> </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+    </tr> 
+    <tr style="mso-yfti-irow: 1"> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 155.95pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">1 <span class="SpellE">1</span> </span><span lang="EN-US" style="mso-ansi-language: en-us"><br /></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">I<span style="mso-tab-count: 1">                  </span></span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: medium none; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="247"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">4</span><span lang="EN-US" style="mso-ansi-language: en-us"><br style="mso-special-character: line-break" /><br style="mso-special-character: line-break" /></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us"></span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+    </tr> 
+    <tr style="mso-yfti-irow: 2"> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 155.95pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">2 <span class="SpellE">2</span> </span><span lang="EN-US" style="mso-ansi-language: en-us"><br /></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">XX<br />XI </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: medium none; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="247"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">8<br /></span><img title="Рис. 1" height="107" alt="Рис. 1" hspace="0" src="http://informatics.mccme.ru/moodle/file.php/9/problems-3_1.jpg" width="117" border="0" /></p> 
+      </td> 
+    </tr> 
+    <tr style="mso-yfti-irow: 3"> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 155.95pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span style="font-family: courier">3 <span class="SpellE">3</span></span><br /><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">III</span><br /><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">IXI</span><span style="font-family: courier"><br /></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">III</span><span style="font-family: courier"> </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: medium none; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="247"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span style="font-family: courier">4 6 8 10 12 14 16 18<br /></span><img title="Рис. 2" height="155" alt="Рис. 2" hspace="0" src="http://informatics.mccme.ru/moodle/file.php/9/problems-3_2.jpg" width="132" border="0" /></p> 
+      </td> 
+    </tr> 
+    <tr style="mso-yfti-irow: 4"> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 155.95pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span style="font-family: courier">3 <span class="SpellE">3<br /></span></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">X</span><b style="mso-bidi-font-weight: normal"><span style="font-family: courier">.</span></b><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">I</span><span style="font-family: courier"><br />.</span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">I</span><span class="GramE"><span style="font-family: courier">.</span></span><span style="font-family: courier"><br /></span><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">I</span><span style="font-family: courier">.. </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: medium none; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="247"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span style="font-family: courier">8 10 14 </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+    </tr> 
+    <tr style="mso-yfti-irow: 5; mso-yfti-lastrow: yes"> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 1pt solid; width: 155.95pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="208"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span style="font-family: courier">1 10</span><br /><span lang="EN-US" style="font-family: courier; mso-ansi-language: en-us">IIXIIXIXII</span><span style="font-family: courier"> </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+      <td style="border-right: windowtext 1pt solid; padding-right: 5.4pt; border-top: medium none; padding-left: 5.4pt; padding-bottom: 0cm; border-left: medium none; width: 163pt; padding-top: 0cm; border-bottom: windowtext 1pt solid; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt" valign="top" width="247"> 
+        <p class="MsoNormal" style="tab-stops: 184.3pt"><span style="font-family: courier">4 6 12 14 20 26 28 </span></p> 
+        <p></p> 
+        <p></p> 
+        <p></p> 
+      </td> 
+    </tr></tbody> 
+  </table></div></div></body> </html>

@@ -1,0 +1,50 @@
+CREATE DATABASE IF NOT EXISTS fpkif_site;
+CONNECT fpkif_site;
+CREATE TABLE IF NOT EXISTS users(	
+					ID INTEGER PRIMARY KEY AUTO_INCREMENT NOT NULL,
+					username VARCHAR(128) NOT NULL,
+					passhash VARCHAR(32) NOT NULL,
+					online BOOL DEFAULT FALSE,
+
+					name VARCHAR(128) DEFAULT 'Аноним',
+					secondname VARCHAR(128) DEFAULT 'Неизвестный',
+					fathername VARCHAR(128),
+					email VARCHAR(128),
+					phone VARCHAR(128),
+					homepage VARCHAR(128),
+					
+					icq VARCHAR(128),
+					jabber VARCHAR(128),
+					access VARCHAR(128) DEFAULT 1,
+					gender VARCHAR(1)
+				);
+
+CREATE TABLE IF NOT EXISTS sessions(
+					userid INTEGER REFERENCES users(ID) ON DELETE CASCADE,
+					sessid VARCHAR(128) NOT NULL
+				);
+
+CREATE TABLE IF NOT EXISTS subjects(
+					ID INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+					name VARCHAR(128)
+				);
+
+CREATE TABLE IF NOT EXISTS articles(
+					ID INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+					autor INTEGER  REFERENCES users(ID) ON DELETE SET NULL,
+					subject INTEGER NOT NULL REFERENCES users(ID) ON DELETE CASCADE,
+					title VARCHAR(256),
+					shorttext TEXT,
+					text TEXT,
+					code TEXT,
+					markup VARCHAR(1),
+					time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+				);
+
+CREATE TABLE IF NOT EXISTS comments(
+					ID INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+					article INTEGER NOT NULL REFERENCES articles(ID) ON DELETE CASCADE,
+					autor INTEGER  REFERENCES users(ID) ON DELETE SET NULL,
+					text TEXT,
+					time TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+				);

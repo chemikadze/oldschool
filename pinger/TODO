@@ -1,0 +1,4 @@
+			/// error if *tail==argv[i]
+			/// write	`void error(char* ERR)`
+			//todo error if *tail==argv[i]
+			//todo write	`void error(char* ERR)`

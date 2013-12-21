@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/03_firstorlast.dir/main.cpp.o  -o 03_firstorlast -rdynamic 

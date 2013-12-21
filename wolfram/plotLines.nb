@@ -1,0 +1,79 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      2205,         70]
+NotebookOptionsPosition[      1962,         57]
+NotebookOutlinePosition[      2294,         72]
+CellTagsIndexPosition[      2251,         69]
+WindowFrame->Normal
+ContainsDynamic->False*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"s", "=", 
+   RowBox[{"Table", "[", 
+    RowBox[{"0", ",", 
+     RowBox[{"{", "0", "}"}]}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Animate", "[", "\[IndentingNewLine]", "\t", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"s", "=", 
+     RowBox[{"Append", "[", 
+      RowBox[{"s", ",", " ", 
+       RowBox[{"Line", "[", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "  ", "0"}], "}"}], ",", " ", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", " ", 
+            RowBox[{"i", "+", "1"}]}], "}"}]}], "}"}], "]"}]}], "]"}]}], ";", 
+    "\[IndentingNewLine]", "\t", 
+    RowBox[{"Show", "[", 
+     RowBox[{"Graphics", "[", "s", "]"}], "]"}]}], ",", "\[IndentingNewLine]",
+    "\t", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", " ", "0", ",", " ", "10", ",", "1"}], "}"}], ",", 
+   "\[IndentingNewLine]", "\t", 
+   RowBox[{"AnimationRepetitions", "\[Rule]", "1"}]}], "\[IndentingNewLine]", 
+  "]"}]}], "Input",
+ CellChangeTimes->{{3.445423108056884*^9, 3.445423112024928*^9}, {
+  3.445428506547859*^9, 3.445428585521845*^9}, {3.445428732162606*^9, 
+  3.445428738189615*^9}, {3.445428804199189*^9, 3.44542887640263*^9}, {
+  3.44542941186327*^9, 3.445429628157357*^9}, {3.445429706532862*^9, 
+  3.445429707017995*^9}, {3.445429752234823*^9, 3.445429757379057*^9}, {
+  3.445429830715428*^9, 3.445429850948011*^9}}]
+},
+WindowSize->{640, 750},
+WindowMargins->{{16, Automatic}, {Automatic, 47}},
+FrontEndVersion->"6.0 for Linux x86 (32-bit) (June 2, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[568, 21, 1390, 34, 131, "Input"]
+}
+]
+*)
+
+(* End of internal cache information *)

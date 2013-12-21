@@ -1,0 +1,50 @@
+% Generator: GNU source-highlight, by Lorenzo Bettini, http://www.gnu.org/software/src-highlite
+\noindent
+\mbox{}\textbf{\#ifndef}\ WIDGET$\_$H \\
+\mbox{}\textbf{\#define}\ WIDGET$\_$H \\
+\mbox{} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QWidget\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtCore/QVector\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QPushButton\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QTableWidget\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QSpinBox\textgreater{}} \\
+\mbox{} \\
+\mbox{}\textbf{namespace}\ Ui \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \textbf{class}\ Widget; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}\textbf{class}\ Widget\ :\ \textbf{public}\ QWidget \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ Q$\_$OBJECT \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ m$\_$queries; \\
+\mbox{}\ \ \ \ \ \ \ \ int\ m$\_$moveCount; \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{readQueries}(); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{writeOutput}(QVector\ \textless{}int\textgreater{}\ tab); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ \textbf{algoFCFS}(); \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ \textbf{algoSSTF}(); \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ \textbf{algoScan}(bool\ cycle\ =\ \textbf{false}); \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ \textbf{algoLook}(bool\ cycle\ =\ \textbf{false}); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{moveHead}(int\&\ pos,\ int\ newPos); \\
+\mbox{} \\
+\mbox{}\textbf{public}: \\
+\mbox{}\ \ \ \ \textbf{Widget}(QWidget\ *parent\ =\ 0); \\
+\mbox{}\ \ \ \ \textasciitilde{}\textbf{Widget}(); \\
+\mbox{} \\
+\mbox{}\textbf{private}\ slots: \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{queryCountChanged}(int\ val); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{cylinderCountChanged}(int\ val); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{run}(); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{shuffle}(); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{generate}(); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{algoChanged}(int\ val); \\
+\mbox{} \\
+\mbox{}\textbf{private}: \\
+\mbox{}\ \ \ \ Ui::Widget\ *ui; \\
+\mbox{}\}; \\
+\mbox{} \\
+\mbox{}\textbf{\#endif}\ \textit{//\ WIDGET$\_$H} \\
+\mbox{}

@@ -1,0 +1,4 @@
+PROJECT(z2)
+
+ADD_EXECUTABLE(z2 z2.cpp)
+

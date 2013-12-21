@@ -1,0 +1,22 @@
+qmake -project	// auto-project
+FORMS		// ui
+TARGET		// bin-name
+LIBS		// либы для включения
+CONFIG		// что юзаем (qt warn_on release/debug gui etc)
+DESTDIR		// куда готовый модуль /WUT??
+DEFINES		// опции для компилятора.. WUT?
+INCLUDEPATH	// где искать хэдеры
+DEPENDPATH	// зависимости для компиляции
+SUBDIRS		// где находяцца другие .pro
+TEMPLATE	// что это? subdirs / app / lib
+TRANSLATIONS	// файлы перевода WUT?
+RESOURCES	// .qrc
+
+RCC:
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+	<file>images/img.png</file>
+</qresource>
+</RCC>
+
+plbl->setPixmap(QPixmap(":/images/img.png"));

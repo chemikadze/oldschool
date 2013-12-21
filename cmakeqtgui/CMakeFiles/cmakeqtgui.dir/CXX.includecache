@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chemikadze/programming/cmakeqtgui/cmakeqtgui.cpp
+cmakeqtgui.h
+/home/chemikadze/programming/cmakeqtgui/cmakeqtgui.h
+QtGui/QLabel
+-
+QtGui/QMenu
+-
+QtGui/QMenuBar
+-
+QtGui/QAction
+-
+cmakeqtgui.moc
+/home/chemikadze/programming/cmakeqtgui/cmakeqtgui.moc
+
+/home/chemikadze/programming/cmakeqtgui/cmakeqtgui.h
+QtGui/QMainWindow
+-
+
+/home/chemikadze/programming/cmakeqtgui/cmakeqtgui.moc
+cmakeqtgui.h
+/home/chemikadze/programming/cmakeqtgui/cmakeqtgui.h
+
+/home/chemikadze/programming/cmakeqtgui/main.cpp
+QtGui/QApplication
+-
+cmakeqtgui.h
+/home/chemikadze/programming/cmakeqtgui/cmakeqtgui.h
+

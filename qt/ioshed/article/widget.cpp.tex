@@ -1,0 +1,383 @@
+% Generator: GNU source-highlight, by Lorenzo Bettini, http://www.gnu.org/software/src-highlite
+\noindent
+\mbox{}\textbf{\#include}\ \texttt{"{}widget.h"{}} \\
+\mbox{}\textbf{\#include}\ \texttt{"{}ui$\_$widget.h"{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QTableWidgetItem\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}cmath\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QLinkedList\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}algorithm\textgreater{}} \\
+\mbox{} \\
+\mbox{}Widget::\textbf{Widget}(QWidget\ *parent) \\
+\mbox{}\ \ \ \ :\ \textbf{QWidget}(parent),\ \textbf{ui}(\textbf{new}\ Ui::Widget) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ ui-\textgreater{}\textbf{setupUi}(\textbf{this}); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}inputTable-\textgreater{}\textbf{setRowCount}(1); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}outputTable-\textgreater{}\textbf{setRowCount}(1); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(ui-\textgreater{}queryCount,\ \textbf{SIGNAL}(\textbf{valueChanged}(int)), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{SLOT}(\textbf{queryCountChanged}(int))); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(ui-\textgreater{}cylinderCount,\ \textbf{SIGNAL}(\textbf{valueChanged}(int)), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{SLOT}(\textbf{cylinderCountChanged}(int))); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(ui-\textgreater{}runButton,\ \textbf{SIGNAL}(\textbf{clicked}()), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{SLOT}(\textbf{run}())); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(ui-\textgreater{}generateButton,\ \textbf{SIGNAL}(\textbf{clicked}()), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{SLOT}(\textbf{generate}())); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(ui-\textgreater{}runButton,\ \textbf{SIGNAL}(\textbf{clicked}()), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{SLOT}(\textbf{run}())); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(ui-\textgreater{}shuffleButton,\ \textbf{SIGNAL}(\textbf{clicked}()), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{SLOT}(\textbf{shuffle}())); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(ui-\textgreater{}algoBox,\ \textbf{SIGNAL}(\textbf{currentIndexChanged}(int)), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{SLOT}(\textbf{algoChanged}(int))); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}queryCount-\textgreater{}\textbf{setValue}(10); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}cylinderCount-\textgreater{}\textbf{setValue}(100); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}startPosition-\textgreater{}\textbf{setValue}(15); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}algoBox-\textgreater{}\textbf{insertItem}(0,\ \textbf{tr}(\texttt{"{}FCFS\ (First\ Come\ First\ Served)"{}})); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}algoBox-\textgreater{}\textbf{insertItem}(1,\ \textbf{tr}(\texttt{"{}SSTF\ (Short\ Seek\ Time\ First)"{}})); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}algoBox-\textgreater{}\textbf{insertItem}(2,\ \textbf{tr}(\texttt{"{}Scan"{}})); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}algoBox-\textgreater{}\textbf{insertItem}(3,\ \textbf{tr}(\texttt{"{}C-Scan"{}})); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}algoBox-\textgreater{}\textbf{insertItem}(4,\ \textbf{tr}(\texttt{"{}Look"{}})); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}algoBox-\textgreater{}\textbf{insertItem}(5,\ \textbf{tr}(\texttt{"{}C-Look"{}})); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}algoBox-\textgreater{}\textbf{setCurrentIndex}(5); \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{queryCountChanged}(int\ val) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ int\ oldSize\ =\ ui-\textgreater{}inputTable-\textgreater{}\textbf{columnCount}(); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}inputTable-\textgreater{}\textbf{setColumnCount}(val); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i\ =\ oldSize;\ i\ \textless{}\ val;\ i++) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QTableWidgetItem\ *item\ =\ \textbf{new}\ \textbf{QTableWidgetItem}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ item-\textgreater{}\textbf{setData}(Qt::DisplayRole,\ 0); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ui-\textgreater{}inputTable-\textgreater{}\textbf{setItem}(0,\ i,\ item); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{cylinderCountChanged}(int\ val) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=0;\ i\ \textless{}\ ui-\textgreater{}inputTable-\textgreater{}\textbf{columnCount}();\ ++i) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QTableWidgetItem\ *item\ =\ ui-\textgreater{}inputTable-\textgreater{}\textbf{item}(0,\ i); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ item-\textgreater{}\textbf{setData}(Qt::DisplayRole,\ item-\textgreater{}\textbf{data}(Qt::DisplayRole).\textbf{toInt}()\ \%\ ui-\textgreater{}cylinderCount-\textgreater{}\textbf{value}()\ ); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}startPosition-\textgreater{}\textbf{setMaximum}(val); \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}Widget::\textasciitilde{}\textbf{Widget}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \textbf{delete}\ ui; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{run}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{readQueries}(); \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$moveCount\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ res; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{switch}\ (ui-\textgreater{}algoBox-\textgreater{}\textbf{currentIndex}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{case}\ 0:\ \textit{//\ FCFS} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ =\ \textbf{algoFCFS}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{break}; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{case}\ 1:\ \textit{//\ SSTF} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ =\ \textbf{algoSSTF}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{break}; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{case}\ 2:\ \textit{//\ Scan} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ =\ \textbf{algoScan}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{break}; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{case}\ 3:\ \textit{//\ C-Scan} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ =\ \textbf{algoScan}(\textbf{true}); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{break}; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{case}\ 4:\ \textit{//\ Look} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ =\ \textbf{algoLook}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{break}; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{case}\ 5:\ \textit{//\ C-Look} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\ =\ \textbf{algoLook}(\textbf{true}); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{break}; \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}infoLabel-\textgreater{}\textbf{setText}(\ \textbf{tr}(\texttt{"{}Длина\ пробега\ головки\ жесткого\ диска:\ \%1"{}}).\textbf{arg}(m$\_$moveCount)\ ); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{writeOutput}(res); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}hddSheme-\textgreater{}\textbf{setVector}(res); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}hddSheme-\textgreater{}\textbf{setCylinderCount}(ui-\textgreater{}cylinderCount-\textgreater{}\textbf{value}()); \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}hddSheme-\textgreater{}\textbf{play}(); \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}QVector\ \textless{}int\textgreater{}\ Widget::\textbf{algoFCFS}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ res; \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{reserve}(m$\_$queries.\textbf{size}()+1); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ int\ pos\ =\ ui-\textgreater{}startPosition-\textgreater{}\textbf{value}(); \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=0;\ i\ \textless{}\ m$\_$queries.\textbf{size}();\ ++i) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ m$\_$queries[i]); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{return}\ res; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}QVector\ \textless{}int\textgreater{}\ Widget::\textbf{algoSSTF}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ res; \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{reserve}(m$\_$queries.\textbf{size}()+1); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ int\ pos\ =\ ui-\textgreater{}startPosition-\textgreater{}\textbf{value}(); \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ QSet\ \textless{}int\textgreater{}\ unused; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{foreach}\ (int\ elem,\ m$\_$queries) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unused.\textbf{insert}(elem); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{while}\ (unused.\textbf{size}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ int\ next,\ minDist\ =\ INT$\_$MAX; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{foreach}\ (int\ ni,\ unused) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (\textbf{abs}(ni-pos)\ \textless{}\ minDist) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ next\ =\ ni; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ minDist\ =\ \textbf{abs}(ni-pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unused.\textbf{remove}(next); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ next); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{return}\ res; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}QVector\ \textless{}int\textgreater{}\ Widget::\textbf{algoScan}(bool\ cycle\ \textit{/*\ =\ false\ */}) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ res; \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{reserve}(m$\_$queries.\textbf{size}()+1); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{enum}\ Direction\ \{\ LeftToRight,\ RightToLeft\ \}\ direction; \\
+\mbox{}\ \ \ \ \ \ \ \ direction\ =\ ui-\textgreater{}directionBar-\textgreater{}\textbf{value}()\ ?\ LeftToRight\ :\ RightToLeft; \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ int\ pos\ =\ ui-\textgreater{}startPosition-\textgreater{}\textbf{value}(); \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$queries.\textbf{append}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{qSort}(m$\_$queries); \\
+\mbox{}\ \ \ \ \ \ \ \ QLinkedList\ \textless{}int\textgreater{}\ unread; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{foreach}\ (int\ val,\ m$\_$queries) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{append}(val); \\
+\mbox{}\ \ \ \ \ \ \ \ QLinkedList\ \textless{}int\textgreater{}::iterator\ it; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (direction\ ==\ LeftToRight) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{for}\ (it\ =\ unread.\textbf{begin}();\ *it!=pos;\ ++it); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{for}\ (it\ =\ unread.\textbf{end}()-1;\ *it!=pos;\ -\/-it); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{while}\ (unread.\textbf{count}()-1) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (direction\ ==\ LeftToRight) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (it+1\ !=\ unread.\textbf{end}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *(++it)); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it-1); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (cycle) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ ui-\textgreater{}cylinderCount-\textgreater{}\textbf{value}()); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ 0); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ =\ unread.\textbf{begin}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *it); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ ui-\textgreater{}cylinderCount-\textgreater{}\textbf{value}()); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ direction\ =\ RightToLeft; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (it\ !=\ unread.\textbf{begin}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *(-\/-it)); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it+1); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (cycle) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ 0); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ ui-\textgreater{}cylinderCount-\textgreater{}\textbf{value}()); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ =\ unread.\textbf{end}()-1; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *(it)); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ 0); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ direction\ =\ LeftToRight; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{return}\ res; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}QVector\ \textless{}int\textgreater{}\ Widget::\textbf{algoLook}(bool\ cycle\ \textit{/*\ =\ false\ */}\ ) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ res; \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{reserve}(m$\_$queries.\textbf{size}()+1); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{enum}\ Direction\ \{\ LeftToRight,\ RightToLeft\ \}\ direction; \\
+\mbox{}\ \ \ \ \ \ \ \ direction\ =\ ui-\textgreater{}directionBar-\textgreater{}\textbf{value}()\ ?\ LeftToRight\ :\ RightToLeft; \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ int\ pos\ =\ ui-\textgreater{}startPosition-\textgreater{}\textbf{value}(); \\
+\mbox{}\ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$queries.\textbf{append}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{qSort}(m$\_$queries); \\
+\mbox{}\ \ \ \ \ \ \ \ QLinkedList\ \textless{}int\textgreater{}\ unread; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{foreach}\ (int\ val,\ m$\_$queries) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{append}(val); \\
+\mbox{}\ \ \ \ \ \ \ \ QLinkedList\ \textless{}int\textgreater{}::iterator\ it; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (direction\ ==\ LeftToRight) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{for}\ (it\ =\ unread.\textbf{begin}();\ *it!=pos;\ ++it); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{for}\ (it\ =\ unread.\textbf{end}()-1;\ *it!=pos;\ -\/-it); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{while}\ (unread.\textbf{count}()-1) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (direction\ ==\ LeftToRight) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (it+1\ !=\ unread.\textbf{end}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *(++it)); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it-1); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (cycle) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ =\ unread.\textbf{begin}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *it); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ direction\ =\ RightToLeft; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (it\ !=\ unread.\textbf{begin}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *(-\/-it)); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it+1); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (cycle) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread.\textbf{erase}(it); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ =\ unread.\textbf{end}()-1; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{moveHead}(pos,\ *(it)); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res.\textbf{push$\_$back}(pos); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ direction\ =\ LeftToRight; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{return}\ res; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{readQueries}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$queries.\textbf{resize}(\ ui-\textgreater{}queryCount-\textgreater{}\textbf{value}()\ ); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=0;\ i\ \textless{}\ m$\_$queries.\textbf{count}();\ ++i) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QTableWidgetItem\ *item\ =\ ui-\textgreater{}inputTable-\textgreater{}\textbf{item}(0,\ i); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (item) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$queries[i]\ =\ item-\textgreater{}\textbf{data}(Qt::DisplayRole).\textbf{toInt}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$queries[i]\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{writeOutput}(QVector\ \textless{}int\textgreater{}\ tab) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}outputTable-\textgreater{}\textbf{setColumnCount}(tab.\textbf{count}()); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=0;\ i\ \textless{}\ tab.\textbf{count}();\ ++i) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QTableWidgetItem\ *item\ =\ ui-\textgreater{}outputTable-\textgreater{}\textbf{item}(0,\ i); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (item) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ item-\textgreater{}\textbf{setData}(Qt::DisplayRole,\ tab[i]); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ item\ =\ \textbf{new}\ \textbf{QTableWidgetItem}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ item-\textgreater{}\textbf{setFlags}(\ (item-\textgreater{}\textbf{flags}()\ $|$\ Qt::ItemIsEditable)\ \textasciicircum{}\ Qt::ItemIsEditable\ ); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ item-\textgreater{}\textbf{setData}(\ Qt::DisplayRole,\ tab[i]\ ); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ui-\textgreater{}outputTable-\textgreater{}\textbf{setItem}(0,\ i,\ item); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{generate}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=0;\ i\ \textless{}\ ui-\textgreater{}inputTable-\textgreater{}\textbf{columnCount}();\ ++i) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QTableWidgetItem\ *item\ =\ ui-\textgreater{}inputTable-\textgreater{}\textbf{item}(0,\ i); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ item-\textgreater{}\textbf{setData}(0,\ \textbf{rand}()\ \%\ ui-\textgreater{}cylinderCount-\textgreater{}\textbf{value}()\ ); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{shuffle}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{//\ Fisher-Yates\ algorithm} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=ui-\textgreater{}inputTable-\textgreater{}\textbf{columnCount}()-1;\ i\ \textgreater{}\ 0;\ -\/-i) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ int\ k\ =\ \textbf{rand}()\ \%\ (i+1); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (k\ ==\ i) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{continue}; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QTableWidgetItem\ *itemI\ =\ ui-\textgreater{}inputTable-\textgreater{}\textbf{takeItem}(0,\ i); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ QTableWidgetItem\ *itemK\ =\ ui-\textgreater{}inputTable-\textgreater{}\textbf{takeItem}(0,\ k); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ui-\textgreater{}inputTable-\textgreater{}\textbf{setItem}(0,\ k,\ itemI); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ui-\textgreater{}inputTable-\textgreater{}\textbf{setItem}(0,\ i,\ itemK); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{moveHead}(int\&\ pos,\ int\ newPos) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$moveCount\ +=\ \textbf{abs}(pos\ -\ newPos); \\
+\mbox{}\ \ \ \ \ \ \ \ pos\ =\ newPos; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ Widget::\textbf{algoChanged}(int\ val) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ ui-\textgreater{}directionBar-\textgreater{}\textbf{setEnabled}(val\ \textgreater{}=\ 2\ \&\&\ val\ \textless{}=\ 5); \\
+\mbox{}\} \\
+\mbox{}

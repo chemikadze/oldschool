@@ -1,0 +1,43 @@
+td.title
+{color: #000000;
+ font-family: Arial Black; 
+ background-color: #C0C0C0;
+}
+
+td.menu
+{color: #000000;
+ font-family: Arial Black; 
+ background-color: #C0C0C0;
+}
+
+td.content
+{color: #000000; 
+ background-color: #E8F7FF;
+}
+
+a.menu
+{color: #000000;
+ font-family: Arial Black; 
+ background-color: #C0C0C0; 
+ text-decoration:none;
+}
+
+a:active.menu
+{color: #000000;
+ font-family: Arial Black; 
+ background-color: #00B000; 
+ text-decoration:none
+}
+
+a
+{color: #000080;
+ font-family: Arial; 
+ text-decoration:underline 
+}
+
+a:active
+{
+font-family: Arial; 
+color: #000080; 
+text-decoration: none underline; 
+font-weight:bold}

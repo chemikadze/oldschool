@@ -1,0 +1,14 @@
+Old:
+real    1m40.359s
+user    1m0.708s
+sys     0m2.852s
+
+Correct includes:
+real    0m53.522s
+user    0m37.078s
+sys     0m1.796s
+
+Correct includes + /tmp on /dev/mem
+real    0m51.130s
+user    0m37.034s
+sys     0m1.788s

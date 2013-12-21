@@ -1,0 +1,54 @@
+.itemBorder {
+	BORDER-RIGHT: white 0px solid; BACKGROUND-POSITION: left bottom; BORDER-TOP: white 0px solid; BACKGROUND-IMAGE: url(/i/sep2.gif); BORDER-LEFT: white 0px solid; CURSOR: pointer; BORDER-BOTTOM: white 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #336699
+}
+.itemBorder TD {
+	CURSOR: hand; TEXT-ALIGN: left
+}
+.itemBorder TD A {
+	FONT-SIZE: 8pt; COLOR: white; TEXT-DECORATION: none
+}
+.itemBorder TD A:hover {
+	COLOR: yellow; TEXT-DECORATION: underline
+}
+.itemText {
+	FONT: 12px Arial, Helvetica
+}
+.menuBorder {
+	BORDER-RIGHT: black 0px solid; BACKGROUND-POSITION: left bottom; BORDER-TOP: black 0px solid; BACKGROUND-IMAGE: url(/i/sep1.gif); BORDER-LEFT: black 0px solid; CURSOR: pointer; BORDER-BOTTOM: black 0px solid; BACKGROUND-REPEAT: no-repeat; BACKGROUND-COLOR: #336699; TEXT-ALIGN: center
+}
+.menuBorder TD {
+	CURSOR: hand; TEXT-ALIGN: left
+}
+.menuBorder TD A {
+	FONT-SIZE: 9pt; COLOR: white; TEXT-DECORATION: none
+}
+.menuBorder TD A:hover {
+	COLOR: yellow; TEXT-DECORATION: underline
+}
+.menuText {
+	FONT: 12px Arial, Helvetica
+}
+.partitions-list {
+	FONT-WEIGHT: bold; FONT-SIZE: 20pt; LIST-STYLE-IMAGE: none; COLOR: #ff3333; TEXT-ALIGN: center
+}
+.partitions-list-title {
+	MARGIN-TOP: 10pt; MARGIN-BOTTOM: 10pt
+}
+.partitions-list-item {
+	COLOR: #ff3333
+}
+.partitions-list-item A {
+	COLOR: #ff3333
+}
+.partitions-list-item A:hover {
+	COLOR: #ff3333
+}
+IMG.logo {
+	FLOAT: left; VERTICAL-ALIGN: middle; MARGIN-RIGHT: 10px
+}
+DIV.logo {
+	CLEAR: left; MARGIN: 0px; VERTICAL-ALIGN: middle; HEIGHT: 75px
+}
+DIV.logo P {
+	PADDING-TOP: 30px
+}

@@ -1,0 +1,162 @@
+.header2 {
+	FONT-WEIGHT: bolder; FONT-SIZE: 11pt; VERTICAL-ALIGN: middle; COLOR: #0066aa; FONT-FAMILY: Verdana; TEXT-ALIGN: left
+}
+BODY.no_margin {
+	MARGIN: 0px
+}
+BODY.gray_body {
+	MARGIN: 0px; BACKGROUND-COLOR: #f4f4f4
+}
+TR.row1 {
+	VERTICAL-ALIGN: bottom; HEIGHT: 1px
+}
+TR.row2 {
+	VERTICAL-ALIGN: top; HEIGHT: 1px
+}
+TR.row3 {
+	VERTICAL-ALIGN: middle; HEIGHT: 1px
+}
+TR.row4 {
+	VERTICAL-ALIGN: top; HEIGHT: auto
+}
+TR.row5 {
+	VERTICAL-ALIGN: bottom
+}
+.text {
+	FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana; TEXT-ALIGN: justify
+}
+.link {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; COLOR: #00417e; FONT-FAMILY: Verdana; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.ActiveLink {
+	FONT-WEIGHT: bolder; FONT-SIZE: 10pt; VERTICAL-ALIGN: middle; COLOR: #cc0000; FONT-FAMILY: Verdana; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+TABLE.main_table {
+	BORDER-RIGHT: white 2px solid; BORDER-TOP: white 6px solid; BORDER-BOTTOM-WIDTH: 0px; VERTICAL-ALIGN: top; BORDER-LEFT: white 2px solid; WIDTH: 740px; HEIGHT: 100%; BACKGROUND-COLOR: white
+}
+TABLE.std_table {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-COLLAPSE: collapse
+}
+.error {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: red; FONT-FAMILY: Tahoma
+}
+.default {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana
+}
+.pole {
+	BACKGROUND-COLOR: #f4f4f4
+}
+.Input {
+	BORDER-RIGHT: #0066aa 1px solid; BORDER-TOP: #0066aa 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 10pt; BORDER-LEFT: #0066aa 1px solid; BORDER-BOTTOM: #0066aa 1px solid; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #f4f4f4
+}
+.R4P_header_2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; COLOR: #0066aa; FONT-FAMILY: Verdana
+}
+.nameStyle {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #00417e; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.nameStyle:hover {
+	COLOR: #858585
+}
+.loginStyle {
+	FONT-WEIGHT: normal; FONT-SIZE: 10pt; COLOR: #000000; FONT-FAMILY: Verdana; HEIGHT: 20px; TEXT-DECORATION: none
+}
+.tableheadStyle {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana; HEIGHT: 30px; BACKGROUND-COLOR: #f4f4f4
+}
+.alternativeTableheadStyle {
+	PADDING-RIGHT: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffa42f
+}
+.left {
+	BORDER-LEFT: #f4f4f4 1px solid; PADDING-TOP: 3px
+}
+.left_without_line {
+	BORDER-LEFT: medium none; PADDING-TOP: 3px
+}
+.top {
+	BORDER-TOP: #00ff00 1px solid
+}
+.R4P_list_separator {
+	COLOR: #f4f4f4
+}
+.R4p_aut_user {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #ffffff; FONT-FAMILY: Verdana
+}
+.R4p_aut_prof {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #181818; FONT-FAMILY: Verdana
+}
+.R4p_aut_fio {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #437d10; FONT-FAMILY: Verdana
+}
+.R4P_aut_text {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #4da103; FONT-FAMILY: Verdana
+}
+.R4P_aut_table {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 10px; BORDER-TOP: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+.R4P_btn A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2a510c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.R4P_btn A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2a510c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.R4P_btn A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2a510c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.R4P_btn A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2a510c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.up {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffa42f
+}
+.down {
+	BACKGROUND-COLOR: #cf4f00
+}
+.up_home {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: white; FONT-FAMILY: Verdana; BACKGROUND-COLOR: #ffa42f
+}
+.down_home {
+	BACKGROUND-COLOR: #cf4f00
+}
+.R4P_bottom_line1 {
+	HEIGHT: 1px; BACKGROUND-COLOR: #0066aa
+}
+.R4P_bottom_mid {
+	HEIGHT: 2px
+}
+.R4P_bottom_line2 {
+	HEIGHT: 25px; BACKGROUND-COLOR: #0066aa
+}
+.R4P_olimp_txt {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #00417e; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.R4P_olimp_lnk {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #2a510c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.R4P_olimp_lnk:hover {
+	COLOR: #858585
+}
+.R4P_befor {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 5px
+}
+BODY {
+	BACKGROUND-COLOR: white
+}
+.imageButtonHome A:link {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #00286c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.imageButtonHome A:active {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #00286c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.imageButtonHome A:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #00286c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.imageButtonHome A:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #00286c; FONT-FAMILY: Verdana; TEXT-DECORATION: none
+}
+.blue_color {
+	COLOR: #0066aa
+}
+.blue_back_color {
+	BACKGROUND-COLOR: #0066aa
+}

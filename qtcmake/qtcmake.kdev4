@@ -1,0 +1,4 @@
+[Project]
+Name=qtcmake
+Manager=KDevCMakeManager
+VersionControl=

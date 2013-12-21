@@ -1,0 +1,44 @@
+% Generator: GNU source-highlight, by Lorenzo Bettini, http://www.gnu.org/software/src-highlite
+\noindent
+\mbox{}\textbf{\#ifndef}\ HDDWIDGET$\_$H \\
+\mbox{}\textbf{\#define}\ HDDWIDGET$\_$H \\
+\mbox{} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtCore/QVector\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QWidget\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtCore/QTimer\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QPainterPath\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QImage\textgreater{}} \\
+\mbox{} \\
+\mbox{}\textbf{class}\ HddWidget\ :\ \textbf{public}\ QWidget \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ Q$\_$OBJECT \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ int\ m$\_$cylSwitchTime; \\
+\mbox{}\ \ \ \ \ \ \ \ int\ m$\_$currentI; \\
+\mbox{}\ \ \ \ \ \ \ \ int\ m$\_$currentCyl; \\
+\mbox{}\ \ \ \ \ \ \ \ int\ m$\_$cylCount; \\
+\mbox{}\ \ \ \ \ \ \ \ int\ m$\_$repaintTimerId; \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textless{}int\textgreater{}\ m$\_$vector; \\
+\mbox{}\ \ \ \ \ \ \ \ QTimer\ timer; \\
+\mbox{} \\
+\mbox{}\textbf{private}\ slots: \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{timerTimeout}(); \\
+\mbox{} \\
+\mbox{}\textbf{protected}: \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{virtual}\ void\ \textbf{paintEvent}(QPaintEvent*); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{translateCoords}(QPainter\&\ p); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{virtual}\ void\ \textbf{timerEvent}(QTimerEvent\ *\ event); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{virtual}\ void\ \textbf{mousePressEvent}(QMouseEvent\ *); \\
+\mbox{} \\
+\mbox{}\textbf{public}: \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{setVector}(QVector\ \textless{}int\textgreater{}\ v); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{play}(); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{pause}(); \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{stop}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{inline}\ bool\ \textbf{playing}()\ \{\ \textbf{return}\ m$\_$repaintTimerId;\ \} \\
+\mbox{}\ \ \ \ \ \ \ \ void\ \textbf{setCylinderCount}(int\ count); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{HddWidget}(QWidget\ *parent\ =\ NULL); \\
+\mbox{}\}; \\
+\mbox{} \\
+\mbox{}\textbf{\#endif}\ \textit{//\ HDDWIDGET$\_$H} \\
+\mbox{}

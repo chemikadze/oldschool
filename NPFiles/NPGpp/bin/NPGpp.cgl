@@ -1,0 +1,77 @@
+Functions called:
+ fflush (4 times)
+ delete (52 times)
+ fprintf (2 times)
+ strcmp (99589 times)
+ memmove (6 times)
+ strstr (188 times)
+ strcpy (24 times)
+ vsnprintf (4454 times)
+ fclose (2 times)
+ fscanf (2 times)
+ fopen (2 times)
+ time (1 times)
+ SysReallocMem (1361 times)
+ SysFreeMem (6134 times)
+ memset (10 times)
+ strlen (81218 times)
+ realloc (1 times)
+ strdup (1 times)
+ memcpy (2 times)
+ SysGetMem (6151 times)
+ delete[] (7 times)
+ free (63 times)
+ new[] (19 times)
+ new (59 times)
+ calloc (12 times)
+ malloc (51 times)
+Resource types used:
+ file stream (2 allocs, 1 max)
+ file handle (2 allocs, 1 max)
+ object array (19 allocs, 15 max)
+ object (59 allocs, 47 max)
+ memory block (6216 allocs, 958 max)
+Modules used:
+ 00330000 02/01/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\vclx60.bpl
+ 004017E4 06/01/2008 13:04:52
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\NPGpp.exe
+ 00D20000 08/09/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\BORLNDMM.DLL
+ 0CD00000 02/01/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\CG32.DLL
+ 32600000 08/09/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\CC3260MT.DLL
+ 40000000 02/01/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\rtl60.bpl
+ 400B0000 02/01/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\vcl60.bpl
+ 50600000 02/01/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\bcbsmp60.bpl
+ 7B810000 05/04/2010 16:26:58 C:\windows\system32\KERNEL32.dll
+ 7BC10000 05/04/2010 16:26:58 C:\windows\system32\ntdll.dll
+ 7DE50000 05/04/2010 16:26:58 C:\windows\system32\uxtheme.dll
+ 7DEB0000 05/04/2010 16:26:58 C:\windows\system32\imm32.dll
+ 7E070000 05/04/2010 16:26:58 C:\windows\system32\winex11.drv
+ 7E250000 05/04/2010 16:26:58 C:\windows\system32\winmm.dll
+ 7E2E0000 05/04/2010 16:26:58 C:\windows\system32\oledlg.dll
+ 7E310000 05/04/2010 16:26:58 C:\windows\system32\shlwapi.dll
+ 7E370000 05/04/2010 16:26:58 C:\windows\system32\shell32.dll
+ 7E540000 05/04/2010 16:26:58 C:\windows\system32\comdlg32.dll
+ 7E600000 05/04/2010 16:26:58 C:\windows\system32\winspool.drv
+ 7E640000 05/04/2010 16:26:58 C:\windows\system32\comctl32.dll
+ 7E720000 05/04/2010 16:26:58 C:\windows\system32\lz32.dll
+ 7E750000 05/04/2010 16:26:58 C:\windows\system32\version.dll
+ 7E770000 05/04/2010 16:26:58 C:\windows\system32\iphlpapi.dll
+ 7E790000 05/04/2010 16:26:58 C:\windows\system32\ws2_32.dll
+ 7E7C0000 05/04/2010 16:26:58 C:\windows\system32\mpr.dll
+ 7E7E0000 05/04/2010 16:26:58 C:\windows\system32\rpcrt4.dll
+ 7E860000 05/04/2010 16:26:58 C:\windows\system32\ole32.dll
+ 7E960000 05/04/2010 16:26:58 C:\windows\system32\oleaut32.dll
+ 7EA40000 05/04/2010 16:26:58 C:\windows\system32\advapi32.dll
+ 7EA90000 05/04/2010 16:26:58 C:\windows\system32\gdi32.dll
+ 7EB30000 05/04/2010 16:26:58 C:\windows\system32\user32.dll
+ 7EFF0000 05/04/2010 16:26:58 C:\windows\system32\wsock32.dll
+ FFFFE898 02/01/2002 17:00:00
+ Z:\home\chemikadze\programming\NPFiles\NPGpp\bin\CG32.DLL
+==========================================

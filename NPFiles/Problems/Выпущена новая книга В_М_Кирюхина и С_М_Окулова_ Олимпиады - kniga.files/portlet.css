@@ -1,0 +1,3000 @@
+.grayportlet {
+	WIDTH: 100%
+}
+.grayportlet THEAD TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_head_bg_left.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.grayportlet THEAD TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_head_bg_right.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.grayportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/gray_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.grayportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_head_bg.gif)
+}
+.grayportlet THEAD TD.center A {
+	COLOR: #ffffff
+}
+.grayportlet THEAD TD.center A:link {
+	COLOR: #ffffff
+}
+.grayportlet THEAD TD.center A:hover {
+	COLOR: #ffffff
+}
+.grayportlet THEAD TD.center A:active {
+	COLOR: #ffffff
+}
+.grayportlet THEAD TD.center A:visited {
+	COLOR: #ffffff
+}
+.grayportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_body_bg_left.gif); WIDTH: 5px
+}
+.grayportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_body_bg_right.gif); WIDTH: 5px
+}
+.grayportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.grayportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #a1a1a1
+}
+.grayportlet TBODY TD.center A {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.grayportlet TBODY TD.center A:link {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.grayportlet TBODY TD.center A:hover {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.grayportlet TBODY TD.center A:active {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.grayportlet TBODY TD.center A:visited {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.grayportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link2.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link2.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link2.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link2.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link2.gif); COLOR: #474747; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #474747
+}
+.grayportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #474747; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.grayportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.grayportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/gray_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.grayportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.grayportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.grayportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/gray_foot_bg.gif); HEIGHT: 5px
+}
+.grayportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #a1a1a1
+}
+.orangeportlet {
+	WIDTH: 100%
+}
+.orangeportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/orange_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.orangeportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/orange_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.orangeportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/orange_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.orangeportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/orange_head_bg.gif)
+}
+.orangeportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.orangeportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.orangeportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.orangeportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.orangeportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.orangeportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/orange_body_bg_left.gif); WIDTH: 5px
+}
+.orangeportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/orange_body_bg_right.gif); WIDTH: 5px
+}
+.orangeportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.orangeportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #ff9c01
+}
+.orangeportlet TBODY TD.center A {
+	COLOR: #ff9c01; TEXT-DECORATION: none
+}
+.orangeportlet TBODY TD.center A:link {
+	COLOR: #ff9c01; TEXT-DECORATION: none
+}
+.orangeportlet TBODY TD.center A:hover {
+	COLOR: #ff9c01; TEXT-DECORATION: none
+}
+.orangeportlet TBODY TD.center A:active {
+	COLOR: #ff9c01; TEXT-DECORATION: none
+}
+.orangeportlet TBODY TD.center A:visited {
+	COLOR: #ff9c01; TEXT-DECORATION: none
+}
+.orangeportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link2.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link2.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link2.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link2.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link2.gif); COLOR: #ff9c01; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #ff9c01
+}
+.orangeportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #ff9c01; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.orangeportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.orangeportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/orange_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.orangeportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/orange_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.orangeportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/orange_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.orangeportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/orange_foot_bg.gif); HEIGHT: 5px
+}
+.orangeportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #ff9c01
+}
+.blueportlet {
+	WIDTH: 100%
+}
+.blueportlet THEAD TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_head_bg_left.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.blueportlet THEAD TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_head_bg_right.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.blueportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/blue_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.blueportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_head_bg.gif)
+}
+.blueportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.blueportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.blueportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.blueportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.blueportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.blueportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_body_bg_left.gif); WIDTH: 5px
+}
+.blueportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_body_bg_right.gif); WIDTH: 5px
+}
+.blueportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.blueportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #1381bb
+}
+.blueportlet TBODY TD.center A {
+	COLOR: #1381bb; TEXT-DECORATION: none
+}
+.blueportlet TBODY TD.center A:link {
+	COLOR: #1381bb; TEXT-DECORATION: none
+}
+.blueportlet TBODY TD.center A:hover {
+	COLOR: #1381bb; TEXT-DECORATION: none
+}
+.blueportlet TBODY TD.center A:active {
+	COLOR: #1381bb; TEXT-DECORATION: none
+}
+.blueportlet TBODY TD.center A:visited {
+	COLOR: #1381bb; TEXT-DECORATION: none
+}
+.blueportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link2.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link2.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link2.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link2.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link2.gif); COLOR: #1381bb; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #1381bb
+}
+.blueportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #1381bb; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.blueportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.blueportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/blue_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.blueportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.blueportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.blueportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/blue_foot_bg.gif); HEIGHT: 5px
+}
+.blueportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #1381bb
+}
+.redportlet {
+	WIDTH: 100%
+}
+.redportlet THEAD TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/red_head_bg_left.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.redportlet THEAD TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/red_head_bg_right.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.redportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/red_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.redportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/red_head_bg.gif)
+}
+.redportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.redportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.redportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.redportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.redportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.redportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/red_body_bg_left.gif); WIDTH: 5px
+}
+.redportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/red_body_bg_right.gif); WIDTH: 5px
+}
+.redportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.redportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #d60000
+}
+.redportlet TBODY TD.center A {
+	COLOR: #d60000; TEXT-DECORATION: none
+}
+.redportlet TBODY TD.center A:link {
+	COLOR: #d60000; TEXT-DECORATION: none
+}
+.redportlet TBODY TD.center A:hover {
+	COLOR: #d60000; TEXT-DECORATION: none
+}
+.redportlet TBODY TD.center A:active {
+	COLOR: #d60000; TEXT-DECORATION: none
+}
+.redportlet TBODY TD.center A:visited {
+	COLOR: #d60000; TEXT-DECORATION: none
+}
+.redportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/red_body_link.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/red_body_link.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/red_body_link.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/red_body_link.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/red_body_link.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/red_body_link2.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/red_body_link2.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/red_body_link2.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/red_body_link2.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/red_body_link2.gif); COLOR: #d60000; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #d60000
+}
+.redportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #d60000; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.redportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.redportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/red_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.redportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/red_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.redportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/red_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.redportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/red_foot_bg.gif); HEIGHT: 5px
+}
+.redportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #d60000
+}
+.greenportlet {
+	WIDTH: 100%
+}
+.greenportlet THEAD TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/green_head_bg_left.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.greenportlet THEAD TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/green_head_bg_right.gif); WIDTH: 5px; HEIGHT: 31px
+}
+.greenportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/green_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.greenportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.greenportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.greenportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.greenportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.greenportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.greenportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/green_head_bg.gif)
+}
+.greenportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/green_body_bg_left.gif); WIDTH: 5px
+}
+.greenportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/green_body_bg_right.gif); WIDTH: 5px
+}
+.greenportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.greenportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #04cb0d
+}
+.greenportlet TBODY TD.center A {
+	COLOR: #0dc015; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A:link {
+	COLOR: #0dc015; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A:hover {
+	COLOR: #0dc015; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A:active {
+	COLOR: #0dc015; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A:visited {
+	COLOR: #0dc015; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/green_body_link.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/green_body_link.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/green_body_link.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/green_body_link.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/green_body_link.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/green_body_link2.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/green_body_link2.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/green_body_link2.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/green_body_link2.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/green_body_link2.gif); COLOR: #0dc015; BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: none
+}
+.greenportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #0dc015
+}
+.greenportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #86df8a; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.greenportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.greenportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/green_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.greenportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/green_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.greenportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/green_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.greenportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/green_foot_bg.gif); HEIGHT: 5px
+}
+.greenportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #04cb0d
+}
+.crimsonportlet {
+	WIDTH: 100%
+}
+.crimsonportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/crimson_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.crimsonportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/crimson_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.crimsonportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/crimson_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.crimsonportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/crimson_head_bg.gif)
+}
+.crimsonportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.crimsonportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.crimsonportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.crimsonportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.crimsonportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.crimsonportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/crimson_body_bg_left.gif); WIDTH: 5px
+}
+.crimsonportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/crimson_body_bg_right.gif); WIDTH: 5px
+}
+.crimsonportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.crimsonportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #ef282f
+}
+.crimsonportlet TBODY TD.center A {
+	COLOR: #ef282f; TEXT-DECORATION: none
+}
+.crimsonportlet TBODY TD.center A:link {
+	COLOR: #ef282f; TEXT-DECORATION: none
+}
+.crimsonportlet TBODY TD.center A:hover {
+	COLOR: #ef282f; TEXT-DECORATION: none
+}
+.crimsonportlet TBODY TD.center A:active {
+	COLOR: #ef282f; TEXT-DECORATION: none
+}
+.crimsonportlet TBODY TD.center A:visited {
+	COLOR: #ef282f; TEXT-DECORATION: none
+}
+.crimsonportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link2.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link2.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link2.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link2.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link2.gif); COLOR: #ef282f; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #ef282f
+}
+.crimsonportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #ef282f; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.crimsonportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.crimsonportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/crimson_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.crimsonportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/crimson_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.crimsonportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/crimson_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.crimsonportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/crimson_foot_bg.gif); HEIGHT: 5px
+}
+.crimsonportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #ef282f
+}
+.tealportlet {
+	WIDTH: 100%
+}
+.tealportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/teal_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.tealportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/teal_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.tealportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/teal_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.tealportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/teal_head_bg.gif)
+}
+.tealportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tealportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tealportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tealportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tealportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.tealportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/teal_body_bg_left.gif); WIDTH: 5px
+}
+.tealportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/teal_body_bg_right.gif); WIDTH: 5px
+}
+.tealportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.tealportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #10a0c2
+}
+.tealportlet TBODY TD.center A {
+	COLOR: #10a0c2; TEXT-DECORATION: none
+}
+.tealportlet TBODY TD.center A:link {
+	COLOR: #10a0c2; TEXT-DECORATION: none
+}
+.tealportlet TBODY TD.center A:hover {
+	COLOR: #10a0c2; TEXT-DECORATION: none
+}
+.tealportlet TBODY TD.center A:active {
+	COLOR: #10a0c2; TEXT-DECORATION: none
+}
+.tealportlet TBODY TD.center A:visited {
+	COLOR: #10a0c2; TEXT-DECORATION: none
+}
+.tealportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link2.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link2.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link2.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link2.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link2.gif); COLOR: #10a0c2; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #10a0c2
+}
+.tealportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #10a0c2; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.tealportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.tealportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/teal_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.tealportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/teal_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.tealportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/teal_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.tealportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/teal_foot_bg.gif); HEIGHT: 5px
+}
+.tealportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #10a0c2
+}
+.cyanportlet {
+	WIDTH: 100%
+}
+.cyanportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/cyan_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.cyanportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/cyan_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.cyanportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/cyan_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.cyanportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/cyan_head_bg.gif)
+}
+.cyanportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.cyanportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.cyanportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.cyanportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.cyanportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.cyanportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/cyan_body_bg_left.gif); WIDTH: 5px
+}
+.cyanportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/cyan_body_bg_right.gif); WIDTH: 5px
+}
+.cyanportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.cyanportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #45a1ac
+}
+.cyanportlet TBODY TD.center A {
+	COLOR: #45a1ac; TEXT-DECORATION: none
+}
+.cyanportlet TBODY TD.center A:link {
+	COLOR: #45a1ac; TEXT-DECORATION: none
+}
+.cyanportlet TBODY TD.center A:hover {
+	COLOR: #45a1ac; TEXT-DECORATION: none
+}
+.cyanportlet TBODY TD.center A:active {
+	COLOR: #45a1ac; TEXT-DECORATION: none
+}
+.cyanportlet TBODY TD.center A:visited {
+	COLOR: #45a1ac; TEXT-DECORATION: none
+}
+.cyanportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link2.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link2.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link2.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link2.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link2.gif); COLOR: #45a1ac; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #45a1ac
+}
+.cyanportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #45a1ac; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.cyanportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.cyanportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/cyan_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.cyanportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/cyan_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.cyanportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/cyan_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.cyanportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/cyan_foot_bg.gif); HEIGHT: 5px
+}
+.cyanportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #45a1ac
+}
+.purpleportlet {
+	WIDTH: 100%
+}
+.purpleportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/purple_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.purpleportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/purple_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.purpleportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/purple_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.purpleportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/purple_head_bg.gif)
+}
+.purpleportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.purpleportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.purpleportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.purpleportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.purpleportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.purpleportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/purple_body_bg_left.gif); WIDTH: 5px
+}
+.purpleportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/purple_body_bg_right.gif); WIDTH: 5px
+}
+.purpleportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.purpleportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #c447bf
+}
+.purpleportlet TBODY TD.center A {
+	COLOR: #c447bf; TEXT-DECORATION: none
+}
+.purpleportlet TBODY TD.center A:link {
+	COLOR: #c447bf; TEXT-DECORATION: none
+}
+.purpleportlet TBODY TD.center A:hover {
+	COLOR: #c447bf; TEXT-DECORATION: none
+}
+.purpleportlet TBODY TD.center A:active {
+	COLOR: #c447bf; TEXT-DECORATION: none
+}
+.purpleportlet TBODY TD.center A:visited {
+	COLOR: #c447bf; TEXT-DECORATION: none
+}
+.purpleportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link2.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link2.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link2.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link2.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link2.gif); COLOR: #c447bf; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #c447bf
+}
+.purpleportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #c447bf; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.purpleportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.purpleportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/purple_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.purpleportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/purple_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.purpleportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/purple_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.purpleportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/purple_foot_bg.gif); HEIGHT: 5px
+}
+.purpleportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #c447bf
+}
+.limeportlet {
+	WIDTH: 100%
+}
+.limeportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/lime_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.limeportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/lime_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.limeportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/lime_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.limeportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/lime_head_bg.gif)
+}
+.limeportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.limeportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.limeportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.limeportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.limeportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.limeportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/lime_body_bg_left.gif); WIDTH: 5px
+}
+.limeportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/lime_body_bg_right.gif); WIDTH: 5px
+}
+.limeportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.limeportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #70c623
+}
+.limeportlet TBODY TD.center A {
+	COLOR: #70c623; TEXT-DECORATION: none
+}
+.limeportlet TBODY TD.center A:link {
+	COLOR: #70c623; TEXT-DECORATION: none
+}
+.limeportlet TBODY TD.center A:hover {
+	COLOR: #70c623; TEXT-DECORATION: none
+}
+.limeportlet TBODY TD.center A:active {
+	COLOR: #70c623; TEXT-DECORATION: none
+}
+.limeportlet TBODY TD.center A:visited {
+	COLOR: #70c623; TEXT-DECORATION: none
+}
+.limeportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link2.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link2.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link2.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link2.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link2.gif); COLOR: #70c623; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #70c623
+}
+.limeportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #70c623; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.limeportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.limeportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/lime_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.limeportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/lime_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.limeportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/lime_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.limeportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/lime_foot_bg.gif); HEIGHT: 5px
+}
+.limeportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #70c623
+}
+.darkcyanportlet {
+	WIDTH: 100%
+}
+.darkcyanportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.darkcyanportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.darkcyanportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.darkcyanportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/darkcyan_head_bg.gif)
+}
+.darkcyanportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.darkcyanportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.darkcyanportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.darkcyanportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.darkcyanportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.darkcyanportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_bg_left.gif); WIDTH: 5px
+}
+.darkcyanportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_bg_right.gif); WIDTH: 5px
+}
+.darkcyanportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.darkcyanportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #02748f
+}
+.darkcyanportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #02748f
+}
+.darkcyanportlet TBODY TD.center A {
+	COLOR: #02748f; TEXT-DECORATION: none
+}
+.darkcyanportlet TBODY TD.center A:link {
+	COLOR: #02748f; TEXT-DECORATION: none
+}
+.darkcyanportlet TBODY TD.center A:hover {
+	COLOR: #02748f; TEXT-DECORATION: none
+}
+.darkcyanportlet TBODY TD.center A:active {
+	COLOR: #02748f; TEXT-DECORATION: none
+}
+.darkcyanportlet TBODY TD.center A:visited {
+	COLOR: #02748f; TEXT-DECORATION: none
+}
+.darkcyanportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link2.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link2.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link2.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link2.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link2.gif); COLOR: #02748f; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #02748f
+}
+.darkcyanportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #02748f; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.darkcyanportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.darkcyanportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/darkcyan_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.darkcyanportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/darkcyan_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.darkcyanportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/darkcyan_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.darkcyanportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/darkcyan_foot_bg.gif); HEIGHT: 5px
+}
+.darkcyanportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #02748f
+}
+.socportlet {
+	WIDTH: 100%
+}
+.socportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.socportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.socportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.socportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg.gif)
+}
+.socportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_body_bg_left.gif); WIDTH: 5px
+}
+.socportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_body_bg_right.gif); WIDTH: 5px
+}
+.socportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.socportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #c12174
+}
+.socportlet TBODY TD.center A {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:link {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:hover {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:active {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:visited {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #c12174
+}
+.socportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #c12174; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.socportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.socportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.socportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.socportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_foot_bg.gif); HEIGHT: 5px
+}
+.socportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #c12174
+}
+.rusportlet {
+	WIDTH: 100%
+}
+.rusportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/rus_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.rusportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/rus_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.rusportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/rus_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.rusportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/rus_head_bg.gif)
+}
+.rusportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.rusportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.rusportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.rusportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.rusportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.rusportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/rus_body_bg_left.gif); WIDTH: 5px
+}
+.rusportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/rus_body_bg_right.gif); WIDTH: 5px
+}
+.rusportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.rusportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #ed4800
+}
+.rusportlet TBODY TD.center A {
+	COLOR: #ed4800; TEXT-DECORATION: none
+}
+.rusportlet TBODY TD.center A:link {
+	COLOR: #ed4800; TEXT-DECORATION: none
+}
+.rusportlet TBODY TD.center A:hover {
+	COLOR: #ed4800; TEXT-DECORATION: none
+}
+.rusportlet TBODY TD.center A:active {
+	COLOR: #ed4800; TEXT-DECORATION: none
+}
+.rusportlet TBODY TD.center A:visited {
+	COLOR: #ed4800; TEXT-DECORATION: none
+}
+.rusportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link2.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link2.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link2.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link2.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link2.gif); COLOR: #ed4800; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #ed4800
+}
+.rusportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #ed4800; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.rusportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.rusportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/rus_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.rusportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/rus_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.rusportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/rus_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.rusportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/rus_foot_bg.gif); HEIGHT: 5px
+}
+.rusportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #ed4800
+}
+.litportlet {
+	WIDTH: 100%
+}
+.litportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/lit_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.litportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/lit_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.litportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/lit_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.litportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/lit_head_bg.gif)
+}
+.litportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.litportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.litportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.litportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.litportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.litportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/lit_body_bg_left.gif); WIDTH: 5px
+}
+.litportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/lit_body_bg_right.gif); WIDTH: 5px
+}
+.litportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.litportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #a4350b
+}
+.litportlet TBODY TD.center A {
+	COLOR: #a4350b; TEXT-DECORATION: none
+}
+.litportlet TBODY TD.center A:link {
+	COLOR: #a4350b; TEXT-DECORATION: none
+}
+.litportlet TBODY TD.center A:hover {
+	COLOR: #a4350b; TEXT-DECORATION: none
+}
+.litportlet TBODY TD.center A:active {
+	COLOR: #a4350b; TEXT-DECORATION: none
+}
+.litportlet TBODY TD.center A:visited {
+	COLOR: #a4350b; TEXT-DECORATION: none
+}
+.litportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link2.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link2.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link2.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link2.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link2.gif); COLOR: #a4350b; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #a4350b
+}
+.litportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #a4350b; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.litportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.litportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/lit_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.litportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/lit_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.litportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/lit_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.litportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/lit_foot_bg.gif); HEIGHT: 5px
+}
+.litportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #a4350b
+}
+.astportlet {
+	WIDTH: 100%
+}
+.astportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/ast_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.astportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/ast_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.astportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/ast_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.astportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/ast_head_bg.gif)
+}
+.astportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.astportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.astportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.astportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.astportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.astportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/ast_body_bg_left.gif); WIDTH: 5px
+}
+.astportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/ast_body_bg_right.gif); WIDTH: 5px
+}
+.astportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.astportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #00a583
+}
+.astportlet TBODY TD.center A {
+	COLOR: #00a583; TEXT-DECORATION: none
+}
+.astportlet TBODY TD.center A:link {
+	COLOR: #00a583; TEXT-DECORATION: none
+}
+.astportlet TBODY TD.center A:hover {
+	COLOR: #00a583; TEXT-DECORATION: none
+}
+.astportlet TBODY TD.center A:active {
+	COLOR: #00a583; TEXT-DECORATION: none
+}
+.astportlet TBODY TD.center A:visited {
+	COLOR: #00a583; TEXT-DECORATION: none
+}
+.astportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link2.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link2.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link2.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link2.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link2.gif); COLOR: #00a583; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #00a583
+}
+.astportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #00a583; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.astportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.astportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/ast_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.astportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/ast_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.astportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/ast_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.astportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/ast_foot_bg.gif); HEIGHT: 5px
+}
+.astportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #00a583
+}
+.ecoportlet {
+	WIDTH: 100%
+}
+.ecoportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/eco_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.ecoportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/eco_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.ecoportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/eco_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.ecoportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/eco_head_bg.gif)
+}
+.ecoportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.ecoportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.ecoportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.ecoportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.ecoportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.ecoportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/eco_body_bg_left.gif); WIDTH: 5px
+}
+.ecoportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/eco_body_bg_right.gif); WIDTH: 5px
+}
+.ecoportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.ecoportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #0f9559
+}
+.ecoportlet TBODY TD.center A {
+	COLOR: #0f9559; TEXT-DECORATION: none
+}
+.ecoportlet TBODY TD.center A:link {
+	COLOR: #0f9559; TEXT-DECORATION: none
+}
+.ecoportlet TBODY TD.center A:hover {
+	COLOR: #0f9559; TEXT-DECORATION: none
+}
+.ecoportlet TBODY TD.center A:active {
+	COLOR: #0f9559; TEXT-DECORATION: none
+}
+.ecoportlet TBODY TD.center A:visited {
+	COLOR: #0f9559; TEXT-DECORATION: none
+}
+.ecoportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link2.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link2.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link2.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link2.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link2.gif); COLOR: #0f9559; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #0f9559
+}
+.ecoportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #0f9559; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.ecoportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.ecoportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/eco_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.ecoportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/eco_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.ecoportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/eco_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.ecoportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/eco_foot_bg.gif); HEIGHT: 5px
+}
+.ecoportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #0f9559
+}
+.histportlet {
+	WIDTH: 100%
+}
+.histportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/hist_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.histportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/hist_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.histportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/hist_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.histportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/hist_head_bg.gif)
+}
+.histportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.histportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.histportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.histportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.histportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.histportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/hist_body_bg_left.gif); WIDTH: 5px
+}
+.histportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/hist_body_bg_right.gif); WIDTH: 5px
+}
+.histportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.histportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #8f0c6c
+}
+.histportlet TBODY TD.center A {
+	COLOR: #8f0c6c; TEXT-DECORATION: none
+}
+.histportlet TBODY TD.center A:link {
+	COLOR: #8f0c6c; TEXT-DECORATION: none
+}
+.histportlet TBODY TD.center A:hover {
+	COLOR: #8f0c6c; TEXT-DECORATION: none
+}
+.histportlet TBODY TD.center A:active {
+	COLOR: #8f0c6c; TEXT-DECORATION: none
+}
+.histportlet TBODY TD.center A:visited {
+	COLOR: #8f0c6c; TEXT-DECORATION: none
+}
+.histportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link2.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link2.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link2.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link2.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link2.gif); COLOR: #8f0c6c; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #8f0c6c
+}
+.histportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #8f0c6c; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.histportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.histportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/hist_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.histportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/hist_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.histportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/hist_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.histportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/hist_foot_bg.gif); HEIGHT: 5px
+}
+.histportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #8f0c6c
+}
+.athportlet {
+	WIDTH: 100%
+}
+.athportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/ath_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.athportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/ath_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.athportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/ath_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.athportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/ath_head_bg.gif)
+}
+.athportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.athportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.athportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.athportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.athportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.athportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/ath_body_bg_left.gif); WIDTH: 5px
+}
+.athportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/ath_body_bg_right.gif); WIDTH: 5px
+}
+.athportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.athportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #00537c
+}
+.athportlet TBODY TD.center A {
+	COLOR: #00537c; TEXT-DECORATION: none
+}
+.athportlet TBODY TD.center A:link {
+	COLOR: #00537c; TEXT-DECORATION: none
+}
+.athportlet TBODY TD.center A:hover {
+	COLOR: #00537c; TEXT-DECORATION: none
+}
+.athportlet TBODY TD.center A:active {
+	COLOR: #00537c; TEXT-DECORATION: none
+}
+.athportlet TBODY TD.center A:visited {
+	COLOR: #00537c; TEXT-DECORATION: none
+}
+.athportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link2.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link2.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link2.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link2.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link2.gif); COLOR: #00537c; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #00537c
+}
+.athportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #00537c; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.athportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.athportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/ath_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.athportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/ath_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.athportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/ath_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.athportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/ath_foot_bg.gif); HEIGHT: 5px
+}
+.athportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #00537c
+}
+.techportlet {
+	WIDTH: 100%
+}
+.techportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/tech_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.techportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/tech_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.techportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/tech_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.techportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/tech_head_bg.gif)
+}
+.techportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.techportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.techportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.techportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.techportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.techportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/tech_body_bg_left.gif); WIDTH: 5px
+}
+.techportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/tech_body_bg_right.gif); WIDTH: 5px
+}
+.techportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.techportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #98003b
+}
+.techportlet TBODY TD.center A {
+	COLOR: #98003b; TEXT-DECORATION: none
+}
+.techportlet TBODY TD.center A:link {
+	COLOR: #98003b; TEXT-DECORATION: none
+}
+.techportlet TBODY TD.center A:hover {
+	COLOR: #98003b; TEXT-DECORATION: none
+}
+.techportlet TBODY TD.center A:active {
+	COLOR: #98003b; TEXT-DECORATION: none
+}
+.techportlet TBODY TD.center A:visited {
+	COLOR: #98003b; TEXT-DECORATION: none
+}
+.techportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link2.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link2.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link2.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link2.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link2.gif); COLOR: #98003b; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #98003b
+}
+.techportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #98003b; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.techportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.techportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/tech_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.techportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/tech_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.techportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/tech_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.techportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/tech_foot_bg.gif); HEIGHT: 5px
+}
+.techportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #98003b
+}
+.econportlet {
+	WIDTH: 100%
+}
+.econportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/econ_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.econportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/econ_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.econportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/econ_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.econportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/econ_head_bg.gif)
+}
+.econportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.econportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.econportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.econportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.econportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.econportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/econ_body_bg_left.gif); WIDTH: 5px
+}
+.econportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/econ_body_bg_right.gif); WIDTH: 5px
+}
+.econportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.econportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #b7006d
+}
+.econportlet TBODY TD.center A {
+	COLOR: #b7006d; TEXT-DECORATION: none
+}
+.econportlet TBODY TD.center A:link {
+	COLOR: #b7006d; TEXT-DECORATION: none
+}
+.econportlet TBODY TD.center A:hover {
+	COLOR: #b7006d; TEXT-DECORATION: none
+}
+.econportlet TBODY TD.center A:active {
+	COLOR: #b7006d; TEXT-DECORATION: none
+}
+.econportlet TBODY TD.center A:visited {
+	COLOR: #b7006d; TEXT-DECORATION: none
+}
+.econportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link2.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link2.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link2.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link2.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link2.gif); COLOR: #b7006d; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #b7006d
+}
+.econportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #b7006d; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.econportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.econportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/econ_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.econportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/econ_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.econportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/econ_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.econportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/econ_foot_bg.gif); HEIGHT: 5px
+}
+.econportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #b7006d
+}
+.lawportlet {
+	WIDTH: 100%
+}
+.lawportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/law_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.lawportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/law_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.lawportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/law_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.lawportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/law_head_bg.gif)
+}
+.lawportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.lawportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.lawportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.lawportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.lawportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.lawportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/law_body_bg_left.gif); WIDTH: 5px
+}
+.lawportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/law_body_bg_right.gif); WIDTH: 5px
+}
+.lawportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.lawportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #2500db
+}
+.lawportlet TBODY TD.center A {
+	COLOR: #2500db; TEXT-DECORATION: none
+}
+.lawportlet TBODY TD.center A:link {
+	COLOR: #2500db; TEXT-DECORATION: none
+}
+.lawportlet TBODY TD.center A:hover {
+	COLOR: #2500db; TEXT-DECORATION: none
+}
+.lawportlet TBODY TD.center A:active {
+	COLOR: #2500db; TEXT-DECORATION: none
+}
+.lawportlet TBODY TD.center A:visited {
+	COLOR: #2500db; TEXT-DECORATION: none
+}
+.lawportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/law_body_link.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/law_body_link.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/law_body_link.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/law_body_link.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/law_body_link.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/law_body_link2.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/law_body_link2.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/law_body_link2.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/law_body_link2.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/law_body_link2.gif); COLOR: #2500db; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #2500db
+}
+.lawportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #2500db; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.lawportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.lawportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/law_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.lawportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/law_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.lawportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/law_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.lawportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/law_foot_bg.gif); HEIGHT: 5px
+}
+.lawportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #2500db
+}
+.socportlet {
+	WIDTH: 100%
+}
+.socportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.socportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.socportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.socportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_head_bg.gif)
+}
+.socportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_body_bg_left.gif); WIDTH: 5px
+}
+.socportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_body_bg_right.gif); WIDTH: 5px
+}
+.socportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.socportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #c12174
+}
+.socportlet TBODY TD.center A {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:link {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:hover {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:active {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A:visited {
+	COLOR: #c12174; TEXT-DECORATION: none
+}
+.socportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link2.gif); COLOR: #c12174; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #c12174
+}
+.socportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #c12174; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.socportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.socportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/soc_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.socportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.socportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.socportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/soc_foot_bg.gif); HEIGHT: 5px
+}
+.socportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #c12174
+}
+.bizportlet {
+	WIDTH: 100%
+}
+.bizportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/biz_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.bizportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/biz_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.bizportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/biz_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.bizportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/biz_head_bg.gif)
+}
+.bizportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bizportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bizportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bizportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bizportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.bizportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/biz_body_bg_left.gif); WIDTH: 5px
+}
+.bizportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/biz_body_bg_right.gif); WIDTH: 5px
+}
+.bizportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.bizportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #e37d21
+}
+.bizportlet TBODY TD.center A {
+	COLOR: #e37d21; TEXT-DECORATION: none
+}
+.bizportlet TBODY TD.center A:link {
+	COLOR: #e37d21; TEXT-DECORATION: none
+}
+.bizportlet TBODY TD.center A:hover {
+	COLOR: #e37d21; TEXT-DECORATION: none
+}
+.bizportlet TBODY TD.center A:active {
+	COLOR: #e37d21; TEXT-DECORATION: none
+}
+.bizportlet TBODY TD.center A:visited {
+	COLOR: #e37d21; TEXT-DECORATION: none
+}
+.bizportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link2.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link2.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link2.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link2.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link2.gif); COLOR: #e37d21; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #e37d21
+}
+.bizportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #e37d21; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.bizportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.bizportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/biz_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.bizportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/biz_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.bizportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/biz_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.bizportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/biz_foot_bg.gif); HEIGHT: 5px
+}
+.bizportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #e37d21
+}
+.polyportlet {
+	WIDTH: 100%
+}
+.polyportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/poly_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.polyportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/poly_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.polyportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/poly_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.polyportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/poly_head_bg.gif)
+}
+.polyportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.polyportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.polyportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.polyportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.polyportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.polyportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/poly_body_bg_left.gif); WIDTH: 5px
+}
+.polyportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/poly_body_bg_right.gif); WIDTH: 5px
+}
+.polyportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.polyportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #8e00b6
+}
+.polyportlet TBODY TD.center A {
+	COLOR: #8e00b6; TEXT-DECORATION: none
+}
+.polyportlet TBODY TD.center A:link {
+	COLOR: #8e00b6; TEXT-DECORATION: none
+}
+.polyportlet TBODY TD.center A:hover {
+	COLOR: #8e00b6; TEXT-DECORATION: none
+}
+.polyportlet TBODY TD.center A:active {
+	COLOR: #8e00b6; TEXT-DECORATION: none
+}
+.polyportlet TBODY TD.center A:visited {
+	COLOR: #8e00b6; TEXT-DECORATION: none
+}
+.polyportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link2.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link2.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link2.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link2.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link2.gif); COLOR: #8e00b6; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #8e00b6
+}
+.polyportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #8e00b6; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.polyportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.polyportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/poly_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.polyportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/poly_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.polyportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/poly_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.polyportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/poly_foot_bg.gif); HEIGHT: 5px
+}
+.polyportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #8e00b6
+}
+.franportlet {
+	WIDTH: 100%
+}
+.franportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/fran_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.franportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/fran_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.franportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/fran_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.franportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/fran_head_bg.gif)
+}
+.franportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.franportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.franportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.franportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.franportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.franportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/fran_body_bg_left.gif); WIDTH: 5px
+}
+.franportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/fran_body_bg_right.gif); WIDTH: 5px
+}
+.franportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.franportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #0e0098
+}
+.franportlet TBODY TD.center A {
+	COLOR: #0e0098; TEXT-DECORATION: none
+}
+.franportlet TBODY TD.center A:link {
+	COLOR: #0e0098; TEXT-DECORATION: none
+}
+.franportlet TBODY TD.center A:hover {
+	COLOR: #0e0098; TEXT-DECORATION: none
+}
+.franportlet TBODY TD.center A:active {
+	COLOR: #0e0098; TEXT-DECORATION: none
+}
+.franportlet TBODY TD.center A:visited {
+	COLOR: #0e0098; TEXT-DECORATION: none
+}
+.franportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link2.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link2.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link2.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link2.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link2.gif); COLOR: #0e0098; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #0e0098
+}
+.franportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #0e0098; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.franportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.franportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/fran_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.franportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/fran_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.franportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/fran_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.franportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/fran_foot_bg.gif); HEIGHT: 5px
+}
+.franportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #0e0098
+}
+.gemportlet {
+	WIDTH: 100%
+}
+.gemportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/gem_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.gemportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/gem_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.gemportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/gem_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.gemportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/gem_head_bg.gif)
+}
+.gemportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gemportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gemportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gemportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gemportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.gemportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/gem_body_bg_left.gif); WIDTH: 5px
+}
+.gemportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/gem_body_bg_right.gif); WIDTH: 5px
+}
+.gemportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.gemportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #6300af
+}
+.gemportlet TBODY TD.center A {
+	COLOR: #6300af; TEXT-DECORATION: none
+}
+.gemportlet TBODY TD.center A:link {
+	COLOR: #6300af; TEXT-DECORATION: none
+}
+.gemportlet TBODY TD.center A:hover {
+	COLOR: #6300af; TEXT-DECORATION: none
+}
+.gemportlet TBODY TD.center A:active {
+	COLOR: #6300af; TEXT-DECORATION: none
+}
+.gemportlet TBODY TD.center A:visited {
+	COLOR: #6300af; TEXT-DECORATION: none
+}
+.gemportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link2.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link2.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link2.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link2.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link2.gif); COLOR: #6300af; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #6300af
+}
+.gemportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #6300af; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.gemportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.gemportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/gem_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.gemportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/gem_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.gemportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/gem_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.gemportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/gem_foot_bg.gif); HEIGHT: 5px
+}
+.gemportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #6300af
+}
+.engportlet {
+	WIDTH: 100%
+}
+.engportlet THEAD TD.left {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/eng_head_bg_left.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.engportlet THEAD TD.right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND-IMAGE: url(/images/portlet/eng_head_bg_right.gif); PADDING-BOTTOM: 0px; WIDTH: 5px; PADDING-TOP: 0px; HEIGHT: 31px
+}
+.engportlet THEAD TD.center {
+	PADDING-RIGHT: 13px; PADDING-LEFT: 13px; FONT-WEIGHT: bold; FONT-SIZE: 15px; BACKGROUND-IMAGE: url(/images/portlet/eng_head_bg.gif); WIDTH: 100%; COLOR: #ffffff
+}
+.engportlet THEAD TD.centerdiv {
+	BACKGROUND-IMAGE: url(/images/portlet/eng_head_bg.gif)
+}
+.engportlet THEAD TD.center A {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.engportlet THEAD TD.center A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.engportlet THEAD TD.center A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.engportlet THEAD TD.center A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.engportlet THEAD TD.center A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.engportlet TBODY TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/eng_body_bg_left.gif); WIDTH: 5px
+}
+.engportlet TBODY TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/eng_body_bg_right.gif); WIDTH: 5px
+}
+.engportlet TBODY TD.center {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 5px; PADDING-TOP: 15px; TEXT-ALIGN: justify
+}
+.engportlet TBODY TD.centerdiv {
+	BACKGROUND-COLOR: #00a81d
+}
+.engportlet TBODY TD.center A {
+	COLOR: #00a81d; TEXT-DECORATION: none
+}
+.engportlet TBODY TD.center A:link {
+	COLOR: #00a81d; TEXT-DECORATION: none
+}
+.engportlet TBODY TD.center A:hover {
+	COLOR: #00a81d; TEXT-DECORATION: none
+}
+.engportlet TBODY TD.center A:active {
+	COLOR: #00a81d; TEXT-DECORATION: none
+}
+.engportlet TBODY TD.center A:visited {
+	COLOR: #00a81d; TEXT-DECORATION: none
+}
+.engportlet TBODY TD.center A.more {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.more:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.more:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.more:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.more:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 8px; FLOAT: right; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link2.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.link:link {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link2.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.link:hover {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link2.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.link:active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link2.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center A.link:visited {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 12px; FLOAT: left; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link2.gif); COLOR: #00a81d; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TBODY TD.center .title {
+	FONT-WEIGHT: bold; COLOR: #00a81d
+}
+.engportlet TBODY TD.center HR {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 100%; COLOR: #00a81d; PADDING-TOP: 0px; HEIGHT: 1px; size: 1px
+}
+.engportlet TBODY TABLE TD.rightmenu {
+	PADDING-LEFT: 10px; PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted
+}
+.engportlet TBODY TABLE TD.rightmenu-active {
+	BACKGROUND-POSITION: left 50%; PADDING-LEFT: 10px; BACKGROUND-IMAGE: url(/images/portlet/eng_body_link3.gif); PADDING-BOTTOM: 7px; WIDTH: 155px; PADDING-TOP: 7px; BORDER-BOTTOM: #bcbcbc 1px dotted; BACKGROUND-REPEAT: no-repeat
+}
+.engportlet TFOOT TD.left {
+	BACKGROUND-IMAGE: url(/images/portlet/eng_foot_bg_left.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.engportlet TFOOT TD.right {
+	BACKGROUND-IMAGE: url(/images/portlet/eng_foot_bg_right.gif); WIDTH: 5px; HEIGHT: 5px
+}
+.engportlet TFOOT TD.center {
+	BACKGROUND-IMAGE: url(/images/portlet/eng_foot_bg.gif); HEIGHT: 5px
+}
+.engportlet TFOOT TD.centerdiv {
+	BACKGROUND-COLOR: #00a81d
+}

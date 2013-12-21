@@ -1,0 +1,4 @@
+[Project]
+Name=03_turn_on_lights
+Manager=KDevCMakeManager
+VersionControl=

@@ -1,0 +1,8 @@
+{foreach from=$arrayname item=itemname key=keyname}
+{literal}{/literal}
+{section name=nam loop=$array step=1}
+
+$smarty->template_dir = '/web/www.example.com/guestbook/templates/';
+$smarty->compile_dir = '/web/www.example.com/guestbook/templates_c/';
+$smarty->config_dir = '/web/www.example.com/guestbook/configs/';
+$smarty->cache_dir = '/web/www.example.com/guestbook/cache/';

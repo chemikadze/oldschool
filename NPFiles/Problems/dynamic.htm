@@ -1,0 +1,454 @@
+    <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+    <html>
+    <head>
+      <title>name</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=" />
+      <meta name="description" content="Условия задач" />
+      <link rel="stylesheet" type="text/css" href="statements_print.css" />
+    </head>
+    <body>
+    <a name="top"></a>
+    <p class="statements_title">Условия задач</p>
+    <p class="statements_summary"></p>
+    <div class="statements_info"><table>
+    <tr>
+    <td>Сайт:</td>
+    <td><a href="http://informatics.mccme.ru/moodle">Дистанционная подготовка</a></td>
+    </tr><tr>
+    <td>Курс:</td>
+    <td>Динамическое программирование</td>
+    </tr><tr>
+    <td>statements:</td>
+    <td>Условия задач</td>
+    </tr><tr>
+    <td>Printed by:</td>
+    <td>Николай Соколов</td>
+    </tr><tr>
+    <td>Date:</td>
+    <td>Пятница  11 Апрель 2008, 20:40</td>
+    </tr>
+    </table></div>
+
+    <div class="statements_toc_alpha"><a name="toc"></a><p class="statements_chapter_title">List of problems</p><ul><li><a title="&lt;B&gt;Problem A.&lt;/B&gt; Числа Фибоначи" href="#ch263"><B>Problem A.</B> Числа Фибоначи</a></li><li><a title="&lt;B&gt;Problem B.&lt;/B&gt; Игра со спичками" href="#ch264"><B>Problem B.</B> Игра со спичками</a></li><li><a title="&lt;B&gt;Problem C.&lt;/B&gt; Мячик на лесенке" href="#ch265"><B>Problem C.</B> Мячик на лесенке</a></li><li><a title="&lt;B&gt;Problem D.&lt;/B&gt; Наибольшая общая подпоследовательность (НОП)" href="#ch266"><B>Problem D.</B> Наибольшая общая подпоследовательность (НОП)</a></li><li><a title="&lt;B&gt;Problem E.&lt;/B&gt; Наибольшая возрастающая подпоследовательность (НВП)" href="#ch267"><B>Problem E.</B> Наибольшая возрастающая подпоследовательность (НВП)</a></li><li><a title="&lt;B&gt;Problem F.&lt;/B&gt; Биномиальные коэффициенты" href="#ch268"><B>Problem F.</B> Биномиальные коэффициенты</a></li><li><a title="&lt;B&gt;Problem G.&lt;/B&gt; Последовательность из 0 и 1" href="#ch269"><B>Problem G.</B> Последовательность из 0 и 1</a></li><li><a title="&lt;B&gt;Problem H.&lt;/B&gt; Восстановление скобок" href="#ch270"><B>Problem H.</B> Восстановление скобок</a></li><li><a title="&lt;B&gt;Problem I.&lt;/B&gt; Уравнение с пропущенными скобками" href="#ch271"><B>Problem I.</B> Уравнение с пропущенными скобками</a></li><li><a title="&lt;B&gt;Problem J.&lt;/B&gt; Гвоздики" href="#ch272"><B>Problem J.</B> Гвоздики</a></li><li><a title="&lt;B&gt;Problem K.&lt;/B&gt; Лесенки" href="#ch273"><B>Problem K.</B> Лесенки</a></li><li><a title="&lt;B&gt;Problem L.&lt;/B&gt; Покупка билетов" href="#ch274"><B>Problem L.</B> Покупка билетов</a></li><li><a title="&lt;B&gt;Problem M.&lt;/B&gt; Ход конем" href="#ch275"><B>Problem M.</B> Ход конем</a></li><li><a title="&lt;B&gt;Problem N.&lt;/B&gt; Дырокол" href="#ch276"><B>Problem N.</B> Дырокол</a></li><li><a title="&lt;B&gt;Problem O.&lt;/B&gt; Сжатие текста" href="#ch277"><B>Problem O.</B> Сжатие текста</a></li><li><a title="&lt;B&gt;Problem P.&lt;/B&gt; Пустоты в кубе" href="#ch278"><B>Problem P.</B> Пустоты в кубе</a></li><li><a title="&lt;B&gt;Problem Q.&lt;/B&gt; Шаблон с ? и *" href="#ch279"><B>Problem Q.</B> Шаблон с ? и *</a></li><li><a title="&lt;B&gt;Problem R.&lt;/B&gt; Жадный калькулятор" href="#ch280"><B>Problem R.</B> Жадный калькулятор</a></li><li><a title="&lt;B&gt;Problem S.&lt;/B&gt; Взлом сети" href="#ch281"><B>Problem S.</B> Взлом сети</a></li><li><a title="&lt;B&gt;Problem T.&lt;/B&gt; Параллельные вычисления" href="#ch282"><B>Problem T.</B> Параллельные вычисления</a></li><li><a title="&lt;B&gt;Problem U.&lt;/B&gt; Длинный путь в графе" href="#ch283"><B>Problem U.</B> Длинный путь в графе</a></li><li><a title="&lt;B&gt;Problem V.&lt;/B&gt; Навстречу друг другу" href="#ch284"><B>Problem V.</B> Навстречу друг другу</a></li></ul></div><div class="statements_chapter"><a name="ch263"></a><p class="statements_chapter_title"><B>Problem A.</B> Числа Фибоначи</p><p class="ProblemStatement" style="margin: 0cm 0cm 0pt"><font face="Arial">Последовательность чисел Фибоначчи определяется следующим образом: F<sub>1</sub> = F<sub>2</sub> = 1, </font></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt; text-indent: 0cm"><font face="Arial"><span lang="EN-US">F<sub>n+1 </sub>= F<sub>n</sub>+F<sub> n-1</sub>. </span>Напишите программу для вычисления n-го члена последовательности. </font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt"><strong><em><font face="Arial">Формат входных данных</font></em></strong></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt"><font face="Arial">В единственной строке входных данных записано натуральное число <span lang="EN-US">N</span> (1<em>≤</em></font><span lang="EN-US"><font face="Arial"><em>N</em>≤</font></span><font face="Arial">45).</font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt"><strong><em><font face="Arial">Формат выходных данных</font></em></strong></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt"><font face="Arial">Вывести одно число <span lang="EN-US">F<sub>n</sub></span>. </font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt"><em><font face="Arial"><strong>Пример </strong></font></em></p>
+<table style="border-right: medium none; border-top: medium none; border-left: medium none; border-bottom: medium none; border-collapse: collapse" cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 0.5pt solid; width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" valign="top" width="334"> 
+      <p class="ProblemExampleCaption" style="margin: 0cm 0cm 0pt"><span lang="EN-US"><strong><font face="Courier New">Входные данные</font></strong></span></p> 
+    </td> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: rgb(212,208,200); width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" valign="top" width="334"> 
+      <p class="ProblemExampleCaption" style="margin: 0cm 0cm 0pt"><span lang="EN-US"><strong><font face="Courier New">Выходные данные</font></strong></span></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: rgb(212,208,200); padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 0.5pt solid; width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" valign="top" width="334"> 
+      <p class="ProblemExample" style="margin: 0cm 0cm 0pt"><span><font face="Courier New">3</font></span></p> 
+    </td> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: rgb(212,208,200); padding-left: 5.4pt; padding-bottom: 0cm; border-left: rgb(212,208,200); width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" valign="top" width="334"> 
+      <p class="ProblemExample" style="margin: 0cm 0cm 0pt"><span lang="EN-US"><font face="Courier New">2</font></span></p> 
+    </td> 
+  </tr></tbody> 
+</table></div><div class="statements_chapter"><a name="ch264"></a><p class="statements_chapter_title"><B>Problem B.</B> Игра со спичками</p><p>На столе лежит кучка из N спичек. Двое играют в такую игру. За один ход разрешается взять из кучки одну, две или три спички, так чтобы оставшееся количество спичек не было простым числом (Например, можно оставить в кучке 1 или 4 спички, но нельзя оставить 2 или 3). Выигрывает тот, кто забирает последнюю спичку. Требуется определить, кто из игроков имеет выигрышную стратегию.</p>
+<p><strong><i>Формат входных данных</i></strong></p>
+<p>Во входном файле записано одно число N (1&lt;=N&lt;=10000).</p>
+<p><strong><i>Формат выходных данных</i></strong></p>
+<p>В выходной файл запишите число 1, если выигрышую стратегию имеет начинающий игрок, или число 2, если выигрышную стратегию имеет второй игрок.</p>
+<p><i><strong>Пример </strong></i></p>
+<table cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr> 
+    <td valign="top" width="334"> 
+      <p><strong>Входные данные</strong> </p> 
+    </td> 
+    <td valign="top" width="334"> 
+      <p><strong>Выходные данные</strong></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td valign="top" width="334"> 
+      <p>3</p> 
+    </td> 
+    <td valign="top" width="334"> 
+      <p>1 </p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td valign="top" width="334"> 
+      <p>4</p> 
+    </td> 
+    <td valign="top" width="334"> 
+      <p>2 </p> 
+    </td> 
+  </tr></tbody> 
+</table></div><div class="statements_chapter"><a name="ch265"></a><p class="statements_chapter_title"><B>Problem C.</B> Мячик на лесенке</p><p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><span style="color: black;"><font face="Arial">На вершине лесенки, содержащей <i>N</i> ступенек, находится мячик, который начинает прыгать по ним вниз, к основанию. Мячик может прыгнуть на следующую ступеньку, на ступеньку через одну или через 2. (То есть, если мячик лежит на 8-ой ступеньке, то он может переместиться на 5-ую, 6-ую или 7-ую.) Определить число всевозможных &quot;маршрутов&quot; мячика с вершины на землю.</font></span></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Формат входных данных</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">Одно число 0 &lt; N &lt; 31.</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Формат выходных данных</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><span style="color: black;"><font face="Arial">Одно число — количество маршрутов.</font></span></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><em><font face="Arial"><strong>Пример</strong></font></em></p> 
+<table cellspacing="0" cellpadding="0" border="1" style="border: medium none ; border-collapse: collapse;"><tbody> 
+  <tr> 
+    <td width="334" valign="top" style="border: 0.5pt solid windowtext; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExampleCaption"><span lang="EN-US"><strong><font face="Courier New">Ввод</font></strong></span></p> 
+    </td> 
+    <td width="334" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(212, 208, 200); border-width: 0.5pt 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExampleCaption"><span lang="EN-US"><strong><font face="Courier New">Вывод</font></strong></span></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="334" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"><pre><span style="color: black;"><font size="2">4</font></span></pre> 
+    </td> 
+    <td width="334" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><font face="Courier New"><span lang="EN-US">7</span></font></p> 
+    </td> 
+  </tr></tbody> 
+</table> </div><div class="statements_chapter"><a name="ch266"></a><p class="statements_chapter_title"><B>Problem D.</B> Наибольшая общая подпоследовательность (НОП)</p><table cellspacing="0" cellpadding="0" border="0"><tbody> 
+  <tr> 
+    <td valign="top" width="427"> 
+      <p>Максимальное время работы на одном тесте:</p> 
+    </td> 
+    <td valign="top" width="168"> 
+      <p>3 секунды</p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td valign="top" width="427"> 
+      <p>Максимальный объем используемой памяти:</p> 
+    </td> 
+    <td valign="top" width="168"> 
+      <p>16 мегабайт</p> 
+    </td> 
+  </tr></tbody> 
+</table>
+<p>Даны две последовательности, требуется найти длину их наибольшей общей подпоследовательности.</p>
+<p><strong><i>Формат входных данных</i></strong></p>
+<p>В первой строке входного файла записано число N - длина первой последовательности (1 &lt;= N &lt;= 1000). Во второй строке записаны члены первой последовательности (через пробел) - целые числа, не превосходящие 10000 по модулю. </p>
+<p>В третьей строке записано число M - длина второй последовательности (1 &lt;= M &lt;= 1000). В четвертой строке записаны члены второй последовательности (через пробел) - целые числа, не превосходящие 10000 по модулю. </p>
+<p><strong><i>Формат выходных данных</i></strong></p>
+<p>В выходной файл требуется вывести одно число - длину их наибольшей общей подпоследовательности или 0, если такой подпоследовательности нет.</p>
+<p><i><strong>Пример </strong></i></p>
+<table cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr> 
+    <td valign="top" width="334"> 
+      <p><strong>Входные данные</strong> </p> 
+    </td> 
+    <td valign="top" width="334"> 
+      <p><strong>Выходные данные</strong> </p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="334"> 
+      <p>3 <br />1 2 3 <br />4 <br />2 3 1 5 </p> 
+    </td> 
+    <td valign="top" width="334"> 
+      <p>2 </p> 
+    </td> 
+  </tr></tbody> 
+</table></div><div class="statements_chapter"><a name="ch267"></a><p class="statements_chapter_title"><B>Problem E.</B> Наибольшая возрастающая подпоследовательность (НВП)</p><p class="ProblemStatement" style="margin: 0cm 0cm 0pt"><font face="Arial">Дана последовательность, требуется найти длину наибольшей возрастающей подпоследовательности.</font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt"><strong><em><font face="Arial">Формат входных данных</font></em></strong></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt"><font face="Arial">В первой строке входного файла записано число N - длина последовательности (1 &lt;= N &lt;= 1000). Во второй строке записана сама последовательность (разделитель -  пробел). Элементы последовательности - целые числа, не превосходящие 10000 по модулю.</font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt"><strong><em><font face="Arial">Формат выходных данных</font></em></strong></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt"><font face="Arial">В выходной файл требуется вывести длину наибольшей возрастающей подпоследовательности.</font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt"><em><font face="Arial"><strong>Пример </strong></font></em></p>
+<table style="border-right: medium none; border-top: medium none; border-left: medium none; border-bottom: medium none; border-collapse: collapse" cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 0.5pt solid; width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" valign="top" width="334"> 
+      <p class="ProblemExampleCaption" style="margin: 0cm 0cm 0pt"><span lang="EN-US"><strong><font face="Courier New">Входные данные</font></strong></span></p> 
+    </td> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: windowtext 0.5pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: rgb(212,208,200); width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" valign="top" width="334"> 
+      <p class="ProblemExampleCaption" style="margin: 0cm 0cm 0pt"><span lang="EN-US"><strong><font face="Courier New">Выходные данные</font></strong></span></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: rgb(212,208,200); padding-left: 5.4pt; padding-bottom: 0cm; border-left: windowtext 0.5pt solid; width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" width="334"><pre><span style="color: black"><font size="2">6 </font></span></pre><pre><span style="color: black"><font size="2">3 29 5 5 28 6 </font></span></pre> 
+    </td> 
+    <td style="border-right: windowtext 0.5pt solid; padding-right: 5.4pt; border-top: rgb(212,208,200); padding-left: 5.4pt; padding-bottom: 0cm; border-left: rgb(212,208,200); width: 250.2pt; padding-top: 0cm; border-bottom: windowtext 0.5pt solid; background-color: transparent" valign="top" width="334"> 
+      <p class="ProblemExample" style="margin: 0cm 0cm 0pt"><span><font face="Courier New">3 </font></span></p> 
+    </td> 
+  </tr></tbody> 
+</table></div><div class="statements_chapter"><a name="ch268"></a><p class="statements_chapter_title"><B>Problem F.</B> Биномиальные коэффициенты</p><p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">В прямоугольной таблице NxM в начале игрок находится в левой верхней клетке. За один ход ему разрешается перемещаться в соседнюю клетку либо вправо, либо вниз (влево и вверх перемещаться запрещено). Посчитайте, сколько есть способов у игрока попасть в правую нижнюю клетку.</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Формат входных данных</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">Во входном файле задано два числа N и M - размеры таблицы (1&lt;=N&lt;=10, 1&lt;=M&lt;=10).</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Формат выходных данных</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">В выходной файл запишите искомое число способов.</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Примечание</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">При указанных ограничениях, число способов входит в тип Longint.</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><em><font face="Arial"><strong>Пример </strong></font></em></p> 
+<table cellspacing="0" cellpadding="0" border="1" style="border: medium none ; border-collapse: collapse;"><tbody> 
+  <tr> 
+    <td width="334" valign="top" style="border: 0.5pt solid windowtext; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExampleCaption"><span lang="EN-US"><strong><font face="Courier New">Входные данные</font></strong></span></p> 
+    </td> 
+    <td width="334" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(212, 208, 200); border-width: 0.5pt 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExampleCaption"><strong><font face="Courier New"><span lang="EN-US"></span><span> 
+        <p>Выходные данные</p></span></font></strong></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="334" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">2 3</font></p> 
+    </td> 
+    <td width="334" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">3 </font></span></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="334" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">3 3</font></p> 
+    </td> 
+    <td width="334" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">6 </font></span></p> 
+    </td> 
+  </tr></tbody> 
+</table> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Пояснение к первому примеру</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">Если у нас есть таблица из 2 строк и 3 столбцов, то существуют следующие способы попасть из левого верхнего угла в правый нижний:</font></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">1) вниз, вправо, вправо</font></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">2) вправо, вниз, вправо</font></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">3) вправо, вправо, вниз</font></p></div><div class="statements_chapter"><a name="ch269"></a><p class="statements_chapter_title"><B>Problem G.</B> Последовательность из 0 и 1</p>Требуется подсчитать количество последовательностей длины N, состоящих из 0 и 1, в которых никакие две единицы не стоят рядом.<br /><font face="Arial"><br /><b>Входные данные</b></font><br />Во входном файле записано целое число N (1 ≤ N ≤ 100).<br /><font face="Arial"><br /><b>Выходные данные</b></font><br />В выходной файл вывести количество искомых последовательностей.<br /><font face="Arial"><br /><b>Пример входного файла</b></font><br />5<br /><font face="Arial"><br /><b>Пример выходного файла</b></font><br />13 </div><div class="statements_chapter"><a name="ch270"></a><p class="statements_chapter_title"><B>Problem H.</B> Восстановление скобок</p>Задан шаблон, состоящий из круглых скобок и знаков вопроса. Требуется определить, сколькими способами можно заменить знаки вопроса круглыми скобками так, чтобы получилось правильное скобочное выражение.<br /><font face="Arial"><br /><b>Входные данные</b></font><br />Первая строка входного файла содержит заданный шаблон длиной не более 80 символов.<br /><font face="Arial"><br /><b>Выходные данные</b></font><br />Выведите в выходной файл искомое количество способов. Исходные данные будут таковы, что это количество не превзойдет 2·10<sup>9</sup> .<br /><font face="Arial"><br /><b>Пример входного файла</b></font><br />????(?<br /><font face="Arial"><br /><b>Пример выходного файла</b></font><br />2 </div><div class="statements_chapter"><a name="ch271"></a><p class="statements_chapter_title"><B>Problem I.</B> Уравнение с пропущенными скобками</p> Задано уравнение вида A + B = C, где A, B и C – неотрицательные целые числа, в десятичной записи которых некоторые цифры заменены знаками вопроса (?). Примером такого уравнения является ?2+34=4?. Требуется так подставить вместо знаков вопроса цифры, чтобы это равенство стало верным, либо определить, что это невозможно. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Заданное уравнение содержится в первой строке входного файла. Длина уравнения не превышает 80 символов. Входной файл не содержит пробелов. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />В выходной файл требуется вывести верное равенство, полученное из исходного уравнения заменой знаков вопроса цифрами, либо сообщение «No solution». <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />??2?4+9?=355 <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />00264+91=355 </div><div class="statements_chapter"><a name="ch272"></a><p class="statements_chapter_title"><B>Problem J.</B> Гвоздики</p><p>В дощечке в один ряд вбиты гвоздики. Любые два гвоздика можно соединить ниточкой. Требуется соединить некоторые пары гвоздиков ниточками так, чтобы к каждому гвоздику была привязана хотя бы одна ниточка, а суммарная длина всех ниточек была минимальна.</p>
+<p><strong><i>Формат входных данных</i></strong></p>
+<p>В первой строке входного файла записано число N - количество гвоздиков (1 &lt;= N &lt;= 100). В следующей строке записано N чисел - координаты всех гвоздиков (неотрицательные целые числа, не превосходящие 10000). </p>
+<p><strong><i>Формат выходных данных</i></strong></p>
+<p>В выходной файл нужно вывести единственное число - минимальную суммарную длину всех ниточек. </p>
+<p><i><strong>Пример </strong></i></p>
+<table cellspacing="0" cellpadding="0" border="1"><tbody> 
+  <tr> 
+    <td valign="top" width="334"><strong>Входные данные</strong> 
+    </td> 
+    <td valign="top" width="334"> 
+      <p><strong>Выходные данные</strong></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td valign="top" width="334"> 
+      <p>5 <br />4 10 0 12 2 </p> 
+    </td> 
+    <td valign="top" width="334"> 
+      <p>6 </p> 
+    </td> 
+  </tr></tbody> 
+</table></div><div class="statements_chapter"><a name="ch273"></a><p class="statements_chapter_title"><B>Problem K.</B> Лесенки</p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt;"><font face="Arial">Лесенкой называется набор кубиков, в котором каждый горизонтальный слой содержит меньше кубиков, чем слой под ним.</font></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt;"><font face="Arial"> </font></p>
+<p> </p>
+<table cellspacing="0" cellpadding="0" border="1" style="border: medium none ; border-collapse: collapse;"><tbody>
+  <tr>
+    <td width="71" valign="top" style="border: 0.5pt solid windowtext; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) windowtext; border-width: medium medium 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) windowtext; border-width: medium medium 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) windowtext; border-width: medium medium 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border: medium none rgb(212, 208, 200); padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border: medium none rgb(212, 208, 200); padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border: medium none rgb(212, 208, 200); padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border: medium none rgb(212, 208, 200); padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="71" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) windowtext; border-width: medium medium 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border: medium none rgb(212, 208, 200); padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border: medium none rgb(212, 208, 200); padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border: medium none rgb(212, 208, 200); padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="71" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) windowtext; border-width: medium medium 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) windowtext; border-width: medium medium 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none none solid; border-color: rgb(212, 208, 200) rgb(212, 208, 200) windowtext; border-width: medium medium 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+  </tr>
+  <tr>
+    <td width="71" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+    <td width="71" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 53.25pt; background-color: transparent;">
+      <h3 style="margin: 0cm 0cm 0pt;"><font size="2"><font face="Arial"> <span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></font></font></h3>
+    </td>
+  </tr></tbody>
+</table>
+<h3 style="margin: 0cm 0cm 0pt;"><span style="font-weight: normal; font-size: 11pt; font-family: 'times new roman';"> </span></h3>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt;"><font face="Arial">Подсчитать количество различных лесенок, которые могут быть построены из N кубиков.</font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt;"><strong><em><font face="Arial">Формат входных данных</font></em></strong></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt;"><font face="Arial">Во входном файле записано число N (1</font><span style="font-size: 12pt;">≤</span><font face="Arial">N</font><span style="font-size: 12pt;">≤</span><font face="Arial">100).</font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt;"><strong><em><font face="Arial">Формат выходных данных</font></em></strong></p>
+<p class="ProblemStatement" style="margin: 0cm 0cm 0pt;"><font face="Arial">В выходной файл вывести искомое количество лесенок.</font></p>
+<p class="ProblemIOE" style="margin: 6pt 0cm 3pt;"><em><font face="Arial"><strong>Пример<span lang="EN-US"> </span></strong></font></em></p>
+<p> </p>
+<table cellspacing="0" cellpadding="0" border="1" style="border: medium none ; border-collapse: collapse;"><tbody>
+  <tr>
+    <td width="334" valign="top" style="border: 0.5pt solid windowtext; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;">
+      <p class="ProblemExampleCaption" style="margin: 0cm 0cm 0pt;"><span lang="EN-US"><strong><font face="Courier New">Входные данные</font></strong></span></p>
+    </td>
+    <td width="334" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(212, 208, 200); border-width: 0.5pt 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;">
+      <p class="ProblemExampleCaption" style="margin: 0cm 0cm 0pt;"><span lang="EN-US"><strong><font face="Courier New">Выходные данные</font></strong></span></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="334" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"><pre><span lang="EN-US" style="color: black;"><font size="2">3
+</font></span></pre>
+    </td>
+    <td width="334" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;">
+      <p class="ProblemExample" style="margin: 0cm 0cm 0pt;"><span lang="EN-US"><font face="Courier New">2</font></span></p>
+    </td>
+  </tr></tbody>
+</table> </div><div class="statements_chapter"><a name="ch274"></a><p class="statements_chapter_title"><B>Problem L.</B> Покупка билетов</p><p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">За билетами на премьеру нового мюзикла выстроилась очередь из <i><span lang="EN-US">N</span></i> человек, каждый из которых хочет купить 1 билет. На всю очередь работала только одна касса, поэтому продажа билетов шла очень медленно, приводя «постояльцев» очереди в отчаяние. Самые сообразительные быстро замети</font>ли, что, как правило, несколько билетов в одни руки кассир продаёт быстрее, чем когда эти же билеты продаются по одному. Поэтому они предложили нескольким подряд стоящим людям отдавать деньги первому из них, чтобы он купил билеты на всех. </p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">Однако для борьбы со спекулянтами кассир продавала не более 3-х билетов в одни руки, поэтому договориться таким образом между собой могли лишь 2 или 3 подряд стоящих человека.</font></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">Известно, что на продажу <i><span lang="EN-US">i</span></i>-му человеку из очереди одного билета кассир тратит <i><span lang="EN-US">A<sub>i</sub></span></i> секунд, на продажу двух билетов — <i><span lang="EN-US">B<sub>i</sub></span></i> секунд, трех билетов — <i><span lang="EN-US">C<sub>i</sub></span></i> секунд. Напишите программу, которая подсчитает минимальное время, за которое могли быть обслужены все покупатели.</font></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">Обратите внимание, что билеты на группу объединившихся людей всегда покупает первый из них. Также никто в целях ускорения не покупает лишних билетов (то есть билетов, которые никому не нужны).</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Формат входных данных</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">Во входном файле записано сначала число <i><span lang="EN-US">N</span></i> — количество покупателей в очереди (1≤<i><span lang="EN-US">N</span></i>≤5000). Далее идет <i><span lang="EN-US">N</span><span lang="EN-US"> </span></i>троек натуральных чисел <i><span lang="EN-US">A<sub>i</sub></span></i>, <i><span lang="EN-US">B<sub>i</sub></span></i>, <i><span lang="EN-US">C<sub>i</sub></span></i>. Каждое из этих чисел не превышает 3600. Люди в очереди нумеруются начиная от кассы.</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><strong><em><font face="Arial">Формат выходных данных</font></em></strong></p> 
+<p style="margin: 0cm 0cm 0pt;" class="ProblemStatement"><font face="Arial">В выходной файл выведите одно число — минимальное время в секундах, за которое могли быть обслужены все покупатели.</font></p> 
+<p style="margin: 6pt 0cm 3pt;" class="ProblemIOE"><em><font face="Arial"><strong>Примеры </strong></font></em></p> 
+<table cellspacing="0" cellpadding="0" border="1" style="border: medium none ; border-collapse: collapse;"><tbody> 
+  <tr> 
+    <td width="334" valign="top" style="border: 0.5pt solid windowtext; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExampleCaption"><strong><font face="Courier New"><span lang="EN-US">Входные данные</span></font></strong></p> 
+    </td> 
+    <td width="334" valign="top" style="border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(212, 208, 200); border-width: 0.5pt 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExampleCaption"><strong><font face="Courier New"><span lang="EN-US">Выходные данные</span></font></strong></p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="334" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">5 </font></span> </p> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">5 10 15 </font></span> </p> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">2 10 15 </font></span> </p> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">5 5 5 </font></span> </p> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">20 20 1 </font></span> </p> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">20 1 1 </font></span> </p> 
+    </td> 
+    <td width="334" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">12 </font></span> </p> 
+    </td> 
+  </tr> 
+  <tr> 
+    <td width="334" valign="top" style="border-style: none solid solid; border-color: rgb(212, 208, 200) windowtext windowtext; border-width: medium 0.5pt 0.5pt; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">2 </font></span> </p> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">3 4 5 </font></span> </p> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">1 1 1 </font></span> </p> 
+    </td> 
+    <td width="334" valign="top" style="border-style: none solid solid none; border-color: rgb(212, 208, 200) windowtext windowtext rgb(212, 208, 200); border-width: medium 0.5pt 0.5pt medium; padding: 0cm 5.4pt; width: 250.2pt; background-color: transparent;"> 
+      <p style="margin: 0cm 0cm 0pt;" class="ProblemExample"><span><font face="Courier New">4 </font></span> </p> 
+    </td> 
+  </tr></tbody> 
+</table> </div><div class="statements_chapter"><a name="ch275"></a><p class="statements_chapter_title"><B>Problem M.</B> Ход конем</p>Шахматная ассоциация решила оснастить всех своих сотрудников такими телефонными номерами, которые бы набирались на кнопочном телефоне ходом коня. Например, ходом коня набирается телефон 340-49-27. При этом телефонный номер не может начинаться ни с цифры 0, ни с цифры 8.
+<table width="100" border="1"> <tbody>
+  <tr>
+    <td width="33%" align="center">7
+    </td>
+    <td width="33%" align="center">8
+    </td>
+    <td width="34%" align="center">9
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">4
+    </td>
+    <td width="33%" align="center">5
+    </td>
+    <td width="34%" align="center">6
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">1
+    </td>
+    <td width="33%" align="center">2
+    </td>
+    <td width="34%" align="center">3
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center">
+    </td>
+    <td width="33%" align="center">0
+    </td>
+    <td width="34%" align="center">
+    </td>
+  </tr> </tbody>
+</table>
+<p>Напишите программу, определяющую количество телефонных номеров длины N, набираемых ходом коня. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Во входном файле записано целое число N (1 ≤ N ≤ 100). <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />Выведите в выходной файл искомое количество телефонных номеров. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />2 <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />16 </p> </div><div class="statements_chapter"><a name="ch276"></a><p class="statements_chapter_title"><B>Problem N.</B> Дырокол</p>Квадратный клетчатый лист бумаги 2<sup>N</sup> × 2<sup>N</sup> клеток начинают складывать следующим образом. Сначала нижняя половина листа накладывается на верхнюю, затем правая половина листа накладывается на левую. Эту операцию повторяют N-3 раза, в результате чего получается сложенный лист 8 × 8 клеток. Какие-то из клеток этого сложенного листа удаляются при помощи дырокола.
+<p>После развертывания исходный лист распадется на некоторое количество связных частей, т.е. таких множеств клеток, что из любой клетки одного множества можно пройти до любой другой, переходя каждый раз на соседнюю по вертикали или горизонтали клетку. Напишите программу, вычисляющую число частей, на которые распадется лист. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Первая строка входного файла содержит целое число N (4 ≤ N ≤ 500). В следующих 8 строках записана матрица 8 × 8 из нулей и единиц, разделенных пробелом. Единицами отмечены клетки, выкалываемые дыроколом из сложенного листа 8 × 8. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />Вывести в выходной файл искомое число частей. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />4 <br />0 1 0 0 0 0 1 0 <br />1 0 0 0 0 0 1 1 <br />0 0 0 0 0 0 0 0 <br />0 0 0 1 1 0 0 0 <br />0 0 0 1 1 0 0 0 <br />0 0 0 1 0 1 0 0 <br />0 0 0 0 1 0 0 0 <br />0 0 0 0 0 0 0 0 <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />11 </p> </div><div class="statements_chapter"><a name="ch277"></a><p class="statements_chapter_title"><B>Problem O.</B> Сжатие текста</p> Архиватором называется программа, предназначенная для сжатия данных за счет удаления избыточной информации. В этой задаче вашей целью является разработка простейшего архиватора текстов на русском языке. В таких текстах многие знаки стандартной таблицы символов не встречаются, поэтому они могут быть использованы для замены часто повторяющихся последовательностей символов.
+<p> Заданы последовательности, которые могут быть заменены некоторыми символами английского алфавита, а также исходный текст, который следует сжать. Поскольку в исходном тексте эти последовательности могут накладываться друг на друга, результат сжатия существенно зависит от порядка замен. Ваша задача состоит в том, чтобы получить сжатый текст наименьшей длины. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />В первой строке входного файла заданы целое число R (1 ≤ R ≤ 52)– количество заменяемых последовательностей и целое число N – количество строк в исходном тексте (1 ≤ N ≤ 1000). Далее следуют R пар строк, описывающих возможные замены. Первая строка каждой пары содержит заменяемую последовательность, а вторая – заменяющий символ, являющийся большой или маленькой английской буквой. Различным заменяемым последовательностям соответствуют разные английские буквы (большие и маленькие буквы различаются). В следующих N строках записан текст, подлежащий сжатию. В этом тексте так же, как и в заменяемых последовательностях, отсутствуют буквы английского алфавита.<br /> <font face="Arial"><br /><b>Выходные данные </b></font><br />В выходной файл вывести заархивированный текст. <br /><font face="Arial"><br /><b>Примечания </b></font><br />Символы перевода строки не заменяются (т.е. замены возможны только внутри строк). Длина каждой строки входного файла не превосходит 255 символов. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />8 10 <br />рхиватор <br />b <br />замен <br />D <br />ены <br />F <br />зам <br />G <br />быт <br />h <br />про <br />d <br />сжат <br />f <br />ом называется <br />g <br />Архиватором называется программа, предназначенная для сжатия данных за счет удаления <br />избыточной информации. В этой задаче вашей целью является разработка простейшего <br />архиватора текстов на русском языке. В таких текстах многие знаки стандартной таблицы <br />символов не встречаются, поэтому они могут быть использованы для замены часто <br />повторяющихся последовательностей символов. <br /> <br />Заданы последовательности, которые могут быть заменены некоторыми символами английского <br />алфавита, а также исходный текст, который следует сжать. Поскольку в исходном тексте эти <br />последовательности могут накладываться друг на друга, результат сжатия существенно зависит <br />от порядка замен. Ваша задача состоит в том, чтобы получить сжатый текст наименьшей длины. <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />Аbg dграмма, предназначенная для fия данных за счет удаления <br />изhочной информации. В этой задаче вашей целью является разработка dстейшего <br />аbа текстов на русском языке. В таких текстах многие знаки стандартной таблицы <br />символов не встречаются, поэтому они могут hь использованы для Dы часто <br />повторяющихся последовательностей символов. <br /> <br />Заданы последовательности, которые могут hь DF некоторыми символами английского <br />алфавита, а также исходный текст, который следует fь. Поскольку в исходном тексте эти <br />последовательности могут накладываться друг на друга, результат fия существенно зависит <br />от порядка D. Ваша задача состоит в том, чтобы получить fый текст наименьшей длины. </p> </div><div class="statements_chapter"><a name="ch278"></a><p class="statements_chapter_title"><B>Problem P.</B> Пустоты в кубе</p>Жюри составило отчет об учебно-тренировочных сборах по информатике и собирается распечатать его на стандартном листе бумаги. Весь отчет набран одним моноширинным шрифтом, т.е. все символы (включая пробелы) имеют одинаковую ширину. Длина строки при печати этим шрифтом на листе бумаги равна S.
+<p>Назовем пустотой последовательность пробелов между соседними словами в строке, а также от начала строки до первого слова в ней и от последнего слова в строке до конца строки. Проблема, стоящая перед жюри, состоит в том, что научный руководитель сборов Владимир Михайлович Кирюхин отказывается читать текст, если сумма кубов длин пустот по всем строкам не минимальна. Помогите жюри расположить отчет на листе бумаги так, чтобы В.М. Кирюхин согласился его прочесть и утвердить результаты сборов. </p>
+<p>Для достижения требуемого расположения текста на бумаге разрешается заменять произвольную пробельную последовательность (т.е. непустую последовательность подряд идущих пробелов и/или символов перевода строки) любой другой пробельной последовательностью. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Первая строка входного файла содержит целое число S (1 ≤ S ≤ 80). В последующих строках записан отчет, содержащий не более 500 слов. Длина каждой строки отчета не превосходит 250 символов, а длина каждого слова не превосходит S. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />Вывести в первую строку выходного файла минимально возможную сумму кубов пустот по всем строкам. В последующие строки следует вывести искомое расположение текста на листе бумаги. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />30 <br />Победители летних учебно-тренировочных сборов по <br />информатике 1997 г.: <br />Владимир Мартьянов, <br />Анатолий Пономарев, <br />Николай Дуров, Андрей Лопатин. <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />325 <br /> Победители летних <br /> учебно-тренировочных сборов по <br /> информатике 1997 г.: Владимир<br />Мартьянов, Анатолий Пономарев, <br />Николай Дуров, Андрей Лопатин. </p> </div><div class="statements_chapter"><a name="ch279"></a><p class="statements_chapter_title"><B>Problem Q.</B> Шаблон с ? и *</p>Шаблоном называется строка, состоящая из английских букв (a, ..., z, A, ..., Z) и символов ? и *. Каждый из символов ? разрешается заменить на одну произвольную букву, а каждый из символов * – на произвольную (возможно пустую) последовательность букв. Про любую строку из букв, которую можно получить из шаблона такими заменами, будем говорить, что она удовлетворяет этому шаблону.
+<p>Имеются два шаблона. Требуется найти строку минимальной длины, которая удовлетворяет обоим шаблонам, либо выдать сообщение, что такой строки не существует. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Заданные шаблоны записаны в первых двух строках входного файла. Длина каждого шаблона не превосходит 80 символов. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />В выходной файл следует вывести строку минимальной длины, удовлетворяющую обоим шаблонам, либо сообщение «Строки не существует!» <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />A* <br />*B <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />AB </p></div><div class="statements_chapter"><a name="ch280"></a><p class="statements_chapter_title"><B>Problem R.</B> Жадный калькулятор</p>Задано алгебраическое выражение, составленное из неотрицательных вещественных чисел и знаков операций +, - и *. Требуется так расставить в этом выражении скобки, чтобы его значение стало максимально возможным. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Исходное выражение длиной не более 250 символов записано в первой строке входного файла. Выражение содержит не более 50 чисел, каждое из которых лежит в диапазоне от 0 до 10<sup>6</sup> . Пробелы внутри чисел не допускаются. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />Выведите в первую строку выходного файла максимально возможное после расстановки скобок значение выражения, а во вторую строку – само это выражение (если вариантов несколько, нужно выдать любой из них). <br /> <font face="Arial"><br /><b>Пример входного файла </b></font><br />1+2 - 3.0*4 <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />0 <br />((1+2)-3)*4 </div><div class="statements_chapter"><a name="ch281"></a><p class="statements_chapter_title"><B>Problem S.</B> Взлом сети</p>Компьютерная сеть Пентагона состоит из N компьютеров, некоторые из которых соединены прямыми двусторонними каналами связи. В целях повышения секретности при проектировании сети количество каналов связи было сокращено до минимума с тем условием, чтобы любые два компьютера имели возможность обмена информацией либо непосредственно, либо через другие компьютеры сети.
+<p>КГБ хочет прослушивать все передаваемые в сети Пентагона сообщения. Для этого советскими программистами был разработан вирус, который, будучи установлен на какой-либо из компьютеров, передает КГБ всю информацию, проходящую через него. Оказалось, что материальные затраты, необходимые для установки вируса на различные компьютеры, различны. Требуется определить набор компьютеров, которые КГБ должно инфицировать, чтобы минимизировать общие материальные затраты. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Первая строка входного файла содержит N – количество компьютеров в сети (1 ≤ N ≤ 500). В i-й из последующих N строк содержатся номера компьютеров, с которыми непосредственно связан компьютер номер i. Далее следуют N целых чисел из диапазона [1, 1000] – материальные затраты, связанные с установкой вируса на каждый из компьютеров. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />В выходной файл выведите минимально возможные суммарные затраты и список номеров компьютеров, которые нужно инфицировать, упорядоченный по возрастанию. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />5 <br />5 <br />4 <br />4 <br />2 3 5 <br />4 1 <br />1 5 5 2 10 <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />3 <br />1 4 </p> </div><div class="statements_chapter"><a name="ch282"></a><p class="statements_chapter_title"><B>Problem T.</B> Параллельные вычисления</p>Задано арифметическое выражение, содержащее операции сложения, умножения, круглые скобки и операнды, которыми являются буквы английского алфавита. Нас будет интересовать скорость вычисления таких выражений на многопроцессорной машине, поэтому скобки в них будем расставлять в обязательном порядке для указания порядка проведения операций.
+<p> Известно, что сложение двух чисел занимает время p, а умножение – время q. Время, необходимое для вычисления сложного выражения A<sup>o</sup>B, равно времени, затрачиваемому на выполнение операции <sup>o</sup>, плюс максимальное из двух чисел – времени вычисления подвыражения A и времени вычисления подвыражения B. Время вычисления операнда полагаем равным нулю. Требуется написать программу, которая: <br /> 1. Определяет время, необходимое для вычисления заданного выражения на многопроцессорной машине. <br /> 2. Находит эквивалентное заданному арифметическое выражение с минимальным временем вычисления и само это время.</p>
+<p>Выражения называется эквивалентными, если одно из них можно получить из другого последовательностью следующих преобразований: <br /> x + y → y + x , x * y → y * x (коммутативный закон), <br /> x + (y + z) → (x + y) + z , x * (y * z) → (x * y) * z (ассоциативный закон). <br /><font face="Arial"><br /><b>Входные данные </b></font><br />В первой строке входного файла содержатся два целых числа p и q (1 ≤ p,q ≤ 1000), во второй – арифметическое выражение длиной не более 200 символов. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />Первая строка выходного файла должна содержать ответ на первый пункт задачи. Во вторую строку выведите эквивалентное заданному выражение с минимальным временем вычисления, а в третью – само это время. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />1 1 <br />((a+(b+(c+d)))*e)*f <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />5 <br />((a+b)+(c+d))*(e*f) <br />3 </p> </div><div class="statements_chapter"><a name="ch283"></a><p class="statements_chapter_title"><B>Problem U.</B> Длинный путь в графе</p>Заданы N-вершинный ориентированный граф с двумя выделенными вершинами v<sub>1</sub> и v<sub>2</sub> и целое число C. Требуется:<br /> 1) определить, существует ли в заданном графе путь из вершины v<sub>1</sub> в вершину v<sub>2</sub>, состоящий из C ребер (путь может иметь самопересечения как по вершинам, так и по ребрам);<br /> 2) найти минимум функции | X - C |, где X – количество ребер в некотором пути из v<sub>1</sub> в v<sub>2</sub> . <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Первая строка входного файла содержит целое число N – количество вершин в графе (1 ≤ N ≤ 10). В следующих N строках расположена матрица N × N из нулей и единиц, элемент (i, j) которой равен единице, если в графе есть ребро из вершины i в вершину j, и нулю, если такого ребра нет. (Граф может содержать петли, т.е. ребра, идущие из вершины в саму себя). Элементы матрицы во входном файле записаны без разделительных пробелов.
+<p> Наконец, строка N+2 содержит номера вершин v<sub>1</sub> и v<sub>2</sub> , а строка N+3 – десятичную запись числа C (1 ≤ C &lt; 10<sup>50</sup>). <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />В первую строку выходного файла выведите ответ на первый пункт задачи: «Yes», если путь длины C существует, и «No», если нет. Во вторую строку запишите ответ на второй пункт задачи. Если ни одного пути из v<sub>1</sub> в v<sub>2</sub> не существует, ваша программа должна вывести -1. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />3 <br />010 <br />001 <br />100 <br />1 1 <br />555555555555555555555555555555555 <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />Yes <br />0 </p> </div><div class="statements_chapter"><a name="ch284"></a><p class="statements_chapter_title"><B>Problem V.</B> Навстречу друг другу</p>Дано прямоугольное клетчатое поле M × N клеток. Каждая клетка поля покрашена в один из шести цветов, причем левая верхняя и правая нижняя клетки имеют различный цвет. В результате поле разбивается на некоторое количество одноцветных областей: две клетки одного цвета, имеющие общую сторону, принадлежат одной области. <br /><font face="Arial"><br /><b>Правила игры </b></font><br />Играют два игрока. За первым игроком закреплена область, включающая левую верхнюю клетку, за вторым – правую нижнюю. Игроки ходят по очереди. Делая ход, игрок перекрашивает свою область: <br /> А) в любой из шести цветов; <br /> Б) в любой из шести цветов, за исключением цвета своей области и цвета области противника. <br />В результате хода к области игрока присоединяются все прилегающие к ней области выбранного цвета, если такие имеются. Если после очередного хода окажется, что области игроков соприкасаются, то игра заканчивается. <br /><font face="Arial"><br /><b>Задание </b></font><br />Напишите программу, которая для каждого из пунктов (А и Б) определяет минимально возможное число ходов, по прошествии которых игра может завершиться. <br /><font face="Arial"><br /><b>Входные данные </b></font><br />Цвета пронумерованы цифрами от 1 до 6. Первая строка входного файла содержит целые числа M и N – размеры поля (1 ≤ M,N ≤ 50). Далее следует описание раскраски поля – M строк по N цифр (от 1 до 6) в каждой без пробелов. Первая цифра файла соответствует цвету левой верхней клетки игрового поля. Количество одноцветных областей не превосходит 50. <br /><font face="Arial"><br /><b>Выходные данные </b></font><br />В выходной файл выведите искомое количество ходов для каждого из пунктов. <br /><font face="Arial"><br /><b>Пример входного файла </b></font><br />4 3 <br />122 <br />221 <br />143 <br />132 <br /><font face="Arial"><br /><b>Пример выходного файла </b></font><br />3 <br />4 </div></body> </html>

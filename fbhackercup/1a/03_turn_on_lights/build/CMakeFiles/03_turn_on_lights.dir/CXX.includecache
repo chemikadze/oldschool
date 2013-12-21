@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chemikadze/programming/fbhackercup/1a/03_turn_on_lights/main.cpp
+iostream
+-
+vector
+-
+set
+-
+deque
+-
+

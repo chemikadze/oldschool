@@ -1,0 +1,480 @@
+QWidget(parent=0, flags=0)
+setWindowFlags()
+Flags:
+	Qt::Window
+	Qt::Tool
+	Qt::WindowSystemMenuHint
+	Qt::WindowMaximizeButtonHint
+	Qt::WindowTitleHint
+	Qt::WindowMinimizeButtonHint
+	Qt::FramelessWindowHint
+	Qt::WindowContextHelpButtonHint
+	Qt::WindowStaysOnTopHint
+
+setWindowTitle()
+setEnabled()
+
+QSize size()	int height()	int width()
+QPoint pos()	int x() 	int y()
+QRect geometry()
+
+move(int, int)
+resize(int, int)
+setGeometry(int, int)
+
+setAutoFillBackground()
+setPalette(QPalette)
+	QPalette::setColor(QWidget::back/foregroundRole(), Qt::colorname);
+	QPalette::setBrush(QWidget::back/foregroundRole(), QBrush(QPixmap("PATH")) // Don't understand ~, $(PATH)
+
+setCursor()
+QApplication::setOverrideCursor()
+QApplication::restoreOverrideCursor()
+
+QTextCodec::setCodecForTr(QTextCodec*)
+QTextCodec* QTextCodec:: codecByName()
+
+QStackedWidget
+	addWidget(QWidget*)
+	removeWidget(QWidget*)
+	setCurrentWidget(QWidget*)
+	setCurrentIndex(QWidget*)
+	indexOf(QWidget*)
+	currentIndex()
+	currentWidget()
+ 
+QFrame
+	setLineWidth()
+	setMidLineWidth()
+	setFrameStyle()
+		Box
+		Panel
+		WinPanel
+		HLine
+		VLine
+		StyledPanel
+		NoFrame
+
+QLayout
+	setSpacing()
+	setMargin()
+	addWidget()
+	removeWidget()
+
+QBoxLayout()
+	
+	Plain	
+	Raised
+	Sunken
+
+QAbstractScrollArea
+QScrollArea
+	setHorisntalScrollBarPolicy()
+	setVerticalScrollBarPolicy()
+	Qt::ScrollBarAllwaysOn
+	viewport()
+	verticallScrolBar()
+	cornerWidget()
+	horisontalScrollBar()
+	setWidget()
+	widget()
+	removeChild()
+
+QLayout
+	setMargin()
+	setSpacing()
+
+QBoxLayout
+	RightToLeft
+	LeftToRight
+	TopToBottom
+	BottomToTop
+	
+	addWidget()
+	addStretch()
+
+	insertWidget()
+	insertLayout()
+	insertSpacing()
+	insertStretch()
+
+QGridLayout
+	addWidget(widget, y, x, wY, wX);
+
+setTabOrder(QWidget, QWidget)
+
+QSplitter()
+	setOpaqueResize()
+
+QLabel
+slot	setText()	&letter
+	setPixmap()
+	setMovie()
+	setBuddy()	// widget-focuser
+
+QProgressBar
+	setFormat()	// %p--perstange %v--value %m--steps
+	setMaximum()
+slot	setValue()
+slot	reset()
+
+QLCDNumber
+	setNumDigits(int)
+	setSegmentStyle()
+		Outline
+		Filled
+		Flat
+	setMode()
+		Bin
+		Oct
+		Dec
+		Hex
+sig	setSmallDecimalPoint(bool)
+sig	display()
+
+
+QAbstractScrollArea
+	setOrientation()
+		Qt::Horizontal
+		Qt::Vertical
+	setRange(int, int)
+	setMaximum()
+	setMinimum()
+	setSingleStep()
+	setPageStep()
+	setValue()
+	setTracking()	// valueChanged AFTER moving	
+
+sig	valueChanged()
+sig	sliderMoved()
+sig	sliderPressed()
+sig	sliderReleased()
+
+QSlider
+	setTickPosition()
+		NoTicks
+		TicksAbove
+		TicksBelow
+		TicksBothSides
+	setTickInterval()
+	setInvertedAppearance(bool); 
+
+QScrollBar
+
+QDial
+	setNotchTarget()	// count
+	setNotchesVisible()	// is
+
+QLineEdit
+	text()
+	setText()
+sig	textChanged(const QString&)
+sig	returnPressed()
+	setReadOnly()
+	setEchoMode()
+		Password
+	setMaxLength()
+slot	copy()
+slot	cut()
+slot	paste()
+slot 	undo()
+	isUndoAvailable()
+	isRedoAvailable()
+
+QTextEdit
+	setReadOnly()
+	text()
+	textCursor()
+		.selectedText()
+	document()
+slot	setPlainText()
+slot	setHtml()
+slot	selectAll()
+slot	deselect()
+slot	clear()
+sig	textChanged()
+sig	selectionChanged()
+
+QSyntaxHighlighter(QTextDocument)
+	highlightBlock(const QString& str)
+
+QAbstractSpinBox
+	setWrapping()	// перевод заново
+	stepUp()
+	stepDown()
+	setSpecialValueText()
+	setRange()
+	setValue()
+sign	valueChanged()	// int, const QString&
+	setPrefix()
+	setSuffix()
+	setButtonSymbols()
+
+QSpinBox
+
+QDateTimeEdit(QDateTime::currentDateTime())
+
+QDoubleSpinBox
+
+QValidator
+	setValidator()
+	virtual State validate(QString&, int& pos)const
+	::Invalid
+	::Acceptable
+QIntValidator
+QDoubleValidator
+
+QListWidget
+	addItem()
+slot	clear()
+	insertItem(QStringList)
+	insertItem()
+	setItemWidget(QListWidgetItem&, QWidget&)
+	itemWidget()
+	sortItems()
+		Qt::AscendingOrder
+		Qt::Descendingorder
+	currentItem()
+	selectedItems()
+	setViewMode()
+		::IconMode
+	setSelectionMode()
+		::MultiSelection
+		::NoSelection
+		::SingleSelection
+sig	itemClicked()
+sig	itemDoubleClicked()
+sig	itemSeletionChanged()
+sig	itemChanged()
+sig	itemRenamed()
+
+QListWidgetItem
+	setIcon()
+	setFlags()
+		Qt::ItemIsEditable
+		Qt::ItemIsEnabled
+		Qt::ItemIsSelectable
+		Qt::ItemIsDragable
+
+QTableWidget
+	setItem(row, col, QTableWidgetItem)
+	setCellWidget()
+	setCurrentItem(row, col)
+	setVerticalHeaderLabels()
+	setHorizontalHeaderLabels()
+
+QComboBox
+	addItem([icon,] text)
+	setDuplicatesEnabled()
+	currentIndex()
+	setEditeble()
+sig	editTextChanged()
+sig	activated()	//const QString&	int // 
+
+QTabWidget
+	setTabEnabled(int, bool)
+	setCurrentIndex()
+	addTab(QWidget*, QIcon, QString)
+
+QToolBox	// like PowerDevil config
+	addItem(QWidget*, QIcon, QString)
+	insertItem()
+	removeItem()
+
+Model <--> Delegate <-->  View
+
+QAbstractItemModel
+	QVariant data(const QModelIndex&, [int role])const
+	bool setData(const QModelIndex&, const QVariant& data[, int role])
+	int rowCount(const QModelIndex& parent) const
+	QVariant headerData(int section, Qt::Orientation[, int role])const
+	Qt::ItemFlags flags(const QModelIndex&)
+
+	index() // QModelIndex
+sig	dataChanged()	
+
+QModelIndex
+	row()
+	col()
+	isValid()
+
+QStanderdItemModel
+	setData(index, data)
+	setData(index, data, Role)
+		Qt::DisplayRole
+		Qt::EditRole
+		Qt::ToolTipRole
+		Qt::DecorationRole
+	insertRows(pos, count, index)	
+	insertColumns(pos, count, index)	
+
+QStringListModel
+	setStringList()
+
+QTreeView
+QListView
+QTableView
+	setModel()
+	setSelectionModel()
+
+QItemSelectionModel(QAbstractItemModel)	
+	currentIndexes()
+	select()
+sig	currentChanged()
+sig	selectionChanged()
+sig	currentRowChanged()
+sig	curretColumnChanged()
+
+QItemDelegate
+	void paint(QPainter*, const QStyleOptionViewItem&, const QModelIndex&) const
+
+
+QSortFilterProxyModel
+	setSourceModel(QAbstrctModel*)
+	setFilterWildcard(QString)
+	setSortRole()
+
+QPalette
+	setColor(QWidget::back/foregroundRole(), Qt::colorname);
+	setBrush(QWidget::back/foregroundRole(), QBrush(QPixmap("PATH")) // Don't understand ~, $(PATH)
+
+	WindowText
+	Text
+	BrightText
+	ButtonText
+	Highlight
+	HighlightedText
+	Window
+	Base
+	Button
+	Link
+	LinkVisited
+	Light
+	Modlight
+	Dark
+	Mid
+	Shadow
+
+QPoint
+	+, * на число, ==, !=
+	x(), y()
+	setX(), setY()
+	rx(), ry()
+	isNull()
+
+QSize
+	width()
+	setWidth()
+	height()
+	setHeigth()
+	rwidth(), rheight()
+	scale()
+	Qt::IgnoreAspectRatio
+	Qt::KeepAspectRatio
+	Qt::KeepAspectRatioByExpanding
+
+QRect(QPoint, QSize)
+
+QLine
+	x1() y1()
+	x2() y2()
+	p1()
+	p2()
+	dx(), dy()
+
+QPolygon()
+	<< QPoint()
+
+QColor
+	red()
+	green()
+	blue()
+	alpha()
+	getRgb(int&, int&, int&)
+	setRgb()
+	setHsv()
+	
+QRgb
+	qRgb()
+	qRgba()
+	
+
+QPainter
+   V
+QPaintEngine
+   V
+QPaintDevice
+	QPicture
+	QPrinter
+	QWidget
+	QImage
+	QGLFramebufferobject
+	QGLPixelBuffer
+	QCustomRasterPaintDevice
+	QPixmap
+		QBitmap
+
+QPainEvent
+	region()
+	rect()
+
+QPainter
+	begin()
+	end()
+
+	save()
+	restore()
+
+	setPen()
+	setBrush()
+	setRenderHint()
+		::Antialiasing, 
+		::TextAntialiasing, 
+		::SmoothPixmapTransform, 
+		::HighQualityAntialiasing, 
+		::NonCosmeticDefaultPen
+	drawPoint(QPoint)
+	drawLine(QPoint, QPoint)
+	drawPolyLine(QPoint*, int)
+	drawPicture(QPoint, QPicture)
+	drawRect(QRect)	
+	drawRoundRect()
+	drawText()
+	fillRect()
+	eraseRect()
+
+	setMatrix(QMatrix())
+	translate(x, y)	// перенос
+	rotate(alpha)	// degrees
+	shear()
+	scale(x, y)	// масштаб
+
+QPen(QColor, int, style)
+	Qt::NoPen
+	Qt::SolidLine
+	Qt::DashLine
+	Qt::DotLine
+	Qt::DashDotLine
+	Qt::DashDotDotLine
+	setWidth()
+	setColor()
+	setCapStyle()
+	Qt::FlatCap
+	Qt::SquareCap
+	Qt::RoundCap
+
+QLinearGradient(x, y,  x, y)
+	setColorAt(dX/X, QColor)
+
+QFile
+	setName()
+	flush()		// sync
+	isOpen()
+	exists()
+	atEnd()
+	
+QFileDialog
+	getOpenFileName()
+	getOpenFileNames()
+	getSaveFileName()
+	getExistingDirectory()

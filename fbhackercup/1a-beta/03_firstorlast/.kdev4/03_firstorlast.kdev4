@@ -1,0 +1,11 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1c\x000\x003\x00_\x00f\x00i\x00r\x00s\x00t\x00o\x00r\x00l\x00a\x00s\x00t)
+
+[CMake]
+BuildDirs=/home/chemikadze/programming/fbhackercup/1a/03_firstorlast/build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/chemikadze/programming/fbhackercup/1a/03_firstorlast/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+ProjectRootRelative=./

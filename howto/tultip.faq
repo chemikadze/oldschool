@@ -1,0 +1,70 @@
+QVector<T>
+QList<T>
+QLinkedList<T>
+QStack<T>
+QQueue<T>
+
+QSet<T>
+QMap<K,T>
+QMultiMap<K,T>
+QHash<K,T>
+QMultiHash<K,T>
+
+QByteArray
+QBitArray
+
+QList:
+	move()		// из одной позиции в другую
+	removeFirst()
+	removeLast()
+	swap()		// науказанных позициях
+	takeAt()	// возвращает и удаляет
+	takeFirst()
+	takeLast()
+	toSet()
+	toStdList()	// QList
+	toVector()	// QVector
+	
+QStack:	
+	push() pop()
+QQueue:
+	enqueue()
+	dequeue()
+
+QSet:
+	containts()	// есл содержит элемент с таким ключем
+	erase()		// удаление по итератору
+	find()		// поиск по значению (it)
+	key()		// первый ключ по значению
+	take()		// удаляет по ключу с возвращением
+	unite()		// U
+	intersect()	// A
+	substract()	// /
+	reserve()	// задать размер
+	squeeze()	// уменьшить размер
+	toList()
+QMap:
+	toStdSet()
+
+QHash:
+	capacity()
+	reserve()
+	squeeze()
+
+QtString:
+	isNull()
+	append()
+	toLower()
+	toUpper()
+	setNum()
+	toInt(ok=NULL, base=10)
+	toDouble()
+	QString::number()
+	QStringList split(devider);
+
+QVariant
+	QVariant v(elem)
+	type()
+	typeToName()
+	to"Typename"()
+	value<typename>()

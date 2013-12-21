@@ -1,0 +1,84 @@
+% Generator: GNU source-highlight, by Lorenzo Bettini, http://www.gnu.org/software/src-highlite
+\noindent
+\mbox{}QVector\ \textcolor{BrickRed}{\textless{}}\textcolor{ForestGreen}{int}\textcolor{BrickRed}{\textgreater{}}\ Widget\textcolor{BrickRed}{::}\textbf{\textcolor{Black}{algoLook}}\textcolor{BrickRed}{(}\textcolor{ForestGreen}{bool}\ cycle\ \textit{\textcolor{Brown}{/*\ =\ false\ */}}\ \textcolor{BrickRed}{)} \\
+\mbox{}\textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ выделяем\ память\ для\ результата}} \\
+\mbox{}\ \ \ \ \ \ \ \ QVector\ \textcolor{BrickRed}{\textless{}}\textcolor{ForestGreen}{int}\textcolor{BrickRed}{\textgreater{}}\ res\textcolor{BrickRed}{;} \\
+\mbox{}\ \ \ \ \ \ \ \ res\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{reserve}}\textcolor{BrickRed}{(}m$\_$queries\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{size}}\textcolor{BrickRed}{()+}\textcolor{Purple}{1}\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ направление\ движения}} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{enum}}\ Direction\ \textcolor{Red}{\{}\ LeftToRight\textcolor{BrickRed}{,}\ RightToLeft\ \textcolor{Red}{\}}\ direction\textcolor{BrickRed}{;} \\
+\mbox{}\ \ \ \ \ \ \ \ direction\ \textcolor{BrickRed}{=}\ ui\textcolor{BrickRed}{-\textgreater{}}directionBar\textcolor{BrickRed}{-\textgreater{}}\textbf{\textcolor{Black}{value}}\textcolor{BrickRed}{()}\ \textcolor{BrickRed}{?}\ LeftToRight\ \textcolor{BrickRed}{:}\ RightToLeft\textcolor{BrickRed}{;} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ текущая\ позиция}} \\
+\mbox{}\ \ \ \ \ \ \ \ \textcolor{ForestGreen}{int}\ pos\ \textcolor{BrickRed}{=}\ ui\textcolor{BrickRed}{-\textgreater{}}startPosition\textcolor{BrickRed}{-\textgreater{}}\textbf{\textcolor{Black}{value}}\textcolor{BrickRed}{();} \\
+\mbox{}\ \ \ \ \ \ \ \ res\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{push$\_$back}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{);} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ подготавливаем\ очередь\ для\ обработки}} \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$queries\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{append}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{\textcolor{Black}{qSort}}\textcolor{BrickRed}{(}m$\_$queries\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ копируем\ в\ связный\ список\ для\ удаления\ за\ O(1)}} \\
+\mbox{}\ \ \ \ \ \ \ \ QLinkedList\ \textcolor{BrickRed}{\textless{}}\textcolor{ForestGreen}{int}\textcolor{BrickRed}{\textgreater{}}\ unread\textcolor{BrickRed}{;} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{\textcolor{Black}{foreach}}\ \textcolor{BrickRed}{(}\textcolor{ForestGreen}{int}\ val\textcolor{BrickRed}{,}\ m$\_$queries\textcolor{BrickRed}{)} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{append}}\textcolor{BrickRed}{(}val\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ итератор\ текущей\ позиции}} \\
+\mbox{}\ \ \ \ \ \ \ \ QLinkedList\ \textcolor{BrickRed}{\textless{}}\textcolor{ForestGreen}{int}\textcolor{BrickRed}{\textgreater{}::}\textcolor{TealBlue}{iterator}\ it\textcolor{BrickRed}{;} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ находим\ первоначальную\ позицию\ в\ списке}} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{if}}\ \textcolor{BrickRed}{(}direction\ \textcolor{BrickRed}{==}\ LeftToRight\textcolor{BrickRed}{)} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{for}}\ \textcolor{BrickRed}{(}it\ \textcolor{BrickRed}{=}\ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{begin}}\textcolor{BrickRed}{();}\ \textcolor{BrickRed}{*}it\textcolor{BrickRed}{!=}pos\textcolor{BrickRed}{;}\ \textcolor{BrickRed}{++}it\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{else}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{for}}\ \textcolor{BrickRed}{(}it\ \textcolor{BrickRed}{=}\ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{end}}\textcolor{BrickRed}{()-}\textcolor{Purple}{1}\textcolor{BrickRed}{;}\ \textcolor{BrickRed}{*}it\textcolor{BrickRed}{!=}pos\textcolor{BrickRed}{;}\ \textcolor{BrickRed}{-\/-}it\textcolor{BrickRed}{);} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ пока\ есть\ куда\ переходить}} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{while}}\ \textcolor{BrickRed}{(}unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{count}}\textcolor{BrickRed}{()-}\textcolor{Purple}{1}\textcolor{BrickRed}{)} \\
+\mbox{}\ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{if}}\ \textcolor{BrickRed}{(}direction\ \textcolor{BrickRed}{==}\ LeftToRight\textcolor{BrickRed}{)}\ \ \ \textit{\textcolor{Brown}{//\ если\ движемся\ направо}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{if}}\ \textcolor{BrickRed}{(}it\textcolor{BrickRed}{+}\textcolor{Purple}{1}\ \textcolor{BrickRed}{!=}\ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{end}}\textcolor{BrickRed}{())}\ \ \ \textit{\textcolor{Brown}{//\ если\ не\ крайний}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Black}{moveHead}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{,}\ \textcolor{BrickRed}{*(++}it\textcolor{BrickRed}{));}\ \textit{\textcolor{Brown}{//\ перемещаемся}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{push$\_$back}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{erase}}\textcolor{BrickRed}{(}it\textcolor{BrickRed}{-}\textcolor{Purple}{1}\textcolor{BrickRed}{);}\ \ \ \ \ \textit{\textcolor{Brown}{//\ и\ удаляем\ обработанный}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{else}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ если\ крайний}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{if}}\ \textcolor{BrickRed}{(}cycle\textcolor{BrickRed}{)}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ если\ C-LOOK}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{erase}}\textcolor{BrickRed}{(}it\textcolor{BrickRed}{);}\ \ \ \textit{\textcolor{Brown}{//\ удаляем\ текущую\ позицию}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ \textcolor{BrickRed}{=}\ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{begin}}\textcolor{BrickRed}{();}\textit{\textcolor{Brown}{//\ переходим\ в\ начало}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Black}{moveHead}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{,}\ \textcolor{BrickRed}{*}it\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{push$\_$back}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{else}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ если\ LOOK}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ меняем\ направление}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ direction\ \textcolor{BrickRed}{=}\ RightToLeft\textcolor{BrickRed}{;} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{else}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{if}}\ \textcolor{BrickRed}{(}it\ \textcolor{BrickRed}{!=}\ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{begin}}\textcolor{BrickRed}{())}\ \ \ \textit{\textcolor{Brown}{//\ если\ не\ крайний}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Black}{moveHead}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{,}\ \textcolor{BrickRed}{*(-\/-}it\textcolor{BrickRed}{));}\ \textit{\textcolor{Brown}{//\ перемещаемся}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{push$\_$back}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{erase}}\textcolor{BrickRed}{(}it\textcolor{BrickRed}{+}\textcolor{Purple}{1}\textcolor{BrickRed}{);}\ \ \ \ \ \textit{\textcolor{Brown}{//\ и\ удаляем\ прошлый}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{else}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{if}}\ \textcolor{BrickRed}{(}cycle\textcolor{BrickRed}{)}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ если\ C-LOOK}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{erase}}\textcolor{BrickRed}{(}it\textcolor{BrickRed}{);}\ \ \ \textit{\textcolor{Brown}{//\ удаляем\ обработанный}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ \textcolor{BrickRed}{=}\ unread\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{end}}\textcolor{BrickRed}{()-}\textcolor{Purple}{1}\textcolor{BrickRed}{;} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Black}{moveHead}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{,}\ \textcolor{BrickRed}{*(}it\textcolor{BrickRed}{));}\textit{\textcolor{Brown}{//\ перемещаемся}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ res\textcolor{BrickRed}{.}\textbf{\textcolor{Black}{push$\_$back}}\textcolor{BrickRed}{(}pos\textcolor{BrickRed}{);} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{else}}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ если\ LOOK}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ меняем\ направление}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ direction\ \textcolor{BrickRed}{=}\ LeftToRight\textcolor{BrickRed}{;} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{}\ \ \ \ \ \ \ \ \textcolor{Red}{\}} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{\textcolor{Blue}{return}}\ res\textcolor{BrickRed}{;}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textit{\textcolor{Brown}{//\ возвращаем\ результат}} \\
+\mbox{}\textcolor{Red}{\}} \\
+\mbox{}

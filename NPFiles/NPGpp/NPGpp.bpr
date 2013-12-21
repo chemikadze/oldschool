@@ -1,0 +1,164 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value=".\bin\NPGpp.exe"/>
+    <OBJFILES value="obj\NPGpp.obj obj\Main.obj obj\NPS.obj obj\About.obj obj\Change.obj 
+      obj\Options.obj"/>
+    <RESFILES value="NPGpp.res obj\WindowsXP.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) code\Main.dfm code\About.dfm code\Change.dfm code\Options.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib bcbsmp.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi dbrtl.bpi adortl.bpi vcldb.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibxpress.bpi dsnap.bpi cds.bpi bdecds.bpi qrpt.bpi teeui.bpi 
+      teedb.bpi tee.bpi dss.bpi teeqr.bpi visualclx.bpi visualdbclx.bpi 
+      dsnapcrba.bpi dsnapcon.bpi bcbsmp.bpi vclie.bpi xmlrtl.bpi inet.bpi 
+      inetdbbde.bpi inetdbxpress.bpi inetdb.bpi nmfast.bpi webdsnap.bpi 
+      bcbie.bpi websnap.bpi soaprtl.bpi dclocx.bpi dbexpress.bpi dbxcds.bpi 
+      indy.bpi bcb2kaxserver.bpi"/>
+    <PATHCPP value=".;code;code;code;code;code"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;USEPACKAGES"/>
+    <MAINSOURCE value="NPGpp.cpp"/>
+    <INCLUDEPATH value="E:\NPSpp;..\NPSpp;code;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;C:\NPFiles\NPGpp;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="E:\NPSpp;..\NPSpp;code;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;C:\NPFiles\NPGpp;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-IE:\NPSpp -I..\NPSpp -Icode 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects&quot; -IC:\NPFiles\NPGpp 
+      -I$(BCB)\include -I$(BCB)\include\vcl -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-vGc -vGt -vGd -Od -Q -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-N2.\obj -N0.\obj -$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-l.\obj -I.\obj -D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="cg32.lib $(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="NPGpp.res" FORMNAME="" UNITNAME="NPGpp.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="NPGpp.cpp" FORMNAME="" UNITNAME="NPGpp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="code\Main.cpp" FORMNAME="MainForm" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="code\NPS.CPP" FORMNAME="" UNITNAME="NPS" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="code\About.cpp" FORMNAME="AboutBox" UNITNAME="About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="code\Change.cpp" FORMNAME="ChangeForm" UNITNAME="Change" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="code\Options.cpp" FORMNAME="OptionsForm" UNITNAME="Options" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="WindowsXP.rc" FORMNAME="" UNITNAME="WindowsXP.rc" CONTAINERID="RCCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=3
+Release=0
+Build=10
+Debug=0
+PreRelease=1
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=Nicolas' Programs
+FileDescription=Программа построения графиков
+FileVersion=1.3.0.10
+InternalName=NPGpp
+LegalCopyright=Nicolas' Programs, 2007
+LegalTrademarks=
+OriginalFilename=NPGpp.exe
+ProductName=NP Graph++
+ProductVersion=1.3.0.10 beta
+Comments=Beta версия
+
+[Excluded Packages]
+c:\program files\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrated Translation Environment
+
+[HistoryLists\hlIncludePath]
+Count=4
+Item0=E:\NPSpp;..\NPSpp;code;C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPGpp;$(BCB)\include;$(BCB)\include\vcl
+Item1=..\NPSpp;code;C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPGpp;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\NPSpp;code;C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPSpp;C:\NPFiles\NPGpp;$(BCB)\include;$(BCB)\include\vcl
+Item3=C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPSpp;C:\NPFiles\NPGpp;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=4
+Item0=E:\NPSpp;..\NPSpp;code;C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPGpp;$(BCB)\lib\obj;$(BCB)\lib
+Item1=..\NPSpp;code;C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPGpp;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\NPSpp;code;C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPSpp;C:\NPFiles\NPGpp;$(BCB)\lib\obj;$(BCB)\lib
+Item3=C:\Program Files\Borland\CBuilder6\Projects;C:\NPFiles\NPSpp;C:\NPFiles\NPGpp;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=3
+Item0=.\obj
+Item1=C:\NPFiles\NPGpp\obj
+Item2=C:\NPFiles\NPGpp\compiling
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=.\bin\
+Item1=.\bin
+
+[HistoryLists\hIBPIOutputDir]
+Count=3
+Item0=.\obj
+Item1=C:\NPFiles\NPGpp\obj
+Item2=C:\NPFiles\NPGpp\compiling
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=1
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+  </IDEOPTIONS>
+</PROJECT>

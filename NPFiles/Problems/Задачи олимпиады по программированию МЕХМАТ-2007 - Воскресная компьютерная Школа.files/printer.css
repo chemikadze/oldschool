@@ -1,0 +1,102 @@
+H1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 18pt; font-color: red
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 15pt
+}
+P {
+	FONT: 10.9pt Times New Roman
+}
+UL {
+	FONT: 10.9pt Times New Roman
+}
+B {
+	FONT-WEIGHT: bold
+}
+.footer {
+	TEXT-ALIGN: right
+}
+#err {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; COLOR: red
+}
+#ok {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; COLOR: navy
+}
+.lnkbox {
+	DISPLAY: none
+}
+.countersbox {
+	DISPLAY: none
+}
+.lnk {
+	FONT: 10pt Times New Roman; COLOR: #00008b
+}
+.lnk:hover {
+	COLOR: #2828d8
+}
+.scrolluplnk {
+	DISPLAY: none
+}
+.goback {
+	DISPLAY: none
+}
+BODY {
+	BACKGROUND: url(/i/fon.gif) #4a4a4a
+}
+.setka {
+	BACKGROUND-COLOR: #003562
+}
+.banner {
+	DISPLAY: none
+}
+.aboutserver {
+	DISPLAY: none
+}
+.copyright {
+	FONT: 8pt Arial
+}
+INPUT {
+	FONT: 9pt monospace
+}
+.field {
+	FONT: 9pt monospace; WIDTH: 360px
+}
+.qlinkscontent {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 10pt; PADDING-BOTTOM: 5px; MARGIN-LEFT: 15px; TEXT-INDENT: -15px; PADDING-TOP: 5px
+}
+#ql {
+	LIST-STYLE-TYPE: circle
+}
+.newslnk {
+	COLOR: black; TEXT-DECORATION: none
+}
+.newslnk:hover {
+	COLOR: #2828d8; TEXT-DECORATION: underline
+}
+.newdate {
+	FONT: bold 8pt/11pt Verdana; TEXT-DECORATION: underline
+}
+.col1 {
+	DISPLAY: none
+}
+.col2 {
+	BACKGROUND-COLOR: white
+}
+.btitlebox {
+	BACKGROUND-COLOR: #4e6aa1
+}
+.btitletext {
+	FONT: 12pt Times New Roman; BACKGROUND-COLOR: #809cd3
+}
+.bcontent {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 10pt; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.mbtitlebox {
+	BACKGROUND-COLOR: #759837
+}
+.mbtitletext {
+	FONT: bold 12pt Times New Roman; BACKGROUND-COLOR: #a6c968
+}
+.mbcontent {
+	FONT: 10.9pt Times New Roman
+}

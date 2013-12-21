@@ -1,0 +1,69 @@
+Functions called:
+ fflush (4 times)
+ fprintf (1 times)
+ delete (48 times)
+ vsnprintf (54 times)
+ strcpy (1 times)
+ fclose (2 times)
+ fscanf (1 times)
+ fopen (2 times)
+ time (1 times)
+ SysReallocMem (138 times)
+ SysFreeMem (2706 times)
+ memset (2 times)
+ strlen (60 times)
+ realloc (1 times)
+ strdup (1 times)
+ memcpy (2 times)
+ SysGetMem (2723 times)
+ delete[] (2 times)
+ free (29 times)
+ new[] (14 times)
+ new (53 times)
+ calloc (7 times)
+ malloc (22 times)
+Resource types used:
+ file stream (2 allocs, 1 max)
+ file handle (2 allocs, 1 max)
+ object array (14 allocs, 13 max)
+ object (53 allocs, 41 max)
+ memory block (2754 allocs, 984 max)
+Modules used:
+ 00320000 02/01/2002 17:00:00 C:\WINDOWS\system32\vclx60.bpl
+ 00400000 06/18/2007 16:04:08 C:\NPFiles\NPGpp\NPGpp.exe
+ 00D20000 08/09/2002 18:00:00 C:\Program
+ Files\Borland\Delphi7\Bin\BORLNDMM.DLL
+ 0CD00000 02/01/2002 17:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\CG32.DLL
+ 32600000 08/09/2002 18:00:00 C:\WINDOWS\system32\CC3260MT.DLL
+ 40000000 02/01/2002 17:00:00 C:\WINDOWS\system32\rtl60.bpl
+ 400B0000 02/01/2002 17:00:00 C:\WINDOWS\system32\vcl60.bpl
+ 50600000 02/01/2002 17:00:00 C:\PROGRA~1\Borland\CBUILD~1\Bin\bcbsmp60.bpl
+ 5B260000 12/31/2002 12:00:00 C:\WINDOWS\system32\uxtheme.dll
+ 5B590000 12/31/2002 12:00:00 C:\WINDOWS\system32\umdmxfrm.dll
+ 5D270000 12/31/2002 12:00:00 C:\WINDOWS\system32\serwvdrv.dll
+ 5D5B0000 12/31/2002 12:00:00 C:\WINDOWS\system32\comctl32.dll
+ 71A80000 12/31/2002 12:00:00 C:\WINDOWS\system32\WS2HELP.dll
+ 71A90000 12/31/2002 12:00:00 C:\WINDOWS\system32\WS2_32.dll
+ 71AB0000 12/31/2002 12:00:00 C:\WINDOWS\system32\wsock32.dll
+ 71B00000 12/31/2002 12:00:00 C:\WINDOWS\system32\mpr.dll
+ 72FC0000 12/31/2002 12:00:00 C:\WINDOWS\system32\winspool.drv
+ 746E0000 12/31/2002 12:00:00 C:\WINDOWS\system32\MSCTF.dll
+ 74CF0000 12/31/2002 12:00:00 C:\WINDOWS\system32\oledlg.dll
+ 76380000 12/31/2002 12:00:00 C:\WINDOWS\system32\comdlg32.dll
+ 76B20000 12/31/2002 12:00:00 C:\WINDOWS\system32\winmm.dll
+ 77110000 12/31/2002 12:00:00 C:\WINDOWS\system32\oleaut32.dll
+ 773C0000 12/31/2002 12:00:00
+ C:\WINDOWS\WinSxS\x86_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.
+2600.2180_x-ww_a84f1ff9\comctl32.dll
+ 774D0000 12/31/2002 12:00:00 C:\WINDOWS\system32\ole32.dll
+ 77BF0000 12/31/2002 12:00:00 C:\WINDOWS\system32\version.dll
+ 77C00000 12/31/2002 12:00:00 C:\WINDOWS\system32\msvcrt.dll
+ 77D30000 12/31/2002 12:00:00 C:\WINDOWS\system32\user32.dll
+ 77DC0000 12/31/2002 12:00:00 C:\WINDOWS\system32\advapi32.dll
+ 77E70000 12/31/2002 12:00:00 C:\WINDOWS\system32\RPCRT4.dll
+ 77F10000 12/31/2002 12:00:00 C:\WINDOWS\system32\GDI32.dll
+ 77F60000 12/31/2002 12:00:00 C:\WINDOWS\system32\SHLWAPI.dll
+ 7C800000 12/31/2002 12:00:00 C:\WINDOWS\system32\kernel32.dll
+ 7C900000 12/31/2002 12:00:00 C:\WINDOWS\system32\ntdll.dll
+ 7C9C0000 12/31/2002 12:00:00 C:\WINDOWS\system32\SHELL32.dll
+==========================================

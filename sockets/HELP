@@ -1,0 +1,11 @@
+name								description		arguments
+
+int socket(int NAMESPACE, int STYLE, int PROTOCOL)		creates a socket	NAMESPACE:	PF_LOCAL | PF_IET
+											STYLE:		SOCK_STREAM | SOCK_DGRAM | SOCK_RAW
+											PROTOCOL:	0
+
+int shutdown(int SOCKET, int HOW)				closes a socket		HOW:
+											0 stops recieving
+											1 stops sending
+											2 both
+

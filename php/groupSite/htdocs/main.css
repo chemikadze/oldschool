@@ -1,0 +1,458 @@
+body {
+	font-family: Arial, Verdana, Sans-serif;
+	font-size: 13px;
+	background-color: #DDDDDD;
+	text-align: left;
+}
+
+tr {
+	border: none;
+}
+
+td {
+	text-align: left;
+}
+
+h3 {
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #000050;
+}
+
+a:hover,active {
+	color: #0000EE;
+}
+
+.mainTable {
+	background-color: #FFFFFF;
+	width: 1000px;
+	border: solid 1px #555555;	
+}
+
+
+.headerRow {
+	font-size: 40px;
+	color: #000000;
+	height: 60px;
+	background-image: url( "http://localhost/php/groupSite/htdocs/images/gradient.png");
+}
+
+.headerCell {
+	padding-left: 10px;
+	border-bottom: solid 1px #555555;
+	width: 230px;
+}
+
+.headerLoginCell {
+	border-bottom: solid 1px #555555;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+a.homeLink {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.footRow {
+	height: 20px;
+	font-size: 10px;
+	background-color: #6A75BC;
+	background: url("http://localhost/php/groupSite/htdocs/images/gradient_foot.png");
+}
+
+.footCell {
+}
+
+.menuBar {
+	height: 20px;
+	background: #6A75BC;
+	width: 100%;
+}
+
+.menuBarItem {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-left: solid 2px #FFFFFF;
+	border-top: solid 2px #FFFFFF;
+	padding-left: 5px;
+	padding-right: 10px;
+	width: 100px;
+}
+
+a.menuBarLink:hover,active {
+	text-decoration: underline;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+a.menuBarLink {
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+a.registerLink {
+	font-size: 9px;
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+a.registerLink:hover,active {
+	color: #FFFFFF;
+}
+
+.menuBarSpacing {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: right;
+	padding-left: 5px;
+	padding-right: 10px;
+}
+
+.loginFormControl {
+	width: 70px;
+	/*height: 12px;*/
+	font-size: 9px;
+}
+
+.loginTable {
+/*	width: 100%;*/
+}
+
+.loginTableRegisterLinks {
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	font-size: 9px;
+}
+
+.registerTable {
+	width: 70%; 
+}
+
+.registerInput {
+	width: 250px;
+}
+
+.registerSubmit {
+}
+
+.logoutBtn{
+	width: 55px;
+	height: 16px;
+	font-size: 9px;
+}
+
+.warning {
+	margin: 5px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 500px;
+	font-size: 16px;
+	color: #FF0000;
+	border: solid 1px #FF0000;
+	background-color: #FFA0A0;
+}
+
+.registerSuccess {
+	margin: 5px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 400px; 
+	font-size: 16px;
+	color: #00AA00;
+	border: solid 1px #00AA00;
+	background-color: #E0FFE0;
+}
+
+.enterError {
+	color: #FFFF00;
+/*	font-weight: normal; */
+}
+
+a.editUserinfo {
+	font-weight: bold;
+	font-size: 16px;
+	color: #4444FF;
+}
+
+table.userinfo {
+	width: 70%;
+}
+
+.userinfoHeader {
+	margin-top: 5px;
+	border-top: 1px solid #999999;
+	border-left: 1px solid #999999;
+	border-right: 1px solid #999999;
+	background-color: #BBBBFF;
+}
+
+.userInfoRowLeft {
+	border-left: 1px solid #999999;
+}
+.userInfoRowRight {
+	border-right: 1px solid #999999;
+}
+
+.userInfoGroupFooter {
+	border-top: 1px solid #999999;
+	height: 5px;
+}
+
+.contentPlace {
+	vertical-align: top;
+	padding: 0;
+}
+
+.articles {
+	vertical-align: top;
+	padding-left: 15px;
+}
+
+.contentMarkup {
+	margin: 0;
+	vertical-align: top;
+	height: 100%;
+	width: 100%;
+}
+
+.sidebarPlace {
+	background-color: #FFFFFF;
+	border-top: double 3px #555555;
+	border-bottom: double 3px #555555;
+	border-right: solid 1px #555555;
+	width: 150px;
+	vertical-align: top;
+	padding: 0px;
+}
+
+.content {
+	background-color: #FFFFFF;
+	vertical-align: top;
+	height: 100%;
+	min-height: 200px;
+	border-top: double 3px #555555;
+	border-bottom: double 3px #555555;
+	padding: 5px;
+	padding-left: 10px; 
+	padding-top: 5px;
+}
+
+.sidebar {
+	width: 100%;
+	margin: 0px;
+}
+
+.sbHeader {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;	
+	background: #6A75BC;
+	padding-left: 5px;	
+	height: 16px;
+}
+
+a.sbLink {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;	
+	padding-left: 5px;
+	text-decoration: underline;
+}
+
+a.sbLink:hover,active {
+	color: #FFFFFF;	
+}
+
+.sbRow {
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.sbRow:hover {
+	font-size: 12px;
+	padding-left: 10px;
+	background-color: #CCF;
+}
+
+.shortArticle {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.articleHeader {
+	font-size: 16px;
+	font-weight: bold;
+	height: 20px;
+	vertical-align: bottom;
+}
+
+.articleHeaderLink {
+	text-decoration: none;
+	font-weight: bold;
+//	color: #;
+}
+
+.articleHeaderLink:hover,active {
+	text-decoration: underline;
+	font-weight: bold;
+//	color: #;
+}
+
+.articleText {
+	vertical-align: top;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.articleStatusbar {
+	font-size: 10px;
+}
+
+.subjectList {
+	width: 100%;
+	height: 100%;
+}
+
+.naviBar {
+	height: 30px;
+}
+
+
+.naviLinkActive {
+	padding: 3px;
+	text-decoration: none;
+	background: #EEEEFF;
+	border: solid 1px #555555;
+	font-weight: bold;
+	color: #888888;
+}
+
+.naviLink {
+	padding: 3px;
+	text-decoration: none;
+	background: #CCCCFF;
+	border: solid 1px #555555;
+	font-weight: bold;
+	color: #333388;
+}
+
+.naviLink:hover,active {
+	padding: 3px;
+	text-decoration: none;
+	background: #EEEEFF;
+	border: solid 1px #555555;
+	font-weight: bold;
+	color: #555588;
+}
+
+.naviSpace {
+	width: 10px;
+}
+
+.articleMenuBar {
+	height: 20px;
+	vertical-align: top;
+}
+
+.newArticleTable {
+	vertical-align: top;
+}
+
+.inputTitles {
+	width: 100px;
+	vertical-align: top;
+	padding: 5px;
+}
+
+.subjectSelect {
+	width: 200px;
+}
+
+.articleTitleInput {
+	width: 500px;
+}
+
+.articleTextInput {
+	width: 500px;
+	height: 300px;
+}
+
+.articleNewComment {
+	width: 500px;
+	height: 100px;
+}
+
+.articleAddComment {
+	margin-top: 10px;
+}
+
+.longArticle {
+	margin-bottom: 10px;
+}
+
+.articleCommentNo {
+	font-size: 16px;
+	font-weight: bold;
+	color: #555555;
+}
+
+.articleCommentHeader {
+	border: 1px solid #555555;
+	padding: 3px;
+	background: #DDDDFF;
+	border-radius: 5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+}
+
+.articleCommentText {
+	border: 1px solid #555555;
+	border-top: none;
+	padding: 3px;
+}
+
+.articleCommentAvatar {	
+	border: 1px solid #555555;
+	border-left: none;
+}
+
+.articleCommentSpacing {
+	height: 5px;
+}
+
+.subjectsList {
+}
+
+td.subjNameCell {
+	width: 150px;
+	padding-left: 20px;
+}
+
+td.subjPostCountCell {
+	text-align: right;
+}
+
+th.subjNameCell {
+	width: 150px;
+	text-align: center;
+	padding-left: 5px;
+}
+
+th.subjPostCountCell {
+	text-align: center;
+}

@@ -1,0 +1,202 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<meta name="keywords" content="Паскаль, паскаль, язык Паскаль, программирование, программирование на языке паскаль, Pascal, pascal, освоить pascal, программирование на языке pascal">
+<title>Освой Паскаль с нуля</title>
+<link rel="stylesheet" type="text/css" href="../main.css">
+</head>
+
+<body>
+<table border="0" width="100%" height="100%" cellspacing="0">
+  <tr height="110">
+   <td width="81" height="110">
+	<img title="Блез Паскаль" src="../images/pascal.gif"></td>
+   <td width="100%" height="110" class="title">
+     <font face="Arial">
+     <h1>Освой Паскаль с нуля!</h1>
+     <h4>Научиться программировать - это просто.</h4>
+     </font>  
+   </td>
+  </tr>
+  <tr width="100%" height="25">
+    <td align=center colspan="2" height="26" class="menu">
+      <a href=../index.htm class="menu"><font color="#CC0000">Г</font>лавная</a>&nbsp;&nbsp;
+      <a href=../heads.htm class="menu"><font color="#CC0000">О</font>главление</a>
+    </td>
+  </tr>  
+  <tr width="100%">
+    <td width="100%" colspan="2" align=left valign=top class="content">
+    <h3 align=center>Типы данных</h3>
+	<p>&nbsp;&nbsp; В языке паскаль существует несколько <span lang="ru">видов</span> типов:<ul>
+		<li>целые типы</li>
+		<li>типы чисел с плавающей запятой</li>
+		<li>символьный тип</li>
+		<li>строковый тип</li>
+		<li>массив</li>
+		<li>запись </li>
+		<li>объект</li>
+		</ul>
+		<p>
+		 &nbsp;&nbsp; <span lang="ru">Рассмотрим каждый вид данных по порядку (3 
+			последние типа мы рассмотрим позже).</span>
+		 <h4 align=center>Целые типы</h4>
+		 &nbsp;&nbsp; Целые типы - типы данных, значениями которых могут быть 
+	только целые числа. Эти типы отличаются друг от друга предельно допустимыми 
+	значениями и занимаемой памятью.
+	Записываются они как обычное целое число:<code> 0 125 32 13</code>
+	<table width="80%">
+	  <tr align=right>
+	    <td>
+	    <b><span lang="ru">Имя типа</span></b></td>  
+	    <td>
+	    <b><span lang="ru">Диапазон</span></b></td>  
+	    <td>
+	    <b><span lang="ru">Формат</span></b></td>  
+	  </tr>
+	  <tr align=right>
+	    <td>
+	    ShortInt</td>  
+	    <td>
+	    -128..127</td>  
+	    <td>
+	    <span lang="ru">со знаком, 8 бит (1 байт)</span></td>  
+	  </tr>
+	  <tr align=right>
+	    <td>
+	    Integer</td>  
+	    <td>
+	    -32768..32767</td>  
+	    <td>
+	    <span lang="ru">со знаком, 16 бит (2 байта)</span></td>  
+	  </tr>
+	  <tr align=right>
+	    <td>
+	    LongInt</td>  
+	    <td>
+	    -2147483648..2147483647</td>  
+	    <td>
+	    <span lang="ru">со знаком, 32 бита (4 байта)</span></td>  
+	  </tr>
+	  <tr align=right>
+	    <td>
+	    Byte</td>  
+	    <td>
+	    0..255</td>  
+	    <td>
+	    <span lang="ru">без знака, 8 бит (1 байт)</span></td>  
+	  </tr>
+	  <tr align=right>
+	    <td>
+	    Word</td>  
+	    <td>
+	    0..65535</td>  
+	    <td>
+	    <span lang="ru">без знака, 16 бит (2 байта)</span></td>  
+	  </tr>
+	</table>
+	&nbsp;&nbsp; <span lang="ru">Целые типы используются для большего числа 
+	вычислений (но не всегда). Они занимают мало места, обладают достаточно 
+	высокой скоростью при работе с ними. Стоит отметить, что быстрота работы с 
+	типами различается. Так, в </span>Turbo Pascal <span lang="ru">скорость 
+	вычисления </span>Integer&gt;Byte&gt;LongInt.
+	<h4 align=center>Типы чисел с плавающей запятой</h4>
+	&nbsp; Числа с плавающей запятой используются достаточно часто, в тех 
+	случаях, когда необходимо выполнять точные вычисления с дробными числами. 
+	Для их записи существует 2 формата - &quot;обычный&quot; и инженерный.
+	<span lang="ru">Числа в &quot;обычном&quot; формате записываются так, как ва привыкли 
+	их записывать на уроке математики: <code>10.02 125.512 0.000001</code> Числа в 
+	инженерном формате имеют следующий вид: <code>[+/-]iii.fff[E/e]</span><span lang="en-us">[+/-]</span><span lang="ru">eee</span></code><span lang="ru"><span lang="ru">, где +/- </span>
+	</span>
+	&nbsp;- указатель знака, <span lang="en-us">iii-</span>целая часть мантиссы,
+	<span lang="en-us">fff</span> - дробная часть мантиссы, <span lang="en-us">
+	eee</span> - количество знаков, на которое перемещена запятая (+<span lang="en-us">
+	</span>влево, - вправо). Что бы было понятнее, покажем, как нужно переводить 
+	числа из одной формы записи в другую.<p><code>1258 = 1.258*100 = 1.258*10<sup>2</sup> 
+	= 1.258e2<br>-1.2e4 = 1.2*10<sup>4</sup> = 1.2*10000 =12000<br>0.2e-3 = 
+	0.2*10<sup>-3</sup> = 0.2*0.001 = 0.0002</code></p>
+	<p><span lang="ru">&nbsp; С записью чисел разобрались, теперь о самих типах. </span></p>
+	<table border="0" width="80%" id="table1">
+		<tr>
+			<td align="right"><b><span lang="ru">Тип</span></b></td>
+			<td align="right"><b><span lang="ru">Диапазон</span></b></td>
+			<td align="right"><b><span lang="ru">Значащих цифр</span></b></td>
+			<td align="right"><b><span lang="ru">Размер </span>(<span lang="ru">байт</span>)</b></td>
+		</tr>
+		<tr>
+			<td align="right">Real</td>
+			<td align="right"><span lang="ru">+/- 2.9e-39..1.7e38</span></td>
+			<td align="right"><span lang="ru">11-12</span></td>
+			<td align="right"><span lang="ru">6</span></td>
+		</tr>
+		<tr>
+			<td align="right">Single</td>
+			<td align="right"><span lang="ru">+/- 1.5e-45..3.4e38</span></td>
+			<td align="right"><span lang="ru">7-8</span></td>
+			<td align="right">4</td>
+		</tr>
+		<tr>
+			<td align="right">Double</td>
+			<td align="right"><span lang="ru">+/- 5.0e-324..1.7e308</span></td>
+			<td align="right"><span lang="ru">15-16</span></td>
+			<td align="right">8</td>
+		</tr>
+		<tr>
+			<td align="right">Extended</td>
+			<td align="right"><span lang="ru">+/- 3.4e-4932..1.1e4932</span></td>
+			<td align="right"><span lang="ru">19-20</span></td>
+			<td align="right">10</td>
+		</tr>
+		<tr>
+			<td align="right">Comp</td>
+			<td align="right"><span lang="ru">-9.2e18..9.2e18</span></td>
+			<td align="right"><span lang="ru">19-20 </span></td>
+			<td align="right">8</td>
+		</tr>
+	</table>
+	&nbsp; Как видно из таблицы, диапазон чисел с плавающей запятой достаточно 
+	велик. Но не стоит обольщаться. Посмотрите на столбец &quot;значащие цифры&quot;. 
+	Цифры в этом столбце показывают, сколько цифр мантиссы РЕАЛЬНО храниться в 
+	памяти. Для примера возьмем тип <span lang="en-us">Real</span>. Он может 
+	хранить числа до 17 с 37 нулями. Но если записать туда 30 цифр 2, то 
+	сохранятся только 11 первых разрядов, остальное округлиться. Так что нужно 
+	быть осторожнее при использовании таких чисел.<br>&nbsp; <span lang="ru">
+	Примечание: тип </span>Comp <span lang="ru">относится к целым. В некоторых 
+	компиляторах он назван как </span>int64 (<span lang="ru">целый, 64 битный</span>)<span lang="ru">.</span>
+	<h4 align=center>Символьный тип данных</h4>
+	&nbsp; В паскале существует ещё один очень важный тип данных: символьный 
+	тип. Как известно, компьютер может хранить в памяти только числа. Но как же 
+	тогда хранить символы? Тут поступили просто. Собралась куча профессоров и 
+	решили создать единый для всех стандарт хранения символов. Составили 
+	таблицу, в которой было указано какой код соответствует какому символу. 
+	Всего получилось <span lang="en-us">256 </span>символов с кодами 0..255. Из 
+	них первые 127 одинаковы для всех языков. Это цифра, знаки препинания, буквы 
+	английского алфавита и управляющие символы (символы, которые компьютер 
+	интерпретирует особенным образом, например 7 это звонок). Для остальных 
+	кодов символ зависит от языка.&nbsp; Символьный тип данных имеет название
+	<span lang="en-us">Char</span>, занимает 1 байт. Символы на языке Паскаль 
+	записываются в одинарных кавычках: <code> <span lang="en-us">'A' '9' '%'</span></code> 
+	так же символ можно записать кодом: <span lang="en-us"><code>#7(</code></span><code>звонок<span lang="en-us">) 
+	#32</span>(пробел)<span lang="en-us"> #65</span>(латинская
+	<span lang="en-us">A</span>)</code>. 
+	Проводить операции с кодом символа непосредственно нельзя (например запись
+	<span lang="en-us">c:='A'+2    
+	</span>вызовет ошибку).
+	<h4 align=center>Строковой тип</h4>&nbsp;&nbsp; Для записи текстов одних 
+	символов недостаточно. Для записи текста используются СТРОКИ. Строки в 
+	Паскале - не то же самое, что строка в обычном тексте. Строка в Паскале - 
+	последовательность символов, которая может включать в себя символы перевода 
+	строки, т.е. текст в несколько строчек. Строка записывается так:
+	<span lang="en-us"><code>'This is STRING'</code>.</span> Нужно помнить, что 
+	длина строки ограничивается 255 символами. Со строками можно проделывать 
+	следующие операции: сложение<span lang="en-us">(s1+s2)</span>, выделение 
+	символа (<span lang="en-us">S[i]</span>, где <span lang="en-us">i</span>-номер 
+	символа).</td>
+  </tr>
+  <tr width="100%" height="40">
+    <td width="100%" align=center colspan="2" class="menu">reclam</td>
+  </tr>
+</table>
+</body>
+
+</html>

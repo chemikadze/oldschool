@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/03_turn_on_lights.dir/main.cpp.o  -o 03_turn_on_lights -rdynamic 

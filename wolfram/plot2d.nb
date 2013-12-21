@@ -1,0 +1,289 @@
+(* Content-type: application/mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 6.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       145,          7]
+NotebookDataLength[      9906,        280]
+NotebookOptionsPosition[      9472,        260]
+NotebookOutlinePosition[      9805,        275]
+CellTagsIndexPosition[      9762,        272]
+WindowFrame->Normal
+ContainsDynamic->True *)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"a", "=", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"b", "=", 
+   RowBox[{"-", "1"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"c", "=", "0"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nX", "=", 
+   RowBox[{"maxX", "=", "10"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"nY", "=", 
+   RowBox[{"maxY", "=", "10"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{
+   RowBox[{"x", "=", 
+    RowBox[{"y", "=", "0"}]}], ";"}], 
+  "\[IndentingNewLine]"}], "\[IndentingNewLine]", 
+ RowBox[{"Dynamic", "[", "\[IndentingNewLine]", 
+  RowBox[{"(*", 
+   RowBox[{
+    RowBox[{"Print", "[", 
+     RowBox[{"{", 
+      RowBox[{"a", ",", " ", "b", ",", " ", "c"}], "}"}], "]"}], ";"}], 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"px", "=", "x"}], ";", " ", 
+   RowBox[{"py", "=", "y"}], ";", "\[IndentingNewLine]", 
+   RowBox[{"px", "=", 
+    RowBox[{
+     RowBox[{"-", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"b", "*", "nY"}], "+", "c"}], ")"}]}], "/", "a"}]}], ";", 
+   "\[IndentingNewLine]", 
+   RowBox[{"If", "[", 
+    RowBox[{
+     RowBox[{"px", "\[LessEqual]", 
+      RowBox[{"maxX", " ", "Or", " ", "px"}], "\[GreaterEqual]", "0"}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"a", "=", 
+       RowBox[{"-", "a"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"py", "=", "maxY"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"c", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "a"}], "*", "px"}], "-", 
+        RowBox[{"b", "*", "maxY"}]}]}], ";"}], ",", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"py", "=", 
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"a", "*", "maxX"}], "+", "c"}], ")"}]}], "/", "b"}]}], ";",
+       "\[IndentingNewLine]", 
+      RowBox[{"px", "=", "maxX"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"b", "=", 
+       RowBox[{"-", "b"}]}], ";", "\[IndentingNewLine]", 
+      RowBox[{"c", "=", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "a"}], "*", "px"}], "-", 
+        RowBox[{"b", "*", "maxY"}]}]}], ";"}]}], "\[IndentingNewLine]", "]"}],
+    ";", "\[IndentingNewLine]", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Line", "[", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"x", ",", " ", "y"}], "}"}], ",", " ", 
+       RowBox[{"{", 
+        RowBox[{"px", ",", " ", "py"}], "}"}]}], "}"}], "]"}], "]"}]}], 
+  "\[IndentingNewLine]", "]"}]}], "Input",
+ CellChangeTimes->{{3.445067519556983*^9, 3.445067589718327*^9}, {
+   3.445067845787192*^9, 3.445067849444816*^9}, {3.445067912758836*^9, 
+   3.445068053266603*^9}, {3.445068180065386*^9, 3.445068210103592*^9}, {
+   3.44506827847455*^9, 3.445068426917574*^9}, {3.445068463513983*^9, 
+   3.445068513904278*^9}, {3.445068558162406*^9, 3.445069008237873*^9}, {
+   3.445069061633636*^9, 3.445069260280359*^9}, {3.445069376733327*^9, 
+   3.445069398254127*^9}, {3.445069430985199*^9, 3.445069441588244*^9}, {
+   3.445069476374057*^9, 3.445069670167759*^9}, 3.445069711771414*^9, {
+   3.445070263459859*^9, 3.445070268662348*^9}, {3.445070335133977*^9, 
+   3.445070346661278*^9}, {3.445070379968671*^9, 3.445070387119325*^9}, {
+   3.445070427999579*^9, 3.445070434921575*^9}, {3.445070471782225*^9, 
+   3.445070531446144*^9}, {3.445070593678536*^9, 3.445070600744074*^9}}],
+
+Cell[BoxData[
+ DynamicBox[
+  ToBoxes[$CellContext`px = $CellContext`x; $CellContext`py = $CellContext`y; \
+$CellContext`px = (-($CellContext`b $CellContext`nY + \
+$CellContext`c))/$CellContext`a; If[
+     Inequality[$CellContext`px, LessEqual, $CellContext`maxX 
+      Or $CellContext`px, GreaterEqual, 
+      0], $CellContext`a = -$CellContext`a; $CellContext`py = \
+$CellContext`maxY; $CellContext`c = (-$CellContext`a) $CellContext`px - \
+$CellContext`b $CellContext`maxY; 
+     Null, $CellContext`py = (-($CellContext`a $CellContext`maxX + \
+$CellContext`c))/$CellContext`b; $CellContext`px = $CellContext`maxX; \
+$CellContext`b = -$CellContext`b; $CellContext`c = (-$CellContext`a) \
+$CellContext`px - $CellContext`b $CellContext`maxY; Null]; Graphics[
+     Line[{{$CellContext`x, $CellContext`y}, {$CellContext`px, \
+$CellContext`py}}]], StandardForm],
+  ImageSizeCache->{360., {40., 44.}}]], "Output",
+ CellChangeTimes->{
+  3.44507038808298*^9, {3.445070430699073*^9, 3.445070435693254*^9}, {
+   3.44507047359538*^9, 3.445070496483391*^9}, 3.445070532581201*^9, {
+   3.445070595508291*^9, 3.445070601679088*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Dynamic", "@", 
+  RowBox[{"Module", "[", "\[IndentingNewLine]", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+     "hour", ",", "min", ",", "sec", ",", "ht", ",", "mt", ",", "st"}], "}"}],
+     ",", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"Clock", "[", "]"}], ";", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"hour", ",", "min", ",", "sec"}], "}"}], "=", 
+      RowBox[{"Take", "[", 
+       RowBox[{
+        RowBox[{"DateList", "[", "]"}], ",", 
+        RowBox[{"-", "3"}]}], "]"}]}], ";", 
+     RowBox[{"ht", "=", 
+      RowBox[{
+       RowBox[{"Pi", "/", "2"}], "-", 
+       RowBox[{"2", "Pi", " ", 
+        RowBox[{"hour", "/", "12"}]}], "-", 
+       RowBox[{"2", "Pi", " ", 
+        RowBox[{"min", "/", "720"}]}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"mt", "=", 
+      RowBox[{
+       RowBox[{"Pi", "/", "2"}], "-", 
+       RowBox[{"2", "Pi", " ", 
+        RowBox[{"min", "/", "60"}]}]}]}], ";", "\[IndentingNewLine]", 
+     RowBox[{"st", "=", 
+      RowBox[{
+       RowBox[{"Pi", "/", "2"}], "-", 
+       RowBox[{"2", "Pi", " ", 
+        RowBox[{
+         RowBox[{"Floor", "[", "sec", "]"}], "/", "60"}]}]}]}], ";", 
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Arrowheads", "[", "0.1", "]"}], ",", 
+        RowBox[{"Arrow", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", 
+           RowBox[{"0.6", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"Cos", "[", "ht", "]"}], ",", 
+              RowBox[{"Sin", "[", "ht", "]"}]}], "}"}]}]}], "}"}], "]"}], ",",
+         
+        RowBox[{"Arrow", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", 
+           RowBox[{"0.85", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"Cos", "[", "mt", "]"}], ",", 
+              RowBox[{"Sin", "[", "mt", "]"}]}], "}"}]}]}], "}"}], "]"}], ",",
+         
+        RowBox[{"Line", "[", 
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"{", 
+            RowBox[{"0", ",", "0"}], "}"}], ",", 
+           RowBox[{"0.85", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"Cos", "[", "st", "]"}], ",", 
+              RowBox[{"Sin", "[", "st", "]"}]}], "}"}]}]}], "}"}], "]"}], ",",
+         
+        RowBox[{"PointSize", "[", "Medium", "]"}], ",", 
+        RowBox[{"Table", "[", 
+         RowBox[{
+          RowBox[{"Point", "[", 
+           RowBox[{"0.9", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"Cos", "[", "i", "]"}], ",", 
+              RowBox[{"Sin", "[", "i", "]"}]}], "}"}]}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"i", ",", "0", ",", 
+            RowBox[{"2", "Pi"}], ",", 
+            RowBox[{"Pi", "/", "6"}]}], "}"}]}], "]"}], ",", 
+        RowBox[{"Point", "[", 
+         RowBox[{"{", 
+          RowBox[{"0", ",", "0"}], "}"}], "]"}], ",", 
+        RowBox[{"Circle", "[", "]"}]}], "}"}], "]"}]}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.445070177925072*^9, 3.445070200531635*^9}}],
+
+Cell[BoxData[
+ DynamicBox[ToBoxes[
+   Module[{$CellContext`hour, $CellContext`min, $CellContext`sec, \
+$CellContext`ht, $CellContext`mt, $CellContext`st}, 
+    Clock[]; {$CellContext`hour, $CellContext`min, $CellContext`sec} = Take[
+       DateList[], -3]; $CellContext`ht = 
+     Pi/2 - 2 Pi ($CellContext`hour/12) - 2 
+      Pi ($CellContext`min/720); $CellContext`mt = 
+     Pi/2 - 2 Pi ($CellContext`min/60); $CellContext`st = 
+     Pi/2 - 2 Pi (Floor[$CellContext`sec]/60); Graphics[{
+       Arrowheads[0.1], 
+       Arrow[{{0, 0}, 0.6 {
+           Cos[$CellContext`ht], 
+           Sin[$CellContext`ht]}}], 
+       Arrow[{{0, 0}, 0.85 {
+           Cos[$CellContext`mt], 
+           Sin[$CellContext`mt]}}], 
+       Line[{{0, 0}, 0.85 {
+           Cos[$CellContext`st], 
+           Sin[$CellContext`st]}}], 
+       PointSize[Medium], 
+       Table[
+        Point[0.9 {
+           Cos[$CellContext`i], 
+           Sin[$CellContext`i]}], {$CellContext`i, 0, 2 Pi, Pi/6}], 
+       Point[{0, 0}], 
+       Circle[]}]], StandardForm],
+  ImageSizeCache->{360., {177., 182.}}]], "Output",
+ CellChangeTimes->{3.445070182069668*^9}]
+}, Open  ]]
+},
+WindowSize->{640, 750},
+WindowMargins->{{Automatic, 253}, {Automatic, 36}},
+FrontEndVersion->"6.0 for Linux x86 (32-bit) (June 2, 2008)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[590, 23, 3414, 88, 403, "Input"],
+Cell[4007, 113, 1119, 20, 99, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5163, 138, 3163, 89, 216, "Input"],
+Cell[8329, 229, 1127, 28, 374, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

@@ -1,0 +1,79 @@
+td.menu
+{font-family: Tahoma; 
+ color:#222299; 
+ background-image: url('pictures/menu_fon.jpg');
+ font-size:10pt; 
+}
+
+td.h         
+{ border-left:2px solid #4682B4;
+  border-right:2px solid #4682B4; 
+  border-top:2px solid #4682B4; 
+  border-bottom:1px solid #4682B4; 
+  font-weight: bold; 
+  text-align: left; 
+  padding-left: 0; background-color:#E8F7FF 
+}
+
+td.lhc         
+{ border-left:1px solid #C0C0C0;
+}
+
+td.rhc         
+{ border-right:1px solid #C0C0C0;
+}
+
+td.mhc         
+{ border-right:1px solid #C0C0C0;
+  border-left:1px solid #C0C0C0;
+}
+
+
+td.bhc         
+{ border-bottom:1px solid #C0C0C0;
+}
+
+td.rchc         
+{ 
+  border-bottom:1px solid #C0C0C0;
+  border-right:1px solid #C0C0C0;
+}
+
+td.lchc         
+{border-left:1px solid #C0C0C0; 
+ border-bottom:1px solid #C0C0C0;
+}
+
+
+td.hcontent
+{
+border: 1px solid #C0C0C0
+}
+
+tr.hcontent
+{
+border: 1px solid #C0C0C0
+}
+
+td.content
+{font-family: Tahoma; 
+ color:#222299; 
+ background-image: url('pictures/fon.jpg');
+}
+
+td
+{font-family: Tahoma; 
+ color:#222299; 
+}
+
+a:active     
+{color: #6633ff; 
+}
+
+a:visited    
+{color: steelblue; 
+}
+
+a            
+{color: steelblue;
+}

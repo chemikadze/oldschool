@@ -1,0 +1,93 @@
+BODY {
+	COLOR: black; BACKGROUND-COLOR: #336699
+}
+#mainblock TD {
+	COLOR: black
+}
+BODY A {
+	COLOR: #336699; TEXT-DECORATION: none
+}
+BODY A:hover {
+	COLOR: #6699cc; TEXT-DECORATION: underline
+}
+.innerarea H3 {
+	TEXT-ALIGN: center
+}
+.copyright {
+	FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: Arial, sans-serif
+}
+.innerarea {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 10pt; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 5px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+.innerarea TABLE {
+	BORDER-RIGHT: #006699 1px solid; BACKGROUND-POSITION: center 50%; BORDER-TOP: #006699 0px solid; MARGIN-TOP: 5pt; FONT-SIZE: 8pt; MARGIN-BOTTOM: 15pt; BORDER-LEFT: #006699 0px solid; BORDER-BOTTOM: #006699 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.innerarea TABLE TD {
+	BORDER-RIGHT: #006699 0px solid; PADDING-RIGHT: 4px; BORDER-TOP: #006699 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 10pt; PADDING-BOTTOM: 4px; BORDER-LEFT: #006699 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #006699 0px solid
+}
+.innerarea P {
+	MARGIN: 0px 0px 5px; COLOR: #000
+}
+.innerarea H1 {
+	FONT-SIZE: 14pt; MARGIN: 0px 0px 8px; COLOR: #cc3300; TEXT-ALIGN: left
+}
+.innerarea H2 {
+	FONT-SIZE: 12pt; MARGIN: 8px 0px; COLOR: #336699; TEXT-ALIGN: left
+}
+.innerarea H3 {
+	FONT-SIZE: 11pt; MARGIN: 3px 0px; COLOR: #336699
+}
+.innerarea H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; MARGIN: 10px 0px 0px; TEXT-ALIGN: left
+}
+.innerarea H5 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; MARGIN: 5px 0px 3px; COLOR: #666; TEXT-ALIGN: left
+}
+.innerarea H6 {
+	FONT-WEIGHT: normal; FONT-SIZE: 9pt; MARGIN: 3px 0px 2px; COLOR: #669; TEXT-ALIGN: left
+}
+.innerarea UL {
+	LIST-STYLE-IMAGE: url(/i/uldot.gif)
+}
+.innerarea .invisible-table {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 8pt; BORDER-BOTTOM-WIDTH: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT-WIDTH: 0px
+}
+.innerarea .invisible-table TD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.innerarea .invisible-data-table {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FONT-SIZE: 10pt; BORDER-BOTTOM-WIDTH: 0px; FONT-FAMILY: Arial, Helvetica, sans-serif; BORDER-RIGHT-WIDTH: 0px
+}
+.innerarea .invisible-data-table TD {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; BORDER-RIGHT-WIDTH: 0px
+}
+.text-news-body {
+	FONT-WEIGHT: normal
+}
+.text-news-source {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; PADDING-BOTTOM: 10pt; FONT-STYLE: italic; TEXT-ALIGN: right
+}
+#path-table {
+	MARGIN-TOP: 0px; FONT-SIZE: 9pt; MARGIN-BOTTOM: 0px; FONT-FAMILY: "Arial Narrow", Arial, sans-serif
+}
+#path-table TD {
+	COLOR: #336699
+}
+.path-parent-link {
+	
+}
+.path-list-link {
+	
+}
+.path-parent-link-selected {
+	COLOR: #cc3333
+}
+.path-list-link-selected {
+	COLOR: #cc3333
+}
+.path-parent-link-selected:hover {
+	COLOR: #cc3333; TEXT-DECORATION: none
+}
+.path-list-link-selected:hover {
+	COLOR: #cc3333; TEXT-DECORATION: none
+}

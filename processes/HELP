@@ -1,0 +1,7 @@
+TYPE	NAME and PARAMS					DESCRIPTION				HEADER
+
+int	fork()						creates a copy of process		unistd.h	
+FILE*	popen(char* filename, char* mode)		creates a pipe				stdlib.h
+int	pclose(FILE* pipe)				closes a pipe and returns exit code	stdlib.h
+int	execv (char* filename, char* argv[])		runs a `filename` exec			unistd.h
+int	execvp(char* filename, char* argv[])		runs a `filename`, but searchs in PATH	unistd.h

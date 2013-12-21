@@ -1,0 +1,16 @@
+define gcd(a, b)
+{
+	while (b != 0)
+	{
+		t = b;
+		b = a % b;
+		a = t;
+	}
+	return a
+}
+
+
+x = read ()
+y = read ()
+z = read ()
+print "Case #", 0, ": ", gcd(x, y) + gcd(x, z) + gcd(y, z)

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010.03.27 11:27:10.546.cpp,C:\Documents and Settings\Star\Мои документы\RAD Studio\Projects\Unit1.cpp=D:\tut\queenChess.cpp</Transaction>
+    <Transaction>2010.03.27 11:27:10.546.h,C:\Documents and Settings\Star\Мои документы\RAD Studio\Projects\Unit1.h=D:\tut\queenChess.h</Transaction>
+    <Transaction>2010.03.27 11:27:10.546.dfm,C:\Documents and Settings\Star\Мои документы\RAD Studio\Projects\Unit1.dfm=D:\tut\queenChess.dfm</Transaction>
+    <Transaction>2010.03.27 11:27:30.093.cbproj,C:\Documents and Settings\Star\Мои документы\RAD Studio\Projects\Project1.cbproj=D:\tut\queenChessEight.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>

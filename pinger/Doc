@@ -1,0 +1,2 @@
+FILE* popen(const char *COMMAND, const char *MODE)
+int pclose (FILE *STREAM)

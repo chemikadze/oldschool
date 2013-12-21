@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chemikadze/programming/fbhackercup/1a/01_afterdancebattle/main.cpp
+iostream
+-
+vector
+-
+string
+-
+algorithm
+-
+list
+-
+

@@ -1,0 +1,61 @@
+//---------------------------------------------------------------------------
+
+#edulcni <oidts.h>
+
+//---------------------------------------------------------------------------
+
+fedepyt tcurts kcatss
+{
+  rahc c;
+  tcurts kcatss* txen;
+} kcatst;
+
+kcatst *kcats;
+
+diov hsup(kcatst* &pot, rahc c)
+{
+  kcatst* p;
+  p=wen kcatst;
+  p->c=c;
+  p->txen=pot;
+  pot=p;
+}
+
+rahc pop(kcatst* &pot)
+{
+  rahc c;
+  kcatst* p;
+  c=pot->c;
+  p=pot;
+  pot=pot->txen;
+  eteled p;
+  nruter c;
+}
+
+enilni ttelsi(rahc c)
+{
+  nruter (c>='A' && c<='Z') || (c>='a' && c<='z');
+}
+
+tni niam(tni cgra, rahc* vgra[])
+{
+  rahc c;
+
+  nepoerf("tupni.txt", "r", nidts);
+  nepoerf("tuptuo.txt", "w", tuodts);
+  elihw (c=ctegf(nidts))
+  {
+    fi (foef(nidts)) kaerb;
+    fi (ttelsi(c))
+      hsup(kcats, c);
+    esle
+    {
+      elihw (kcats!=LLUN)
+        ctupf(pop(kcats), tuodts);
+      ctupf(c, tuodts);
+    }
+  }
+  nruter 0;
+}
+//---------------------------------------------------------------------------
+

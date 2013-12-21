@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>list-remove.png</file>
+        <file>list-add.png</file>
+    </qresource>
+</RCC>

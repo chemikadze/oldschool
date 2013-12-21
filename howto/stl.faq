@@ -1,0 +1,135 @@
+									arg notes	vector	deque	list	set	map
+vector	--	improved array
+deque	--	improved array + синяя изолента
+list	--	"right" non-array list. slow random access, but quick insert/delete
+set	--	set. nuff said
+map	--	hash)))) trash hash, they smoke hash...
+
+vector <T> c;		// new void
+vector <T> c1(c2);	// new copy
+vector <T> c(n);	// new sized N
+vector <T> c(n, elem);	// new sized N by ELEM
+vector <T> c(beg, end);	// initialized BEG, END				it
+c.~vector<T>()		// delete end freemem
+
+c[i]			// quick & dangerous								(-)	(-)
+c.at(i)			// slow & fat									(-)	(-)
+find(beg, end, elem)	// returns a iterator
+
+c.size()		// elem count									(-)
+c.empty()		// c.size()==0 but faster							(-)
+c.max_size()		// max size									(-)
+c.capacity()		// max size without memory management					(-)	(-)
+c.reserve(n)		// reserve if lesser							(-)	(-)
+
+c.assign(n, elem)	
+c.assign(beg, end)	// copy from [BEG, END)				it
+
+c.front()		// first	(no correcting)
+c.back()		// last		(no correcting)
+
+c.insert(elem)										(-)	(-)	(-)	ONLY	BEST (std::make_pair(1, 2))
+c.insert(pos, elem)							it
+c.insert(pos, n, elem)							it
+c.insert(pos, beg, end)	// inserts [BEG, END) to POS			it
+c.erase(pos)		//						it
+c.erase(beg, end)
+c.resize(num)
+c.resize(num, elem)
+
+ITERATORS:
+	void	advance(it, n)			// moving iterator IT to N forward (backward)
+	Dist	distance(it1, it2)		// DISTANCE between IT1 and IT2
+	void	iter_swap(it1, it2)
+	istream_iterator<T>([istream])
+	ostream_iterator<T>(ostream[, delim])	// output iterator with DELIM deviding
+
+LIST features
+	c.unique()			// delete all copies
+	c.unique(op)			// ...if OP true
+	c1.splice(pos, c2)		// c2 before pos
+	c1.splice(pos, c2, c2pos)	// all after c2 move before pos
+	c1.splice(pos, c2,
+		  c2beg, c2end)		//[C2BEG, C2END) before pos
+	c.sort()			// sort with <
+	c.sort(op)			// sort with OP
+	c1.merge(c2)			// merge sorted
+	c1.merge(c2, op)		// merge sorted by OP
+
+SET features
+	c.count(elem)			// returns elem count
+	c.find(elem)			// returns first elem pos
+
+MAP features
+	c.count(key)			// returns count with key
+	c.lower_bound(key)
+	c.upper_bound(key)
+
+FUNCTIONS:
+	negate<type>()
+	plus<type>()
+	minus<type>()
+	multiplies<type>()
+	divides<type>()
+	modulus<type>()
+	equal_to<type>()
+	not_equal_to<type>()
+	less<type>()
+	greater<type>()
+	less_equal<type>()
+	greater_equal<type>()
+	logical_not<type>()
+	logical_end<type>()
+	logical_or<type>()
+
+FEATURES:
+	copy(beg, end, it)
+	
+	count()				// кол-во элем
+	count_if()			// кол-во элем под условие
+	min_element()
+	max_element()
+	find(beg ,end, elem)		// найти элем
+	find_if()			// найти элем под условие
+	search_n()			// первые n элементов с свойством
+	search()			// первое вхождение интервала
+	find_end()			// последнее вхождение подынтервала
+	find_first_of()			// первое вхождение одного из
+	adjacent_find()			// смежные элем. с зад. свойствами
+	equal()				// равны ли два интервала
+	mismatch()			// несовпадение двух элементов
+	lexicographical_compare()	// nuff said
+
+	merge()				// объединяет интервалы
+	swap_ranges()			// меняет местами интервалы
+	fill()				// заполняет
+	fill_n()			// ..n элементов
+	generate()			// заполняет результатом операции
+	generate_n()
+	replace()			// замена одного другим
+	replace_if()			// замена по условию
+	
+	remove()			// удаляет значение
+	remove_if()
+	unique()			// удаляет смежные
+	
+	reverse()
+	rotate()
+	random_shuffle()	
+	next_permutation(beg, end)	// LJ_LJ - сам охуеваю
+	prev_permutetion()
+	partition(beg, end, crit)	// элементы, соотв. условию спереди	// возвращает первый итератор второй части
+	stable_partition()
+	
+	sort()
+	stable_sort()
+	nth_element(beg, n, end)	// сортирует справа и слева
+	
+	make_heap()
+	push_heap()
+	pop_heap()
+	sort_heap()
+
+	binary_search()			// LJ_LJ
+	lower_bound()			// первый элемент <= заданного
+	upper_bound()			// первый элемент > заданного

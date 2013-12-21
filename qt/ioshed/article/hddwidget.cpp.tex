@@ -1,0 +1,177 @@
+% Generator: GNU source-highlight, by Lorenzo Bettini, http://www.gnu.org/software/src-highlite
+\noindent
+\mbox{}\textbf{\#include}\ \texttt{"{}hddwidget.h"{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtGui/QPainter\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}QtCore/QTime\textgreater{}} \\
+\mbox{}\textbf{\#include}\ \texttt{\textless{}cmath\textgreater{}} \\
+\mbox{} \\
+\mbox{}HddWidget::\textbf{HddWidget}(QWidget*\ parent\ \textit{/*=NULL*/})\ :\ \textbf{QWidget}(parent) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$currentI\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$cylSwitchTime\ =\ 7; \\
+\mbox{}\ \ \ \ \ \ \ \ timer.\textbf{setInterval}(500); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{connect}(\&timer,\ \textbf{SIGNAL}(\textbf{timeout}()),\ \textbf{SLOT}(\textbf{timerTimeout}())); \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$repaintTimerId\ =\ \textbf{startTimer}(1000/24); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{setCylinderCount}(1); \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{timerEvent}(QTimerEvent*) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{repaint}(); \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{setVector}(QVector\ \textless{}int\textgreater{}\ v) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$vector\ =\ v; \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$currentI\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (v.\textbf{size}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$currentCyl\ =\ v.\textbf{first}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$currentCyl\ =\ 0; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{play}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{repaint}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (!m$\_$repaintTimerId) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$repaintTimerId\ =\ \textbf{startTimer}(1000/24); \\
+\mbox{}\ \ \ \ \ \ \ \ timer.\textbf{start}(m$\_$cylSwitchTime); \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{pause}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ timer.\textbf{stop}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{killTimer}(m$\_$repaintTimerId); \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$repaintTimerId\ =\ 0; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{stop}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ timer.\textbf{stop}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{killTimer}(m$\_$repaintTimerId); \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$repaintTimerId\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ m$\_$currentI\ =\ 0; \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{timerTimeout}() \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{static}\ int\ reading\ =\ \textbf{false}; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (!m$\_$vector.\textbf{isEmpty}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (m$\_$currentI\ ==\ m$\_$vector.\textbf{size}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$currentI\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$currentCyl\ =\ m$\_$vector.\textbf{first}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ timer.\textbf{setInterval}(m$\_$cylSwitchTime); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else}\ \textbf{if}\ (m$\_$currentCyl\ ==\ m$\_$vector[m$\_$currentI]) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (reading) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++m$\_$currentI; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (m$\_$currentI\ ==\ m$\_$vector.\textbf{size}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ timer.\textbf{setInterval}(1000); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ timer.\textbf{setInterval}(m$\_$cylSwitchTime); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ timer.\textbf{setInterval}(150); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ reading\ =\ !reading; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{if}\ (m$\_$currentCyl\ \textgreater{}\ m$\_$vector[m$\_$currentI]) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ -\/-m$\_$currentCyl; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ++m$\_$currentCyl; \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ timer.\textbf{setInterval}(m$\_$cylSwitchTime); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{translateCoords}(QPainter\ \&p) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ int\ dx\ =\ 0,\ dy\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ double\ w$\_$to$\_$h\ =\ double(\textbf{width}())\ /\ double(\textbf{height}()); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (w$\_$to$\_$h\ \textgreater{}\ 2.0/3.0) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dx\ =\ double(\textbf{height}())\ *\ (w$\_$to$\_$h\ -\ 2.0/3.0)\ / \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (double(\textbf{height}())\ /\ 310.0); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{else}\ \textbf{if}\ (w$\_$to$\_$h\ \textless{}\ 2.0/3.0) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dy\ =\ double(\textbf{width}())\ *\ (1/w$\_$to$\_$h\ -\ 3.0/2.0)\ / \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (double(\textbf{width}())\ /\ 210.0); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{scale}(\textbf{width}()/(210.0+dx),\ \textbf{height}()/(310.0+dy)); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{translate}(5+dx/2,\ 5+dy/2); \\
+\mbox{} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{paintEvent}(QPaintEvent*) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{static}\ int\ angle\ =\ 0; \\
+\mbox{}\ \ \ \ \ \ \ \ angle\ +=\ 360/35*9; \\
+\mbox{}\ \ \ \ \ \ \ \ QPainter\ \textbf{p}(\textbf{this}); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{translateCoords}(p); \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ QPointF\ \textbf{center}(100,\ 100); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{drawRoundedRect}(0,\ 0,\ 200,\ 300,\ 10,\ 10); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{drawRoundedRect}(5,\ 5,\ 190,\ 290,\ 10,\ 10); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{setBrush}(Qt::lightGray); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{drawEllipse}(center,\ 85,\ 85); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{setBrush}(\textbf{this}-\textgreater{}\textbf{palette}().\textbf{background}()); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{drawEllipse}(center,\ 15,\ 15); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{setBrush}(Qt::NoBrush); \\
+\mbox{}\ \ \ \ \ \ \ \ double\ pAngle\ =\ angle\ *\ M$\_$PI$\_$2\ /\ 180.0; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{const}\ int\ boltCount\ =\ 2; \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=0;\ i\textless{}boltCount;\ i++) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ p.\textbf{drawEllipse}(\textbf{QPointF}(center.\textbf{x}()+7*\textbf{cos}(pAngle), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ center.\textbf{y}()+7*\textbf{sin}(pAngle)), \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ 3,\ 3); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ pAngle\ +=\ 2.0\ *\ M$\_$PI\ /\ boltCount; \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ double\ r; \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{setPen}(Qt::blue); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{for}\ (int\ i=m$\_$currentI\ ?\ m$\_$currentI\ :\ 1;\ i\ \textless{}\ m$\_$vector.\textbf{size}();\ ++i) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ r\ =\ 15\ +\ 1\ +\ m$\_$vector[i]*(85-15)/double(m$\_$cylCount+1); \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ p.\textbf{drawEllipse}(center,\ r,\ r); \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{} \\
+\mbox{}\ \ \ \ \ \ \ \ qreal\ x; \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{setPen}(Qt::black); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (m$\_$currentI\ \textless{}\ m$\_$vector.\textbf{size}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x\ =\ 100\ +\ 15\ +\ 1\ +\ m$\_$currentCyl*(85-15)/double(m$\_$cylCount+1); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ x\ =\ 100\ +\ 90; \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{drawEllipse}(\textbf{QPointF}(160,\ 260),\ 15,\ 15); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{drawLine}(160,\ 260,\ x,\ 100); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{setBrush}(Qt::black); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{drawRect}(x\ -\ 2,\ 97,\ 4,\ 6); \\
+\mbox{}\ \ \ \ \ \ \ \ p.\textbf{end}(); \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{setCylinderCount}(int\ count) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (count\ \textgreater{}\ 0) \\
+\mbox{}\ \ \ \ \ \ \ \ \{ \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ m$\_$cylCount\ =\ count; \\
+\mbox{}\ \ \ \ \ \ \ \ \} \\
+\mbox{}\} \\
+\mbox{} \\
+\mbox{}void\ HddWidget::\textbf{mousePressEvent}(QMouseEvent\ *) \\
+\mbox{}\{ \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{if}\ (\textbf{playing}()) \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{pause}(); \\
+\mbox{}\ \ \ \ \ \ \ \ \textbf{else} \\
+\mbox{}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textbf{play}(); \\
+\mbox{}\} \\
+\mbox{}

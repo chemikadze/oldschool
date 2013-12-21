@@ -1,0 +1,11 @@
+[Buildset]
+Number of Builditems=0
+
+[CMake]
+BuildDirs=/home/chemikadze/programming/qtcmake/build
+CMakeDir=/usr/share/cmake/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/chemikadze/programming/qtcmake/build
+CurrentBuildType=
+CurrentInstallDir=
+ProjectRootRelative=./
